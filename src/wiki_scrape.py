@@ -5,6 +5,7 @@ from pathlib import Path
 import mwparserfromhell as parser
 import pandas as pd
 import pywikibot
+from dotenv import load_dotenv
 from tqdm import tqdm
 
 from utils import info, warning, error
@@ -12,25 +13,91 @@ from utils import info, warning, error
 
 def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
     def log_header(page, node_n=None):
-        node_info = f' node# {node_n}' if node_n else ''
+        node_info = f' node# {node_n}' if node_n is not None else ''
         header = f'Parsing {page} id={page.pageid} {node_info}: '
         return header
+
+    def fix_movie_title(movie_title: str) -> str:
+        """
+        Cleans up a movie title as produced by mwparserfromhell and then returns it
+        :param movie_title: the movie title to be cleaned up.
+        :return: the movie title as a human would expect it
+        """
+        if movie_title[:5] != '[[en:':
+            info(f'Found movie title that doesn begin by `[[en:`: {movie_title}')
+        else:
+            movie_title = movie_title[5:]
+        if movie_title[-2:] != ']]':
+            info(f'Found movie title that doesn end by `]]`: {movie_title}')
+        else:
+            movie_title = movie_title[:-2]
+        pattern = r'\(.*?film.*?\)'
+        match = re.search(pattern, movie_title)
+        if match:
+            substring = match.group()
+            movie_title = movie_title.replace(substring, '')
+        movie_title = movie_title.strip()
+        return movie_title
+
+    def fix_title(properties: dict, page_title: str) -> str:
+        display_title = properties.get('displaytitle')
+        if display_title:
+            prefix_pos = display_title.find('<i>')
+            if prefix_pos >= 0:
+                display_title = display_title[prefix_pos+3:]
+            suffix_pos = display_title.find('</i>')
+            if suffix_pos >= 0:
+                display_title = display_title[:suffix_pos]
+            display_title = display_title.strip()
+            return display_title
+        res = fix_movie_title(page_title)
+        return res
+
+    def get_metadata_from_infobox(params: list[parser.nodes.extras.parameter.Parameter]) -> dict:
+        title = None
+        year_found = None
+        for i, param in enumerate(params):
+            if not isinstance(param, parser.nodes.extras.parameter.Parameter):
+                warning(f'Found node# {i} in infobox which is not a Parameter: {str(param)}')
+                continue
+            if param.name.strip() == 'name':
+                title = str(param.value).rstrip('\n').strip()
+            elif param.name.strip() == 'released':
+                param_value = str(param.value)
+                years = ['2021', '2022', '2023', '2024', '2025', '2026']
+                for year in years:
+                    if year in param_value:
+                        year_found = int(year)
+                        break
+
+        return {'title': title, 'year': year_found}
 
     page_text = page.text
     wikicode = parser.parse(page_text)
     # Fine the beginning and the end of the Plot, or Synopsis, section
-    compiled_re_strict = re.compile('^\s*(Plot|Synopsis)\s*$')
+    # compiled_re_strict = re.compile('^\s*(Plot|Synopsis)\s*$')
     compiled_re = re.compile('^.*(plot|synopsis).*$', flags=re.IGNORECASE)
     plot_beginning = None
     plot_end = None
+    title_from_infobox = ''
+    release_year = None
     for i, node in enumerate(wikicode.nodes):
         # If the beginning of the Plot section hasn't been found yet, then look for it
+        if isinstance(node, parser.nodes.template.Template) and node.name.rstrip(' \n') == 'Infobox film':
+            res = get_metadata_from_infobox(node.params)
+            title_from_infobox = res['title']
+            #  if not title_from_infobox:
+            #      info(f"{log_header(page, i)}couldn't parse title from infobox")
+            release_year = res['year']
+            # if not release_year:
+            #     info(f"{log_header(page, i)}couldn't parse release year from infobox")
+
         if plot_beginning is None and isinstance(node, parser.nodes.heading.Heading):
             node_title = str(node.title)
             if not compiled_re.match(node_title):
                 continue
-            if not compiled_re_strict.match(node_title):
-                info(f'{log_header(page, i)}Header title `{node_title}` matches Plot/Synopsis but not strictly')
+            #  if not compiled_re_strict.match(node_title):
+            #      info(f'{log_header(page, i)}Header title `{node_title}` matches Plot/Synopsis but not strictly')
             plot_beginning = i + 1  # Exclude the Plot/Synopsis header itself from the section
             continue
         # If the beginning of the Plot section has been found already, then find where it ends, by looking for the
@@ -75,23 +142,32 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
                     f'{log_header(page, pos + plot_beginning)}found unexpected and unhandled node type {type(node)}.')
 
     res = ''.join(plot_strings)
-    res = res.lstrip('\n').rstrip('\n')
+    res = res.lstrip(' \n').rstrip(' \n')
     if not res:
-        info(f"{log_header(page)}Plot/Synopsis section found but it is empty")
+        # info(f"{log_header(page)}Plot/Synopsis section found but it is empty")
         return '', None
+    fixed_title = fix_title(page.properties(), str(page))
+    title = fixed_title
 
-    metadata = {'title': str(page),
+    metadata = {'title': title,
+                'year': int(release_year) if release_year else -1,
                 'id': page.pageid,
                 'revision_id': page.latest_revision_id}  # This is NOT the same as a page id
+
     return res, metadata
 
 
 def main() -> None:
+    config_path = Path('../config')
+    load_dotenv(config_path / '.env')
+
     dataset_path = Path('../data/dataset')
     if not dataset_path.exists():
         dataset_path.mkdir()
     # Create a site object for the English Wikipedia
     site = pywikibot.Site("en", "wikipedia")
+    pywikibot_basedir = pywikibot.config.get_base_dir()
+    info(f'Base directory for pywikibot: {pywikibot_basedir}')
 
     wiki_pages_2021 = list(pywikibot.Category(site, '2021_films').articles())
     wiki_pages_2022 = list(pywikibot.Category(site, '2022_films').articles())
@@ -111,8 +187,8 @@ def main() -> None:
             continue
         if metadata['id'] in found_ids:
             info(f"Found page with duplicate id {metadata['id']}, metadata={metadata}")
-            url = f'https://en.wikipedia.org/?curid={page.pageid}'
-            pages_not_parsed.append(url + '\n')
+            # url = f'https://en.wikipedia.org/?curid={page.pageid}'
+            # pages_not_parsed.append(url + '\n')
             continue
         found_ids.add(metadata['id'])
         all_metadata.append(metadata)
@@ -135,7 +211,6 @@ def main() -> None:
     unique_ids_count = all_metadata_df.id.nunique()
     if unique_ids_count != len(all_metadata_df):
         error(f'Found {len(all_metadata_df) - unique_ids_count} non-unique page ids')
-    # all_metadata_df.to_csv(dataset_path / 'metadata.csv')
     dataset_pickle_path = dataset_path / 'dataset.pickle'
     info(f'Saving dataset with its metadata into {dataset_pickle_path}')
     with open(dataset_pickle_path, 'bw') as dataset_f:
@@ -146,10 +221,17 @@ if __name__ == '__main__':
     main()
 
 """
-Relocate the apicache-py3 under data
+
+=============>> Use page.properties to find info about the title
+Problem with title of 69336552, 65266767
+Check pageid 73928775, 74338121, 74334236
 
 Check this out, 'thumb|Historical photo [...]' pageid  69971492 -> Done
 Consolidate text and metadata into one dict and then pickle it to save it on disk -> Done
+Relocate the apicache-py3 under data -> Not gonna happen
+
+Clean-up the title and add the year to metadata
+
 Reject plots that are a string of blanks and \n only, e.g. for movie id 72923309
 See what other metadata you want to fetch and save, e.g. movie director(s) and genre
 Some categories of films don't have a plot, e.g. documentaries. Also, TV shows have a plot formatted in a different way

@@ -1,6 +1,6 @@
 import pickle
-import shutil
 from pathlib import Path
+from time import time
 
 import tiktoken
 from dotenv import load_dotenv
@@ -10,27 +10,21 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
+from omegaconf import OmegaConf
+from tqdm import tqdm
+
+from utils import info
 
 config_path = Path('../config')
 load_dotenv(config_path / '.env')
 
 data_path = Path('../data')
 dataset_path = data_path / 'dataset/dataset.pickle'
-"""
-pickled_path = data_path / 'pickled'
-from langchain.document_loaders import PyPDFLoader
 
-pdf_file = dataset_path / '2306.17766.pdf'
-pickled_file = (pickled_path / pdf_file.name).with_suffix('.pickle')
-if pickled_file.exists():
-    with open(pickled_file, 'br') as pickled:
-        pages = pickle.load(pickled)
-else:
-    loader = PyPDFLoader(str(pdf_file))
-    pages = loader.load()
-    with open(pickled_file, 'wb') as pickled:
-        pickle.dump(pages, pickled, pickle.HIGHEST_PROTOCOL)
-"""
+movies_qa_path = data_path / 'movies_qa.yaml'
+movies_qa = OmegaConf.load(movies_qa_path)
+movies_qa = [{'Question': item.Question.rstrip('\n )'), 'Answer': item.Answer.rstrip('\n ')} for item in movies_qa]
+
 tokenizer = tiktoken.get_encoding('cl100k_base')  # This is right for GPT-3.5
 
 
@@ -44,64 +38,80 @@ def tokenized_length(s: str) -> int:
     return len(tokenized)
 
 
-splitter = RecursiveCharacterTextSplitter(chunk_size=1500,
-                                          chunk_overlap=150,
-                                          separators=["\n\n", "\n", "(?<=\. )", " ", ""],
-                                          length_function=tokenized_length)
-"""
-File the movie titles
-transform the text entries into Documents, and add the medatadata
-chunk up the list of Documents
-"""
-
-with open(dataset_path, 'rb') as dataset_f:
-    dataset = pickle.load(dataset_f)
-
-docs = [(text, dataset['metadata'].loc[pageid].to_dict()) for (pageid, text) in dataset['data'].items()]
-docs, metadata = list(zip(*docs))
-docs= splitter.create_documents(docs, metadata)
-
-chunks = splitter.split_documents(docs)
-
 embeddings_path = data_path / 'chroma'
-if embeddings_path.exists():
-    shutil.rmtree(embeddings_path)
-embeddings_path.mkdir(exist_ok=False)
-
 embedding = OpenAIEmbeddings()
-vectordb = Chroma.from_documents(
-    documents=chunks,
-    embedding=embedding,
-    persist_directory=str(embeddings_path)
-)
 
-question = 'How can researchers make changes to learning tasks to study their effects on reinforcement learning algorithm performance?'
-results = vectordb.max_marginal_relevance_search(query=question, k=3)
+if embeddings_path.exists():
+    info(f'Reloading embeddings from {embeddings_path}')
+    vectordb = Chroma(persist_directory=str(embeddings_path), embedding_function=embedding)
+else:
+    info('Chunking text')
+    splitter = RecursiveCharacterTextSplitter(chunk_size=1500,
+                                              chunk_overlap=150,
+                                              separators=["\n\n", "\n", "(?<=\. )", " ", ""],
+                                              length_function=tokenized_length)
 
-llm_name = "gpt-3.5-turbo"
-llm = ChatOpenAI(model_name=llm_name, temperature=0)
-qa_chain = RetrievalQA.from_chain_type(llm,
-                                       retriever=vectordb.as_retriever())
-result = qa_chain({"query": question})
-print(result['result'])
-print('+++++++++++++++++++++++++++++++++++++++++++++++++++++++')
-template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. Use three sentences maximum. Keep the answer as concise as possible. Always say "thanks for asking!" at the end of the answer. 
-{context}
-Question: {question}
-Helpful Answer:"""
-qa_chain_prompt = PromptTemplate.from_template(template)
 
-qa_chain = RetrievalQA.from_chain_type(
-    llm,
-    retriever=vectordb.as_retriever(),
-    return_source_documents=True,
-    chain_type_kwargs={"prompt": qa_chain_prompt}
-)
+    with open(dataset_path, 'rb') as dataset_f:
+        dataset = pickle.load(dataset_f)
 
-result = qa_chain({"query": question})
+    start_time = time()
+    docs = [(text, dataset['metadata'].loc[pageid].to_dict()) for (pageid, text) in dataset['data'].items()]
+    docs, metadata = list(zip(*docs))
+    docs = splitter.create_documents(docs, metadata)
 
-print(result['result'])
-print(result['source_documents'][0])
+    chunks = splitter.split_documents(docs)
+    end_chunking = time()
+
+    info(f'Completed chunking in {int(end_chunking - start_time)} sec')
+
+    info(f'Making embeddings and saving them into {embeddings_path}')
+    embeddings_path.mkdir(exist_ok=False)
+    vectordb = Chroma.from_documents(
+        documents=chunks,
+        embedding=embedding,
+        persist_directory=str(embeddings_path)
+    )
+    end_time = time()
+    print(f'Completed embeddings in {int(end_time - end_chunking)} sec')
+
+movies_qa_processed = []
+for qa in tqdm(movies_qa):
+    question = qa['Question']
+    results = vectordb.max_marginal_relevance_search(query=question, k=3)
+
+    llm_name = "gpt-3.5-turbo"
+    llm = ChatOpenAI(model_name=llm_name, temperature=0)
+    qa_chain = RetrievalQA.from_chain_type(llm,
+                                           retriever=vectordb.as_retriever())
+    answer_no_context = qa_chain({"query": question})
+
+    # print(answer_no_context['result'])
+    template = """Use also the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. Use four sentences maximum. Keep the answer as concise as possible. 
+    {context}
+    Question: {question}
+    Helpful Answer:"""
+    qa_chain_prompt = PromptTemplate.from_template(template)
+    qa_chain = RetrievalQA.from_chain_type(
+        llm,
+        retriever=vectordb.as_retriever(),
+        return_source_documents=True,
+        chain_type_kwargs={"prompt": qa_chain_prompt}
+    )
+
+    answer_with_context = qa_chain({"query": question})
+
+    source_chunks = [doc.page_content for doc in answer_with_context['source_documents']]
+    movies_qa_processed.append({'Question': qa['Question'],
+                                'Answer': qa['Answer'],
+                                'Answer_without_context': answer_no_context['result'],
+                                'Answer_with_context': answer_with_context['result'],
+                                'Context': source_chunks
+                                })
+
+processed_qa_file = data_path / 'processed_qa.yaml'
+OmegaConf.save(movies_qa_processed, processed_qa_file)
+
 
 """
 TODO
