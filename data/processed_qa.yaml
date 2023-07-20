@@ -2,7 +2,7 @@
     Met Gala?
   Answer: Ocean's Eight
   Answer_without_context: I don't know the answer.
-  Answer_with_context: Thanks for asking! I don't know the answer.
+  Answer_with_context: Ocean's 8
   Context:
   - The film will tell about two old friends who find themselves at the bottom of
     life and they decide to fulfill their dreams. For this, they need to steal a Fabergé
@@ -20,130 +20,223 @@
 - Question: Which 2021 movie follows the story of a woman who becomes a superhero
     and fights against evil forces with her newfound superpowers?
   Answer: Wonder Woman 1984
-  Answer_without_context: Based on the given context, there is no specific information
-    about a 2021 movie that follows the story of a woman who becomes a superhero and
-    fights against evil forces with her newfound superpowers. Therefore, I don't know
-    the answer to your question.
-  Answer_with_context: I don't know the answer, sorry. Thanks for asking!
+  Answer_without_context: I'm sorry, but none of the provided pieces of context match
+    the description of a woman becoming a superhero and fighting against evil forces
+    with her newfound superpowers. Therefore, I don't have information about a specific
+    2021 movie that fits that description.
+  Answer_with_context: I don't know.
   Context:
   - A woman who is kidnapped and forced to compete in elite underground, fights her
     way out to freedom.
+  - The film tells about a billionaire, an airplane pilot, an aspiring police officer
+    and a young woman with her daughter, who are forced to face the unknown and understand
+    themselves in order to realize what their fears are.
   - When a shadowy figure instructs two different men to take out the same woman,
     they both end up at her home at the same time and must fight each other through
     absurd situations to be the one to complete the assignment.
   - A woman eager for revenge crosses paths with a police agent while searching for
     a .
-  - Five pregnant ladies come to stay at 'Sumana', a prenatal class conducted by Nandita
-    (Nadiya Moidu). She calls them as ‘Real superheroes’ as they get ready to embrace
-    motherhood. In their quest to know the new life, they discover their true identity
-    and the answers to their deep-rooted problems.
 - Question: Who plays the titular character in the 2021 film where a young musician
     is transported to the magical world of his ancestors?
   Answer: Anthony Gonzalez in "Coco"
-  Answer_without_context: I'm sorry, but I don't have that information.
-  Answer_with_context: I don't know the answer to that question. Thanks for asking!
+  Answer_without_context: I'm sorry, but I don't have enough information to answer
+    your question.
+  Answer_with_context: I don't know.
   Context:
-  - The film tells about a man who gets the opportunity to fulfill his dream and goes
-    with his family to the Grushinsky festival to perform there with his song. Exciting
-    adventures and trials await them along the way.
   - The animated film follows a young Irish boy named Keegan, who’s been at a heart
     loss after his grandfather - a well-known dancer - had passed away. He and his
     Spanish friend Moya go on a journey to a magical world to learn about  as well
     as the dangers of the Huntsman.
+  - The film follows the journey of an orphaned Armenian child, full-time heiress
+    and part-time musician, who grows up to be a diva on a mission. All through, she
+    has one constant companion – the lingering Muskan scent. However, her life takes
+    a dramatic turn when she receives an anonymous message, which brings back her
+    mysterious past.
   - A young singer on the brink of stardom is determined to hold on to her identity
     amid her rising fame and the oppressive household of her religious parents.
-  - The film follows the journey of an orphaned child, full-time heiress and part-time
-    musician, who grows up to be a diva on a mission. All through, she has one constant
-    companion – the lingering Muskan scent. However, her life takes a dramatic turn
-    when she receives an anonymous message, which brings back her mysterious past.
+  - After suffering a series of nightmares with bizarre and mysterious appearances,
+    Andy (Liam Aiken), an electronic musician, and Lela (Mitzi Akaha), an aspiring
+    singer, end up embarking on parallel journeys in search of answers.
 - Question: Which 2021 movie follows the story of a woman who becomes a superhero
     and fights against evil forces with her newfound superpowers?
   Answer: Wonder Woman 1984
-  Answer_without_context: Based on the given context, there is no specific information
-    about a 2021 movie that follows the story of a woman who becomes a superhero and
-    fights against evil forces with her newfound superpowers. Therefore, I don't know
-    the answer to your question.
-  Answer_with_context: I don't know the answer, sorry. Thanks for asking!
+  Answer_without_context: I'm sorry, but none of the provided pieces of context describe
+    a movie where a woman becomes a superhero and fights against evil forces with
+    her newfound superpowers.
+  Answer_with_context: I don't know.
   Context:
   - A woman who is kidnapped and forced to compete in elite underground, fights her
     way out to freedom.
+  - The film tells about a billionaire, an airplane pilot, an aspiring police officer
+    and a young woman with her daughter, who are forced to face the unknown and understand
+    themselves in order to realize what their fears are.
   - When a shadowy figure instructs two different men to take out the same woman,
     they both end up at her home at the same time and must fight each other through
     absurd situations to be the one to complete the assignment.
   - A woman eager for revenge crosses paths with a police agent while searching for
     a .
-  - Five pregnant ladies come to stay at 'Sumana', a prenatal class conducted by Nandita
-    (Nadiya Moidu). She calls them as ‘Real superheroes’ as they get ready to embrace
-    motherhood. In their quest to know the new life, they discover their true identity
-    and the answers to their deep-rooted problems.
 - Question: In the 2021 film "Black Widow," what is the name of Natasha Romanoff's
     sister and fellow spy?
   Answer: Yelena Belova
-  Answer_without_context: I don't know the answer to that question.
-  Answer_with_context: Yelena Belova. Thanks for asking!
+  Answer_without_context: In the 2021 film "Black Widow," Natasha Romanoff's sister
+    and fellow spy is named Yelena Belova.
+  Answer_with_context: Natasha Romanoff's sister and fellow spy in the 2021 film "Black
+    Widow" is Yelena Belova.
   Context:
+  - 'In 1995, super soldier  and Black Widow assassin  work as  undercover agents,
+    posing as a family in Ohio with  and  as their daughters. They steal  intel and
+    escape to Cuba where their boss, General Dreykov, has Romanoff and Belova taken
+    to the  for training as Widows. In the following decades, Shostakov is imprisoned
+    in Russia while Romanoff and Belova become successful, dangerous assassins. Romanoff
+    eventually defects to S.H.I.E.L.D. after helping  bomb Dreykov''s Budapest office,
+    which apparently kills Dreykov and his young daughter Antonia.
+
+
+    In 2016, Romanoff is a fugitive for violating the Sokovia Accords. She escapes
+    from U.S. Secretary of State  and flees to a safehouse in Norway supplied by .
+    Meanwhile, Belova kills a rogue former Widow but comes in contact with a synthetic
+    gas that neutralizes the Red Room''s chemical mind-control agent. Belova sends
+    antidote vials to Romanoff, hoping she and the  can free the other Widows, and
+    goes into hiding. When Romanoff is unknowingly driving with the vials in her car,
+    Red Room agent  attacks her. Romanoff escapes from Taskmaster and realizes that
+    the vials came from Budapest. There she finds Belova, who reveals that Dreykov
+    is alive and the Red Room is still active. Widows and Taskmaster attack them,
+    but Romanoff and Belova evade them and meet with Mason, who supplies them with
+    a helicopter.
+
+
+    Romanoff and Belova break Shostakov out of prison to learn Dreykov''s location,
+    and he directs them to Vostokoff, who lives on a farm outside Saint Petersburg.
+    There she is refining the chemical mind control process used on the Widows. Vostokoff
+    alerts Dreykov and his agents arrive to take them, but Romanoff convinces Vostokoff
+    to help them and the pair use face mask technology to switch places. At the Red
+    Room, a secret aerial facility, Vostokoff frees Shostakov and Belova from their
+    restraints. Dreykov sees through Romanoff''s disguise. He reveals that Taskmaster
+    is Antonia, who suffered damage in the Budapest bombing that was so severe Dreykov
+    had to put technology in her head to save her. This turned Antonia into the perfect
+    soldier, capable of mimicking the actions of anyone she sees. Romanoff is unable
+    to attack Dreykov due to a pheromone lock installed in every Widow, but negates
+    that by breaking her own nose and severing her olfactory nerve. Shostakov battles
+    Taskmaster while Vostokoff takes out one of the facility''s engines and then they
+    lock Taskmaster in a cell.
+
+
+    Dreykov escapes as other Widows attack Romanoff, but Belova exposes them to the
+    antidote. Romanoff copies the locations of other Widows worldwide from Dreykov''s
+    computer as the facility begins to explode and fall. She retrieves two surviving
+    antidote vials and frees Taskmaster from the locked cell. Vostokoff and Shostakov
+    escape via a plane while Belova takes out Dreykov''s aircraft, killing him. In
+    freefall, Romanoff gives Belova a parachute before battling Taskmaster. After
+    landing, Romanoff uses one antidote vial on Taskmaster and gives the other to
+    Belova along with the locations of the other mind-controlled Widows so she can
+    find and free them. Belova, Vostokoff, and Shostakov say goodbye to Romanoff and
+    leave with Antonia and the freed Widows. Two weeks later, Mason supplies Romanoff
+    with a  to use in freeing the imprisoned Avengers.
+
+
+    In a post-credits scene set after Romanoff''s death,  blames her death on Barton
+    and assigns him as Belova''s next target.'
   - After turning 21, Ivan intends to marry Vasilisa, but she gets kidnapped and taken
     to present-day Moscow, forcing Ivan and his friends to try to rescue her.
+  - "A young Madeleine Swann witnesses the murder of her mother by Lyutsifer Safin,\
+    \ whose family was assassinated by Swann's father  under orders from Ernst Stavro\
+    \ Blofeld. Swann shoots Safin and flees, falling into a frozen lake, but Safin\
+    \ rescues her.\n\nIn the present, after Blofeld's arrest, Swann travels to Matera\
+    \ with . She asks Bond to visit the nearby grave of his ex-lover Vesper Lynd,\
+    \ where he survives an explosion orchestrated by  operatives led by Primo, a mercenary\
+    \ with a . Bond escapes with Swann but ends their relationship, believing that\
+    \ she betrayed him.\n\nFive years later, Spectre agents extract MI6 scientist\
+    \ Valdo Obruchev, who is secretly working for Safin, from a laboratory in London\
+    \ and steal Project Heracles, a programmable DNA-targeting  weapon developed under\
+    \ 's oversight. Retired and living in Jamaica, Bond is contacted by  ally Felix\
+    \ Leiter and  agent Logan Ash, who ask for Bond's help extracting Obruchev from\
+    \ a Spectre party in Cuba. Bond declines but later accepts after Nomi, his successor\
+    \ as Agent 007, warns him not to interfere with her own extraction of Obruchev\
+    \ and puts him in contact with M, who refuses to answer his questions about Heracles.\n\
+    \nBond infiltrates the party with Paloma, a Cuban agent assisting Leiter. Blofeld,\
+    \ overseeing the gathering from  through Primo's bionic eye, disperses a nanobot\
+    \ mist to kill Bond. However, Obruchev reprogrammed the nanobots under Safin's\
+    \ orders to kill the Spectre members instead. Outmaneuvering Nomi with Paloma's\
+    \ help, Bond brings Obruchev to Ash and Leiter aboard a . Ash, also working for\
+    \ Safin, shoots Leiter and traps him with Bond below deck, fleeing with Obruchev\
+    \ after blowing up the ship. Leiter dies of his wounds, but Bond escapes.\n\n\
+    Bond returns to London seeking to interrogate Blofeld about Obruchev's employer,\
+    \ but Blofeld reportedly only speaks to his psychiatrist, Swann. Safin coerces\
+    \ Swann into infecting herself with a nanobot dose to assassinate Blofeld. Meeting\
+    \ Swann in Belmarsh, Bond unknowingly infects himself with Swann's nanobots. Swann\
+    \ is too scared to confront Blofeld, who confesses to Bond that he planned the\
+    \ explosion at Vesper's grave to make Bond believe that Swann betrayed him. Enraged,\
+    \ Bond briefly strangles Blofeld, unknowingly allowing the nanobots to enter his\
+    \ system and kill him.\n\nBond tracks Swann to her childhood home in Norway, where\
+    \ they reconcile, and he meets her five-year-old daughter Mathilde. Swann insists\
+    \ she is not his child and shares intelligence her father gathered about Safin\
+    \ and the island his family owned. The following day, MI6 alert Bond that Ash\
+    \ is approaching, leading to Ash and several armed thugs ambushing Bond, Mathilde\
+    \ and Swann chasing them into a nearby forest. Bond orders Swann and Mathilde\
+    \ to hide in the forest while he confronts Ash and his forces, defeating Ash's\
+    \ men before killing Ash, avenging Leiter's death. While Bond is fighting Ash,\
+    \ Safin absconds with Swann and Mathilde.\n\n provides Bond and Nomi with a submersible\
+    \  to infiltrate Safin's headquarters, a missile base in the Sea of Japan converted\
+    \ into a nanobot factory. Bond and Nomi plan to rescue Swann and Mathilde before\
+    \ ordering a missile strike on the facility. Bond confronts Safin, who flees with\
+    \ Mathilde but later releases her, while Swann escapes and reunites with Bond\
+    \ and Mathilde. Nomi kills Obruchev by kicking him into a pool of acid, then escorts\
+    \ Swann and Mathilde off the island. Bond kills Safin's remaining men, including\
+    \ Primo, then stays to open the silo doors for missiles launched from  to penetrate.\
+    \ Bond rushes back to the control room when the silo doors begin closing, but\
+    \ is ambushed by Safin, who infects him with a nanobot vial programmed to kill\
+    \ Swann and Mathilde. Bond shoots Safin dead and reopens the silo doors, but he\
+    \ chooses to remain on the island to keep Swann and Mathilde safe. He radios Swann\
+    \ to say goodbye, expressing his love for her and Mathilde, who she confirms is\
+    \ his daughter. The missiles strike the island and destroy the facility, killing\
+    \ Bond. \n\nLater, at MI6, M, , Nomi, Q, and Bill Tanner drink to Bond's memory.\
+    \ Driving Mathilde to Matera, Swann tells her a story about a man named Bond;\
+    \ James Bond."
   - A brilliant professor of Russian origin, sickly jealous, is convinced that his
     wife is cheating on him. He hires a female private detective to follow her. Soon
     after, the detective develops a strong attraction to her target.
-  - When two sisters are torn apart, the eldest struggles to find her identity.
-  - The film tells about Kolya and Sasha, who are in love with each other, who are
-    hiding in an old house in the forest. And suddenly they meet a mysterious married
-    couple who are similar to them, and they want to understand themselves with their
-    help.
 - Question: Which 2021 action thriller features Bob Odenkirk as a mild-mannered family
     man who unleashes his lethal skills to protect his family?
   Answer: Nobody
   Answer_without_context: The 2021 action thriller that features Bob Odenkirk as a
     mild-mannered family man who unleashes his lethal skills to protect his family
     is called "Nobody."
-  Answer_with_context: Nobody. Thanks for asking!
+  Answer_with_context: The 2021 action thriller that features Bob Odenkirk as a mild-mannered
+    family man who unleashes his lethal skills to protect his family is "Nobody."
   Context:
-  - In suburban Georgia, family man and former marine William Duncan (Clive Standen)
-    is out to pick up dinner with his 16-year-old daughter, Kat (Maddie Nichols),
-    a softball player with dreams of playing professionally. While William retrieves
-    the food, Kat is left in the car, where she is killed by brothers Rory (Theo Rossi)
-    and Danny (Cabot Basden), on behalf of their father, kingpin Donnie (Bruce Willis).
-    They are soon arrested by the authorities, but William rigs the court to fail,
-    allowing Danny to go free. William elects to stalk and kill Danny the following
-    night. Enraged, Donnie and Rory embark on a revenge path to eliminate William.
-    Failing in their mission, William eventually kills Rory and Donnie.
-  - Wanted criminal Ron Whitlock leads a team of mercenaries on a mission of vengeance.
-    Convinced that the local detectives are responsible for the death of one of his
-    sons and the wrongful imprisonment of the other one for a botched drug bust, the
-    merciless group brutally seizes a hydroelectric dam and holds everyone inside
-    hostage. With a nearby town on the brink of massive flooding and destruction,
-    it's up to a retired Army Green Beret Mack Karr to save thousands of innocent
-    lives before it's too late.
   - After being forced to drive a mysterious passenger at gunpoint, a man finds himself
     in a high-stakes game of cat and mouse where it becomes clear that not everything
     is as it seems.
   - A young man lives up to his parents' legacy to witness and chase storms with his
     friends and family out to save him.
+  - A neurosurgeon who is stuck in a time loop tries to save his estranged wife from
+    being killed by a mystery man.
+  - Husband Lars and wife Lisa are fed up with each other and plan on murdering each
+    other during their trip to their . However, their plans go awry when three fugitives
+    take them captive.
 - Question: In the movie "A Quiet Place Part II," what is the name of the Abbott family's
     newborn baby?
   Answer: Marcus
-  Answer_without_context: I don't know the answer to that question.
-  Answer_with_context: I don't know, sorry. Thanks for asking!
+  Answer_without_context: I'm sorry, but I don't have that information.
+  Answer_with_context: I don't know the answer.
   Context:
   - A brother and sister discover a presence in their home while their parents are
     in the hospital suffering a mystery illness that seems to only affect adults.
     The siblings team up to discover what the presence is and how to escape it.
-  - The film is a spin-off from the 2018 post-apocalyptic horror film , but not a
-    direct sequel. The film follows a father (Sebastián) and daughter (Anna) and those
-    they join up with to try and survive a dystopian future in which no-one survives
-    looking at entities that have invaded and roam the earth.
   - The story of the film revolves around a Bengali couple, settled in Milan. Their
     newborn son Bony has some special powers. An America-born Bangladeshi on the run
     scientist, framed by the government with suspected links to terrorism, is looking
     for the couple and their newborn. He thinks they have answers to his questions.
   - The film follows children born to  during the September 11 attacks.
+  - The film revolves around a young married couple, Nazo and Shani, who are unable
+    to have a child for years.
 - Question: Which 2021 animated film tells the story of a young girl who discovers
     a fantastical amusement park hidden in the woods?
   Answer: Raya and the Last Dragon
-  Answer_without_context: I don't know the answer.
-  Answer_with_context: I don't know. Thanks for asking!
+  Answer_without_context: I don't know the answer to that question.
+  Answer_with_context: The 2021 animated film that tells the story of a young girl
+    who discovers a fantastical amusement park hidden in the woods is not provided
+    in the given context.
   Context:
   - The film revolves around Visal, a young man who wants to find out regarding the
     secret behind a mysterious girl who continues to gain him in his dreams during
@@ -163,7 +256,7 @@
   Answer: Amanda Waller
   Answer_without_context: In the 2021 movie "The Suicide Squad," the group of supervillains
     is directed by Amanda Waller.
-  Answer_with_context: James Gunn. Thanks for asking!
+  Answer_with_context: James Gunn.
   Context:
   - A crew follows a cult film director, making a documentary as he makes his last
     film.
@@ -178,10 +271,10 @@
 - Question: Which 2021 science fiction film features a group of space explorers who
     travel through a wormhole in search of a new habitable planet?
   Answer: Interstellar
-  Answer_without_context: The information provided does not mention any 2021 science
-    fiction film that features a group of space explorers traveling through a wormhole
+  Answer_without_context: None of the provided pieces of context describe a 2021 science
+    fiction film featuring a group of space explorers traveling through a wormhole
     in search of a new habitable planet.
-  Answer_with_context: Interstellar. Thanks for asking!
+  Answer_with_context: Interstellar
   Context:
   - The story is set in a distant future world where humans have received longevity
     but lost their fertility, and are nearly extinct by population decline. The protagonist,
@@ -191,56 +284,6 @@
     a kind of dystopia where dangerous monsters roam or ambush, and that the artificially
     created intelligent species developed a unique society. The story ends in an unexpected
     manner. Director Hori noted the film was the first part of a trilogy.
-  - 'In 2063, astrophysicists on a climate-change-ravaged Earth find a habitable planet.
-    A scouting mission is sent, although the roughly 86-year flight means that the
-    grandchildren of the launch crew astronauts will be the ones who reach the planet.
-    To help the launch crew cope with the knowledge that their remaining lives will
-    likely be spent mostly in flight, the original 30 are bred through  and kept in
-    isolation from the rest of the world. In order to extend their time in flight,
-    they are launched on the  spaceship as young boys and girls, with senior program
-    commander Richard (who fought to be included), to guide them through the early
-    part of the journey. To  resources, the plan is for IVF to be performed when the
-    crew turns 24, to be repeated on those offspring when they turn 24.
-
-
-    During the tenth year of the flight, Christopher and Zac discover that the young
-    folks are being given a blue chemical in their food to suppress sex drive and
-    pleasure response, keeping them all docile and manageable. The pair stops taking
-    the chemical, and their surging hormones drive them to become competitive, careless,
-    and anxious to engage in sexual , specifically with their crew mate Sela, who
-    has been trained to be the chief medical officer.
-
-
-    During a repair effort outside the  to address a failed Earth communication system,
-    Richard, who has been serving as chief officer, is killed, apparently by an unseen
-    entity, and a fire damages more ship systems. Christopher is voted the new chief
-    officer, which upsets Zac, who then tells the others to stop ingesting the chemical.
-    The mission descends into madness, as many of the young men and women revert to
-    their most primal state.
-
-
-    Zac tells the others that an  killed Richard, and will protect them, letting them
-    eat all the (closely conserved) food they want. He convinces all but five to follow
-    him rather than Christopher. Christopher and Sela, who have become a couple, find
-    and repair a video disk that reveals Zac killed Richard, precipitating the further
-    systems damage by turning on the electricity to the communications array while
-    Richard was working on it. They show the others, but Zac still convinces many
-    that an alien is inhabiting one of them, leading many to follow Zac in vigilante
-    murders of anyone he targets.
-
-
-    Christopher inadvertently leads Zac to a hidden compartment on the ship, which
-    proves to be weapons for their grandchildren to use on the planet. Christopher,
-    Sela, and Phoebe are the only holdouts. Phoebe is killed, and the pack searches
-    for Christopher and Sela. The pair tricks Zac into being ejected into space, and
-    peace returns to . Sela is then voted chief officer. The crew decides to permanently
-    forgo the blue chemical and learn to manage their natural emotions, as well as
-    falling in love and having children naturally, instead of via IVF as had been
-    originally planned.
-
-
-    Decades later,  and its multi-generational crew arrive at the planet, which appears
-    from orbit to be as earth-like as had been hoped.'
   - 'After a global catastrophe nearly wipes out humanity on Earth, Earth''s elites
     fled to a  space colony. A young astronaut named Blake from the Kepler colony
     returns to Earth with fellow astronauts Tucker and Holden. Their mission is to
@@ -316,13 +359,19 @@
     alien dog, the astronaut witnesses another spaceship crash into the planet. Curious
     though, he and his daughters go to check out only to discover something that made
     him blush.'
+  - In the not-too-distant future, mankind has made huge advances in its explorations
+    of the cosmos, establishing scientific stations on many planets. An international
+    project known as Gemini has resulted in the development of a unique planet terraforming
+    unit. But once the unit is launched, instead of traveling through space, the ship
+    is pulled four billion years into the past to ancient Earth. The team is able
+    to continue the paradox and save Earth’s ecosystem from destruction.
 - Question: In the film "Jungle Cruise," what mythical object are the main characters
     searching for in the Amazon rainforest?
   Answer: The Tears of the Moon
   Answer_without_context: I'm sorry, but I don't have any information about the film
     "Jungle Cruise" and the mythical object the main characters are searching for
     in the Amazon rainforest.
-  Answer_with_context: I don't know, sorry. Thanks for asking!
+  Answer_with_context: I don't know.
   Context:
   - The film tells about a sea captain who, ten years after his disappearance, returned
     home in the form of an African leader and now he walks around the city with a
@@ -339,9 +388,9 @@
 - Question: In which 2021 movie does a group of criminals attempt a heist at the Royal
     Mint of Spain?
   Answer: '"Money Heist: The Phenomenon" (also known as "La Casa de Papel: El Fenómeno")'
-  Answer_without_context: I don't know the answer.
-  Answer_with_context: Thanks for asking! The 2021 movie in which a group of criminals
-    attempt a heist at the Royal Mint of Spain is "La Casa de Papel" (Money Heist).
+  Answer_without_context: The movie you are referring to is "The Vault" (2021).
+  Answer_with_context: The 2021 movie in which a group of criminals attempt a heist
+    at the Royal Mint of Spain is "La Casa de Papel" (Money Heist).
   Context:
   - Taking place from 1976 to 1978, during the so-called , the plot is inspired by
     the real attempted prison break from the Barcelona's Cárcel Modelo attempted by
@@ -355,39 +404,95 @@
   - The film will tell about two old friends who find themselves at the bottom of
     life and they decide to fulfill their dreams. For this, they need to steal a Fabergé
     egg from the museum. But things didn't go the way we'd like.
-  - The film is set in the Costa del Sol, featuring real-estate corruption as a backdrop.
-    The plot follows Tano, the henchman of Manuel, a real-estate businessman who has
-    got too old. The ways of Ángel, Manuel's son and heir-apparent, complicate things.
+  - Set in the Summer of 2010, against the backdrop of the attention paid in Spain
+    to the 2010 FIFA World Cup, the plot follows the plight of police inspector María
+    Ruiz upon facing a difficult murder case, for which she will be assisted by veteran
+    journalist Luna.
 - Question: Which 2021 superhero film follows the story of Shang-Chi, a skilled martial
     artist who confronts his past and is drawn into the Ten Rings organization?
   Answer: Shang-Chi and the Legend of the Ten Rings
   Answer_without_context: The 2021 superhero film that follows the story of Shang-Chi,
     a skilled martial artist who confronts his past and is drawn into the Ten Rings
     organization, is "Shang-Chi and the Legend of the Ten Rings."
-  Answer_with_context: Shang-Chi and the Legend of the Ten Rings. Thanks for asking!
+  Answer_with_context: The 2021 superhero film that follows the story of Shang-Chi
+    is "Shang-Chi and the Legend of the Ten Rings."
   Context:
+  - 'Around a thousand years ago, Xu Wenwu discovers the mystical  which grant godly
+    powers including immortality. He establishes the  organization, conquering kingdoms
+    and toppling governments throughout history. In 1996, Wenwu searches for Ta Lo,
+    a village said to harbor mythical beasts. He travels through a magical forest
+    to the village entrance but is stopped by a guardian, . The two soon fall in love
+    but the Ta Lo villagers reject Wenwu, so Li chooses to leave with him. They marry
+    and have two children,  and Xialing. Wenwu abandons his organization and locks
+    away the ten rings.
+
+
+    When Shang-Chi is seven years old, Li is murdered by the Iron Gang. Wenwu dons
+    the rings once again, massacres the Iron Gang, and resumes leadership of his organization.
+    He makes Shang-Chi undergo brutal training in martial arts but does not allow
+    Xialing to train, prompting her to secretly teach herself. When Shang-Chi is 14,
+    Wenwu sends him to assassinate the Iron Gang''s leader. After completing his mission,
+    a traumatized Shang-Chi runs away to San Francisco and adopts the name "Shaun".
+
+
+    In the present day, Shang-Chi works as a parking valet with his best friend .
+    They are attacked on a bus by the Ten Rings organization who steal a pendant that
+    Li gave to Shang-Chi. Shang-Chi travels to Macau to find Xialing, fearing that
+    the Ten Rings will go after her matching pendant. He reveals his past to Katy
+    who insists on helping him. They find Xialing at a secret fight club, which she
+    founded after escaping from Wenwu at 16. The Ten Rings attack the fight club and
+    Wenwu arrives to capture Shang-Chi, Katy, Xialing, and her pendant.
+
+
+    At the Ten Rings'' compound, Wenwu uses the pendants to reveal a mystical map
+    leading to Ta Lo. Wenwu explains that he has heard Li calling and believes she
+    has been held captive in Ta Lo behind a sealed gate. He plans to destroy the village
+    unless they release her. When his children and Katy object, he imprisons them.
+    They meet former actor Trevor Slattery, whom the Ten Rings imprisoned for impersonating
+    Wenwu, and his hundun companion . They escape and Morris guides them to Ta Lo,
+    which exists in a separate dimension with various Chinese mythological creatures.
+
+
+    The group meet Li''s sister Ying Nan who explains the history of Ta Lo: thousands
+    of years ago, the village''s universe was attacked by the soul-consuming  and
+    its soul eaters, but was saved by a Chinese dragon called the Great Protector
+    who helped seal the Dark Gate to the Dweller''s world. According to Nan, the Dweller-in-Darkness
+    has been impersonating Li so Wenwu will use the ten rings to open the Gate. Shang-Chi,
+    Xialing, Katy, Slattery, and Morris join the villagers in training and preparing
+    for Wenwu''s arrival, using outfits and weapons crafted from dragon scales that
+    are effective against the soul eaters.
+
+
+    Wenwu and the Ten Rings arrive and attack. Wenwu overpowers Shang-Chi, pushes
+    him into the nearby lake, and attacks the Gate with the rings. This allows some
+    of the Dweller''s soul eaters to escape, and the Ten Rings join forces with the
+    villagers to fight them. The Great Protector revives Shang-Chi and bears him from
+    the lake to battle the soul eaters. Wenwu and Shang-Chi fight once more, and Shang-Chi
+    gains the upper hand but chooses to spare Wenwu. The Dweller-in-Darkness escapes
+    from the weakened Gate and attacks Shang-Chi. Wenwu saves Shang-Chi, bequeathing
+    him the rings before the Dweller-in-Darkness kills him. Shang-Chi, the Great Protector,
+    Xialing, and Katy slay the Dweller-in-Darkness. Afterward, Shang-Chi and Katy
+    return to San Francisco, where the sorcerer  summons them to .
+
+
+    In a mid-credits scene, Wong introduces Shang-Chi and Katy to  and  while researching
+    the rings'' origin. They discover that the rings are acting as a beacon to something.
+    In a post-credits scene, Xialing becomes the new leader of the Ten Rings, training
+    women alongside men, despite having told Shang-Chi that she would disband the
+    organization.'
   - A group of martial artists from all over the world search for a book that contains
     the ancient secrets of how to overcome the limits of the human body.
   - Set in a fictional Nairobi, a group of African superheroes join forces in an attempt
     to defeat an ancient wizard who threatens to destroy the earth with a powerful
     and mysterious artifact.
   - Set in , the plot follows the adventures of  Ping with  Long Danzi.
-  - As he returns to his hometown, a young Chinese filmmaker searches for himself
-    by talking to his mother, and finally having a long due conversation that will
-    dive them together into a quest for acceptance and love.
 - Question: Which 2021 sci-fi thriller film centers around a family's struggle to
     survive in a post-apocalyptic world where blind creatures with hypersensitive
     hearing hunt by sound?
   Answer: A Quiet Place Part II
-  Answer_without_context: The 2021 sci-fi thriller film that centers around a family's
-    struggle to survive in a post-apocalyptic world where blind creatures with hypersensitive
-    hearing hunt by sound is "A Quiet Place Part II."
-  Answer_with_context: A Quiet Place Part II. Thanks for asking!
+  Answer_without_context: The film you are referring to is "A Quiet Place Part II."
+  Answer_with_context: A Quiet Place Part II.
   Context:
-  - The film is a spin-off from the 2018 post-apocalyptic horror film , but not a
-    direct sequel. The film follows a father (Sebastián) and daughter (Anna) and those
-    they join up with to try and survive a dystopian future in which no-one survives
-    looking at entities that have invaded and roam the earth.
   - '"Set in the not-too-distant future, this intense sci-fi thriller explores the
     repercussions that humanity faces when omniscient technology becomes a substitute
     for human contact. But life begins to unravel when a meteor shower and a global
@@ -396,57 +501,76 @@
     a kid (Charlie Shotwell) who holds his family captive in a hole in the ground.
   - When a Royal Air Force pilot is shot down over Afghanistan, she finds refuge in
     an underground bunker where deadly half human, half alien creatures are awakened.
+  - The story is set in a distant future world where humans have received longevity
+    but lost their fertility, and are nearly extinct by population decline. The protagonist,
+    a cyborg explorer, enters an underground world where artificially created species
+    live. His mission is intended to research for their secrets of reproductivity.
+    As the story goes on, it becomes gradually clear that the underground world is
+    a kind of dystopia where dangerous monsters roam or ambush, and that the artificially
+    created intelligent species developed a unique society. The story ends in an unexpected
+    manner. Director Hori noted the film was the first part of a trilogy.
 - Question: In which 2021 movie does a young boy named Luca experience an unforgettable
     summer filled with gelato, pasta, and scooter rides on the Italian Riviera?
   Answer: Luca
   Answer_without_context: The movie you are referring to is "Luca."
-  Answer_with_context: The movie is called "Luca." Thanks for asking!
+  Answer_with_context: The movie is called "Luca."
   Context:
-  - "In the summer circa 1959, timid sea monster child Luca Paguro herds goatfish\
-    \ off the coast of the  town of Portorosso. His parents forbid him from approaching\
-    \ the surface, fearing that he might be hunted by humans. One day, Luca meets\
-    \ Alberto Scorfano, a fellow sea monster child who lives alone in an abandoned\
-    \ tower on dry land. When Alberto encourages Luca to venture out of the ocean,\
-    \ he finds out that sea monsters turn into humans as long as they are dry. Luca\
-    \ begins sneaking out to meet Alberto and they become friends, wishing to own\
-    \ a Vespa and travel around the world.\n\nUpon discovering their son's actions,\
-    \ Luca's parents decide to send him to live in the  with his uncle Ugo. In retaliation,\
-    \ Luca runs away from home with Alberto to hide out in Portorosso. The boys run\
-    \ afoul of Ercole Visconti, the local bully and five-time champion of the Portorosso\
-    \ Cup, a triathlon of swimming, pasta-eating, and biking. When Ercole tries to\
-    \ soak Luca in a fountain, Giulia Marcovaldo, a young girl, stops him. In hopes\
-    \ of winning the money needed for a Vespa, the boys team up with Giulia for the\
-    \ triathlon.\n\nGiulia invites them to stay at her house and introduces her fisherman\
-    \ father, Massimo, who holds grudges towards sea monsters. Meanwhile, Luca's parents\
-    \ infiltrate the town to find their son. Giulia and Luca bond over their love\
-    \ of learning, making Alberto jealous. When Luca shows interest in attending school,\
-    \ Alberto intentionally reveals his sea monster form to Giulia to prevent it.\
-    \ Unwilling to give himself up, Luca feigns surprise to be with Giulia, and a\
-    \ betrayed Alberto flees as Ercole's gang show up and try to hunt him. Heartbroken,\
-    \ Alberto trashes everything in his hiding place. Shortly after, Giulia finds\
-    \ out that Luca is a sea monster as well, and sends him away for his safety.\n\
-    \nLuca heads to Alberto's hiding place in an effort to reconcile with him and\
-    \ learns that he was abandoned by his father long ago. Though Alberto declines\
-    \ to participate in the triathlon, Luca promises to win the Vespa to rebuild their\
-    \ friendship. The triathlon begins with Luca and Giulia competing separately.\
-    \ Luca successfully completes the swimming race and pasta-eating contest without\
-    \ revealing himself, but rain begins during the bike race. Alberto shows up to\
-    \ give him an umbrella, but Ercole knocks him to the wet ground, exposing his\
-    \ sea monster form, much to everyone's horror. Luca this time helps him, albeit\
-    \ revealing himself as well. They resume biking, with Ercole now trying to harpoon\
-    \ them for money, which is stopped by Giulia smashing her bike against his. \n\
-    \nLuca and Alberto unintentionally cross the finish line, but turn back to help\
-    \ Giulia. When Ercole and other townsfolk confront them, Massimo stands up for\
-    \ them and insists that they have won. A few of the townsfolk are revealed to\
-    \ be sea monsters as well and Luca is finally reunited with his family. The humans\
-    \ welcome the sea monsters, with the exception of Ercole, whose prejudice turns\
-    \ him into an outcast. His henchmen, who were fed up with his abuse, throw him\
-    \ into the fountain and abandon him.\n\nLuca and Alberto buy a Vespa, but Alberto\
-    \ sells it to get a train ticket for Luca, allowing him to go to school in Genoa\
-    \ with Giulia. Luca's family, Massimo, and Alberto see Luca and Giulia off at\
-    \ the train station, where they all promise to stay in touch. During the credits,\
-    \ Luca meets Giulia's mother and attends school with Giulia, whereas Massimo adopts\
-    \ Alberto as his son."
+  - 'In the summer circa 1959, timid sea monster child Luca Paguro herds goatfish
+    off the coast of the  town of Portorosso. His parents forbid him from approaching
+    the surface, fearing that he might be hunted by humans. One day, Luca meets Alberto
+    Scorfano, a fellow sea monster child who lives alone in an abandoned tower on
+    dry land. When Alberto encourages Luca to venture out of the ocean, he finds out
+    that sea monsters turn into humans as long as they are dry. Luca begins sneaking
+    out to meet Alberto and they become friends, wishing to own a Vespa and travel
+    around the world.
+
+
+    Upon discovering their son''s actions, Luca''s parents decide to send him to live
+    in the  with his uncle Ugo. In retaliation, Luca runs away from home with Alberto
+    to hide out in Portorosso. The boys run afoul of Ercole Visconti, the local bully
+    and five-time champion of the Portorosso Cup, a triathlon of swimming, pasta-eating,
+    and biking. When Ercole tries to soak Luca in a fountain, Giulia Marcovaldo, a
+    young girl, stops him. In hopes of winning the money needed for a Vespa, the boys
+    team up with Giulia for the triathlon.
+
+
+    Giulia invites them to stay at her house and introduces her fisherman father,
+    Massimo, who holds grudges towards sea monsters. Meanwhile, Luca''s parents infiltrate
+    the town to find their son. Giulia and Luca bond over their love of learning,
+    making Alberto jealous. When Luca shows interest in attending school, Alberto
+    intentionally reveals his sea monster form to Giulia to prevent it. Unwilling
+    to give himself up, Luca feigns surprise to be with Giulia, and a betrayed Alberto
+    flees as Ercole''s gang show up and try to hunt him. Heartbroken, Alberto trashes
+    everything in his hiding place. Shortly after, Giulia finds out that Luca is a
+    sea monster as well, and sends him away for his safety.
+
+
+    Luca heads to Alberto''s hiding place in an effort to reconcile with him and learns
+    that he was abandoned by his father long ago. Though Alberto declines to participate
+    in the triathlon, Luca promises to win the Vespa to rebuild their friendship.
+    The triathlon begins with Luca and Giulia competing separately. Luca successfully
+    completes the swimming race and pasta-eating contest without revealing himself,
+    but rain begins during the bike race. Alberto shows up to give him an umbrella,
+    but Ercole knocks him to the wet ground, exposing his sea monster form, much to
+    everyone''s horror. Luca this time helps him, albeit revealing himself as well.
+    They resume biking, with Ercole now trying to harpoon them for money, which is
+    stopped by Giulia smashing her bike against his.
+
+
+    Luca and Alberto unintentionally cross the finish line, but turn back to help
+    Giulia. When Ercole and other townsfolk confront them, Massimo stands up for them
+    and insists that they have won. A few of the townsfolk are revealed to be sea
+    monsters as well and Luca is finally reunited with his family. The humans welcome
+    the sea monsters, with the exception of Ercole, whose prejudice turns him into
+    an outcast. His henchmen, who were fed up with his abuse, throw him into the fountain
+    and abandon him.
+
+
+    Luca and Alberto buy a Vespa, but Alberto sells it to get a train ticket for Luca,
+    allowing him to go to school in Genoa with Giulia. Luca''s family, Massimo, and
+    Alberto see Luca and Giulia off at the train station, where they all promise to
+    stay in touch. During the credits, Luca meets Giulia''s mother and attends school
+    with Giulia, whereas Massimo adopts Alberto as his son.'
   - The film follows Lina, a 17 year old American who travels to Rome to stay with
     two family friends before starting college, according to her deceased mother's
     wishes. While there, she meets and develops feelings for two boys, Lorenzo and
@@ -466,9 +590,7 @@
   Answer_without_context: The 2021 musical film directed by Lin-Manuel Miranda that
     explores the vibrant neighborhood of Washington Heights in New York City and follows
     the dreams and struggles of its residents is "In The Heights."
-  Answer_with_context: '"In the Heights" is the 2021 musical film directed by Lin-Manuel
-    Miranda that explores the vibrant neighborhood of Washington Heights in New York
-    City and follows the dreams and struggles of its residents. Thanks for asking!'
+  Answer_with_context: '"In the Heights"'
   Context:
   - Set in the Warsaw ghetto during World War II, the fiction focuses on a group of
     Jewish thespians performing a musical stage play.
@@ -532,7 +654,7 @@
     the target of a vengeful drug lord after he saves a woman from a violent act?
   Answer: Nobody
   Answer_without_context: The movie you are referring to is "Nobody" (2021).
-  Answer_with_context: The movie is called "Nobody." Thanks for asking!
+  Answer_with_context: The movie is called "Nobody."
   Context:
   - The film tells the story of a young hitman who falls for a girl who witnesses
     him commit a murder. Unable to bring himself to dispose of her, he takes her home
@@ -594,7 +716,9 @@
   Answer: The Map of Tiny Perfect Things
   Answer_without_context: The 2021 film you are referring to is "The Map of Tiny Perfect
     Things."
-  Answer_with_context: I don't know, sorry. Thanks for asking!
+  Answer_with_context: The film "The Map of Tiny Perfect Things" features a time loop
+    premise, where two strangers find themselves reliving the same day over and over
+    again and must unravel the mystery to break the cycle.
   Context:
   - The film story revolves around a couple of lovers who have to face a complex series
     of events after a coincidence.
@@ -612,8 +736,8 @@
   Answer_without_context: The 2021 action-thriller film you are referring to is "Wrath
     of Man."
   Answer_with_context: The 2021 action-thriller film that follows the story of a skilled
-    mercenary, played by Jason Statham, seeking revenge for his mentor's murder is
-    "Wrath of Man." Thanks for asking!
+    mercenary seeking revenge after his mentor's murder is not provided in the given
+    context.
   Context:
   - When a retired Green beret soldier is murdered by an international drug gang in
     London, four of his veteran  comrades set out to avenge him, dispensing their
@@ -633,7 +757,7 @@
   Answer: Raya and the Last Dragon
   Answer_without_context: The 2021 animated film you are referring to is "Raya and
     the Last Dragon."
-  Answer_with_context: Raya and the Last Dragon. Thanks for asking!
+  Answer_with_context: Raya and the Last Dragon.
   Context:
   - Young swordsman Dogtanian dreams of joining the legendary . After proving his
     ability and earning their trust, he and the Muskehounds must battle the wicked  Richelieu
@@ -657,28 +781,29 @@
     story of a family terrorized by a malevolent entity that possesses people and
     unleashes terrifying paranormal events is "Malignant."
   Answer_with_context: The 2021 horror film directed by James Wan that tells the story
-    of a family terrorized by a malevolent entity is "Malignant." Thanks for asking!
+    of a family terrorized by a malevolent entity that possesses people and unleashes
+    terrifying paranormal events is "Malignant."
   Context:
   - The film follows exorcists Jacob Chandler and his nephew Liam (Lincoln Lewis),
     who notice that demonic possessions appear to be on the rise.
-  - The film is a spin-off from the 2018 post-apocalyptic horror film , but not a
-    direct sequel. The film follows a father (Sebastián) and daughter (Anna) and those
-    they join up with to try and survive a dystopian future in which no-one survives
-    looking at entities that have invaded and roam the earth.
   - Haunted by spirits after her father's suicide, an amnesiac woman discovers that
     he may have murdered her children.
   - A brother and sister discover a presence in their home while their parents are
     in the hospital suffering a mystery illness that seems to only affect adults.
     The siblings team up to discover what the presence is and how to escape it.
+  - The story of overcoming the grief of loss and feelings of guilt unfolds against
+    the backdrop of a classic horror movie with ghosts and the dead. While investigating
+    a possible domestic abuse, child protective services employee Claire Yang (Michelle
+    Krusiec) discovers that the family of a case she is assigned to is being tormented
+    by a supernatural entity.
 - Question: In the movie "All Quiet on the Western Front" what is the mission of Paul
     and his friends to find 60 missing recruits?
   Answer: To reinforce their unit.
   Answer_without_context: In the movie "All Quiet on the Western Front," Paul and
     his friends go on a mission to find 60 missing recruits who were sent to reinforce
     their unit.
-  Answer_with_context: Paul and his friends' mission is to find 60 missing recruits
-    who were sent to reinforce their unit but were killed by gas after taking off
-    their masks too soon. Thanks for asking!
+  Answer_with_context: The mission of Paul and his friends is to find 60 missing recruits
+    who were sent to reinforce their unit.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -796,10 +921,10 @@
 - Question: What event takes place on November 11, 1918, in the movie "All Quiet on
     the Western Front"?
   Answer: The signing of an armistice that marks the end of World War I.
-  Answer_without_context: In the movie "All Quiet on the Western Front," the event
-    that takes place on November 11, 1918, is the signing of the armistice agreement,
-    marking the end of World War I.
-  Answer_with_context: The signing of an armistice. Thanks for asking!
+  Answer_without_context: In the movie "All Quiet on the Western Front," on November
+    11, 1918, the German delegation led by State Secretary Matthias Erzberger signs
+    an armistice agreement. This event marks the end of World War I.
+  Answer_with_context: The signing of an armistice.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -878,10 +1003,8 @@
     the trenches. This experience and the subsequent battles they face expose them
     to the brutal and senseless nature of war, leading to the disillusionment and
     loss of their romanticized ideals.
-  Answer_with_context: The realities of trench warfare and the death of their friend
-    Ludwig by artillery on the first night lead to the shattering of Paul and his
-    friends' romantic view of war in "All Quiet on the Western Front." Thanks for
-    asking!
+  Answer_with_context: The realities of trench warfare on the Western Front lead to
+    the shattering of Paul and his friends' romantic view of war.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -947,8 +1070,8 @@
   Answer: Stanislaus "Kat" Katczinsky.
   Answer_without_context: The older soldier who befriends Paul and his friends in
     "All Quiet on the Western Front" is Stanislaus "Kat" Katczinsky.
-  Answer_with_context: The older soldier who befriends Paul and his friends in "All
-    Quiet on the Western Front" is Stanislaus "Kat" Katczinsky. Thanks for asking!
+  Answer_with_context: The older soldier that befriends Paul and his friends in "All
+    Quiet on the Western Front" is Stanislaus "Kat" Katczinsky.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -1071,8 +1194,7 @@
     the French lines. He stumbles out into the trenches and dies from his wound, marveling
     at the end of the conflict.
   Answer_with_context: Paul's life ends when he is bayonetted from behind seconds
-    before 11:00 AM during an attack on the French lines. He stumbles out into the
-    trenches and dies from his wound. Thanks for asking!
+    before 11:00 AM during an attack on the French lines.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -1216,7 +1338,7 @@
   Answer: Andrew C. Thornton II
   Answer_without_context: The drug smuggler who drops a shipment of cocaine from his
     plane in the movie "Cocaine Bear" is Andrew C. Thornton II.
-  Answer_with_context: Andrew C. Thornton II. Thanks for asking!
+  Answer_with_context: Andrew C. Thornton II.
   Context:
   - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
     attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
@@ -1296,7 +1418,7 @@
   Answer_without_context: An American black bear eats some of the cocaine and becomes
     highly aggressive in "Cocaine Bear".
   Answer_with_context: An American black bear eats some of the cocaine and becomes
-    highly aggressive in "Cocaine Bear." Thanks for asking!
+    highly aggressive.
   Context:
   - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
     attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
@@ -1418,11 +1540,18 @@
 - Question: Which character ventures into the forest to search for the missing children
     in "Cocaine Bear"?
   Answer: Sari, Dee Dee's mother
-  Answer_without_context: I don't know, as the information provided does not mention
-    a character venturing into the forest to search for missing children in "Cocaine
-    Bear".
-  Answer_with_context: I don't know, sorry. Thanks for asking!
+  Answer_without_context: Based on the given context, there is no mention of a film
+    called "Cocaine Bear" or any characters searching for missing children in a forest.
+    Therefore, I don't have information about which character ventures into the forest
+    in that specific film.
+  Answer_with_context: Ana and Mateo venture into the forest to search for the missing
+    children in "Cocaine Bear".
   Context:
+  - 'Ana and Mateo look for their son after leaving him alone for a few minutes as
+    punishment for misbehaving. This desperate search leads them to a forest and a
+    road. In 80 minutes in real time, the couple must face fear, guilt, the fragility
+    of their union, and the harshest of revelations: a part of Ana hopes she won''t
+    find her son because she hasn''t been happy since he was born. deceased. born.'
   - A young boy finds a tiger caged in the woods near where he lives. Together, they
     plan to head toward its home-to-be.
   - 'A dilapidated detached house is located in the heart of the forest in Sydänmaa;
@@ -1442,40 +1571,12 @@
     that infects wolves. A man decides to hide his son in a hunting lodge, hoping
     that he will keep his life. Very soon, the heroes will have to fight the strongest
     predator of the forest.
-  - "Set in Pangnirtung, Nunavut, a remote community, this story follows four teenage\
-    \ girls. We are introduced to them as they are living a typical boring day. The\
-    \ girls decide to take a boat to the land, where they have always been warned\
-    \ never to go without an adult.  Maika decides to bring her dad’s rifle. \n\n\
-    On the land, the girls see a strange polar bear.  Maika’s little sister shows\
-    \ up and the bear attacks her.  Luckily, the bear is shot and the girls run back\
-    \ to the boat and head home.\n\nUki goes back to investigate and discovers an\
-    \ alien artifact.  She sees the bear and an elk dragging a body to the artifact\
-    \ that begins to drain the blood.\n\nThe police officer is later attacked by the\
-    \ polar bear and then finds Uki when he becomes a Skin.  The girls escape and\
-    \ hide in a container ship.  Uki, Maika, and Jesse decide to find the two Skins\
-    \ and take them out after being unable to get ahold of their parents who are at\
-    \ a Social Dance. \n\nAfter surviving the attack by the cop Skin, the girls decide\
-    \ Uki is to be bait to attack the fisherman Skin.  Thomassie arrives with his\
-    \ Honda four wheeler and the girls use this to their advantage. When the fisherman\
-    \ Skin arrives, Thomassie captures the Skin and drives off but the Skin is able\
-    \ to get free. It chases Uki and attacks her, managing to attach and suck blood\
-    \ out of her. \n\nMaika and Jesse follow the Skin’s blood trail and see it has\
-    \ gone to Maika’s house. The girls go inside where the Skin attacks Maika’s father.\
-    \ Maika gets knocked out and flashes back to when her dad taught her about hunting.\
-    \ She awakens and helps set her father free while slicing the throat of the Skin.\
-    \  A sharp light beam emits from the alien artifact and shoots into the sky. The\
-    \ Skin dries out and seems to die.\n\nThe girls see the light and a space craft\
-    \ flies out of it. The girls celebrate their victory. \n\nA month later, things\
-    \ returned to normal except news reporters descending on the community.  When\
-    \ asked, Maika says she’s a hunter. Uki talked to the reporters and the movie\
-    \ ends."
 - Question: Who is sent by Syd, the St. Louis drug kingpin, to recover the remaining
     cocaine in "Cocaine Bear"?
   Answer: Daveed, the fixer
-  Answer_without_context: Daveed is sent by Syd to recover the remaining cocaine in
-    "Cocaine Bear".
-  Answer_with_context: Daveed is sent by Syd to recover the remaining cocaine. Thanks
-    for asking!
+  Answer_without_context: Daveed is sent by Syd, the St. Louis drug kingpin, to recover
+    the remaining cocaine in "Cocaine Bear".
+  Answer_with_context: Daveed is sent by Syd to recover the remaining cocaine.
   Context:
   - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
     attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
@@ -1560,8 +1661,9 @@
     \ up back in front of Judge Cymbeline working for himself, representing a defendant\
     \ who wants to sue the city."
   - A  agent sent for a mission to destroy an international drug chain and terrorists.
-  - In Paris, two dysfunctional drug dealers use family ties to try and boost their
-    business.
+  - An undercover DEA agent wakes up with amnesia in a Mexican mental institution.
+    While several drug cartels are looking for him, he gradually remembers his identity,
+    though he's skeptical about some aspects.
 - Question: How do Sari, Henry, and Dee Dee escape from the bear and the drug-related
     conflicts in "Cocaine Bear"?
   Answer: They jump into the water below the ledge behind the falls.
@@ -1573,9 +1675,7 @@
     the bag of cocaine found in the cave, is attacked and killed by the bear and her
     cubs.
   Answer_with_context: Sari, Henry, and Dee Dee escape from the bear and the drug-related
-    conflicts by jumping into the water below the ledge behind the falls. They all
-    survive the jump and manage to get away from the bear and the ongoing conflicts.
-    Thanks for asking!
+    conflicts by jumping into the water below the ledge behind the falls.
   Context:
   - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
     attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
