@@ -6,12 +6,15 @@ from time import time
 import tiktoken
 from dotenv import load_dotenv
 from langchain.chains import RetrievalQA
+from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.prompts import PromptTemplate
+from langchain.retrievers.self_query.base import SelfQueryRetriever
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 from omegaconf import OmegaConf
+from tqdm import tqdm
 
 from utils import info
 
@@ -90,31 +93,45 @@ template = """Use also the following pieces of context to answer the question at
 Question: {question}
 Helpful Answer:"""
 qa_chain_prompt = PromptTemplate.from_template(template)
+
+metadata_field_info = [
+    AttributeInfo(name='title',
+                  description='The movie title',
+                  type='string'),
+    AttributeInfo(name='year',
+                  description='The movie release year',
+                  type='integer'),
+    AttributeInfo(name='id',
+                  description='The movide unique ID within Wikipedia',
+                  type='integer'),
+    AttributeInfo(name='revision_id',
+                  description='The movie unique revision ID within Wikipedia',
+                  type='integer')
+]
+document_content_description = 'The movie plot or synopsis'
+retriever = SelfQueryRetriever.from_llm(llm,
+                                        vectordb,
+                                        document_content_description,
+                                        metadata_field_info,
+                                        verbose=True)
+
 qa_chain_with_context = RetrievalQA.from_chain_type(
     llm,
-    retriever=vectordb.as_retriever(),
+    # retriever=vectordb.as_retriever(),
+    retriever=retriever,
     return_source_documents=True,
     chain_type_kwargs={"prompt": qa_chain_prompt}
 )
-movies_qa_processed = []
-"""
-for qa in tqdm(movies_qa):
-    question = qa['Question']
 
-    answer_no_context = qa_chain_no_context({"query": question})
 
-    answer_with_context = qa_chain_with_context({"query": question})
-
-    source_chunks = [doc.page_content for doc in answer_with_context['source_documents']]
-    movies_qa_processed.append({'Question': qa['Question'],
-                                'Answer': qa['Answer'],
-                                'Answer_without_context': answer_no_context['result'],
-                                'Answer_with_context': answer_with_context['result'],
-                                'Context': source_chunks
-                                })
-"""
-
-queries = [{'query': qa['Question']} for qa in movies_qa]
+def run_query_with_context(query: dict) -> dict:
+    try:
+        res = qa_chain_with_context(query)
+    except Exception as ex:
+        info(f'Query with context failed with exception {ex}')
+        return {'query': query, 'result': 'ERROR!'}
+    info(f'Query with context completed')
+    return res
 
 
 def run_query_no_context(query: dict) -> dict:
@@ -123,19 +140,22 @@ def run_query_no_context(query: dict) -> dict:
     return res
 
 
-def run_query_with_context(query: dict) -> dict:
-    res = qa_chain_with_context(query)
-    info(f'Query with context completed')
-    return res
+queries = [{'query': qa['Question']} for qa in movies_qa]
 
+results_with_context = []
+for query in tqdm(queries):
+    res = run_query_with_context(query)
+    results_with_context.append(res)
 
 pool_size = min(16, len(queries))
 with Pool(pool_size) as pool:
     results_no_context = pool.map(run_query_no_context, queries)
-    results_with_context = pool.map(run_query_with_context, queries)
+    # results_with_context = pool.map(run_query_with_context, queries)
 
+movies_qa_processed = []
 for qa, answer_no_context, answer_with_context in zip(movies_qa, results_no_context, results_with_context):
-    source_chunks = [doc.page_content for doc in answer_with_context['source_documents']]
+    source_chunks = [doc.page_content for doc in answer_with_context['source_documents']] if answer_with_context.get(
+        'source_documents') else None
 
     movies_qa_processed.append({'Question': qa['Question'],
                                 'Answer': qa['Answer'],
@@ -149,11 +169,11 @@ OmegaConf.save(movies_qa_processed, processed_qa_file)
 
 """
 TODO
-Speed-up queries to OpenAI
 Leverage metadata
 Checkout why some contexts have leading and trailing \ at every line in the output .yaml
-
 Try out compression after retrieval using a ContextualCompressionRetriever
 Try other vector stores such as FAISS and Milvus
 Try with refine chain type
+
+Speed-up queries to OpenAI -> Done
 """

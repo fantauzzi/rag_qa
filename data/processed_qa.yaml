@@ -2,199 +2,407 @@
     Met Gala?
   Answer: Ocean's Eight
   Answer_without_context: I don't know the answer.
-  Answer_with_context: Ocean's 8
+  Answer_with_context: Ocean's 8.
   Context:
-  - The film will tell about two old friends who find themselves at the bottom of
-    life and they decide to fulfill their dreams. For this, they need to steal a Fabergé
-    egg from the museum. But things didn't go the way we'd like.
-  - The plot follows two unlikely thieves, Dixon (Frankel) and Sally (Bellamacina),
-    who after meeting drunkenly in a bar plot to steal an expensive painting from
-    Sally's ex-boyfriend Stephen (Tom Basden).
-  - Iqbal, an artist, pulls up an unbelievable - never seen before the heist and the
-    rest of the movie revolves around the police department trying to catch the most
-    flamboyant thief they have ever witnessed in their career.
-  - The film centers around a high-stakes gambling session during a house party, where
-    twelve individuals come together with hopes of winning a massive sum of Rs 12
-    crore. However, when the lights suddenly go out at midnight, the money vanishes,
-    leaving everyone bewildered and suspicious of each other.
+  - The series is about three friends who are in search of a better life but due to
+    the challenges they faced the made bad decision and resulted to criminal acts.
+  - In Paris, two dysfunctional drug dealers use family ties to try and boost their
+    business.
+  - In Sidi Moumen, a group of talented teens aspire to put on a rap concert.
+  - After having her identity stolen, a woman, and her son's pregnant girlfriend,
+    bond together on a surreal journey as they attempt to track down the perpetrators.
 - Question: Which 2021 movie follows the story of a woman who becomes a superhero
     and fights against evil forces with her newfound superpowers?
   Answer: Wonder Woman 1984
-  Answer_without_context: I'm sorry, but none of the provided pieces of context match
-    the description of a woman becoming a superhero and fighting against evil forces
-    with her newfound superpowers. Therefore, I don't have information about a specific
-    2021 movie that fits that description.
-  Answer_with_context: I don't know.
+  Answer_without_context: The movie that follows the story of a woman who becomes
+    a superhero and fights against evil forces with her newfound superpowers is not
+    mentioned in the given context. Therefore, I don't know the answer to your question.
+  Answer_with_context: The movie that follows the story of a woman who becomes a superhero
+    and fights against evil forces with her newfound superpowers is "Thunder Force."
   Context:
+  - 'In March 1983, Earth was subjected to cosmic rays that gave  superpowers, resulting
+    in a rise of supervillains known as Miscreants. With no one able to stop the Miscreants,
+    normal people are usually left living in fear of being attacked by them. After
+    a Miscreant kills her geneticist parents on their way home from work, Emily Stanton
+    becomes determined to find a way to stop Miscreants.
+
+
+    By 1985, Emily has sacrificed much of her social life in favor of researching
+    possible methods of fighting back against Miscreants. While this results in her
+    being bullied, Lydia Berman stands up for her and becomes her best and only friend.
+    Lydia supports Emily''s dream of giving  to normal people, though she tries to
+    make sure that Emily does not overwork herself. When Lydia convinces Emily to
+    take a half-hour nap from studying in 1993, she accidentally causes Emily to oversleep
+    and wake up late for an AP exam, straining their relationship and causing them
+    to drift apart.
+
+
+    In 2024, Emily and Lydia have gone their separate ways, with Emily becoming a
+    successful scientist and researcher for her own company and Lydia becoming a longshoreman.
+    Lydia tries to reconnect with Emily when their high school reunion comes around
+    and invites her to come. When she fails to show up on the night of the reunion,
+    Lydia concludes that Emily is still uncomfortable attending parties by herself
+    and goes to pick her up. Emily tells her that while she would have liked to go
+    to the reunion, she had forgotten when the reunion was and had a project she had
+    to work on that night, which Emily wants to show to Lydia. Unfortunately, Lydia
+    accidentally injects herself with a serum Emily had been working on.
+
+
+    Having been injected with the serum, Lydia learns from Emily that the serum was
+    designed to give a normal person superhuman strength and that she would have to
+    undergo special training and treatment so the serum does not kill her. Emily also
+    joins Lydia in the treatment, although a less painful one since Emily took the
+    serum in a pill form to take the other superpower concocted, invisibility. During
+    the thirty-three day treatment and training, Lydia and Emily grow closer. Lydia
+    discovers that in the years since their high school graduation, Emily had a daughter,
+    Tracy, with one of the researchers, who could not handle the responsibility and
+    left them.
+
+
+    Once they finish their training and treatment, Emily and Lydia foil a liquor store
+    robbery run by a Miscreant with crab arms known as the Crab, who falls in love
+    with an equally smitten Lydia, much to Emily''s concern. Emily and Lydia, known
+    as the superhero team Thunder Force, are praised for their heroics. This brings
+    Thunder Force to the attention of mayoral candidate William "The King" Stevens,
+    whose campaign is built on the idea that only he can end the Miscreants'' crimes.
+
+
+    With the help of Laser, a Miscreant who can generate and control whip-like energy
+    beams, the King tries to get Thunder Force to work for him, leaving Chicago at
+    the mercy of the Miscreants unless he wins the mayoral election. Thunder Force
+    continues to fight crime with their superpowers and support the rival mayoral
+    candidate, thereby causing the King to lose the election. The King then sends
+    Laser to attack Thunder Force when they''re at a diner. When she tries to get
+    away, Lydia throws a bus at her despite Emily''s protests. Though nobody was hurt,
+    Emily decides that Lydia''s impulsiveness is more problematic than beneficial,
+    once again straining their friendship.
+
+
+    In an effort to make amends, Lydia goes on a date with the Crab to get some useful
+    information. Along with how the Crab is a misunderstood person who had to turn
+    to a life of crime, Lydia learns that the King is planning on blowing up everyone
+    who did not vote for him in the election, along with the new mayor, at a party
+    he''s hosting under the guise of a celebration of the new mayor. She tells Emily
+    of what she learned and makes amends with her.
+
+
+    After fighting off Laser one last time, Thunder Force go to stop the King from
+    bombing the building. When they manage to find the bomb, the King decides to fight
+    Thunder Force himself, revealing himself to be a Miscreant with superhuman strength,
+    though significantly stronger than Lydia. Before the King can kill Lydia, the
+    Crab double crosses the King and gets his claws broken off. Tracy also joins the
+    fight, having injected herself with her mother''s serum, giving her the ability
+    to run at superhuman speed. Though they manage to take the King down, Thunder
+    Force realizes that the bomb will go off before they can disarm it.
+
+
+    With no guarantee that the bomb would be stable enough to not go off while Tracy
+    carries the bomb to somewhere safe, Lydia decides to sacrifice herself, knowing
+    that she can at least reduce the impact of the explosion. She jumps out of the
+    building with the bomb and dives into the Chicago River, seemingly dying in the
+    explosion. However, the  manage to find her body and  her. Thunder Force, now
+    with a stronger friendship between Emily and Lydia, are offered by the mayor the
+    assistance of the city''s resources, which they accept.'
   - A woman who is kidnapped and forced to compete in elite underground, fights her
     way out to freedom.
-  - The film tells about a billionaire, an airplane pilot, an aspiring police officer
-    and a young woman with her daughter, who are forced to face the unknown and understand
-    themselves in order to realize what their fears are.
-  - When a shadowy figure instructs two different men to take out the same woman,
-    they both end up at her home at the same time and must fight each other through
-    absurd situations to be the one to complete the assignment.
-  - A woman eager for revenge crosses paths with a police agent while searching for
-    a .
+  - 'It always pays to be good. And for superhero-in-hiding Mang Jose, it is quite
+    literal. Having the ability of energy absorption & redirection, he covertly saves
+    people only if they rent him out.
+
+
+    One day, carefree young man Tope rents Mang Jose to help him save his mother who
+    has been abducted by mysterious troopers of King Ina, an enigmatic cunning villainess
+    who is out there to annihilate all remaining superheroes in hiding.
+
+
+    Little do Mang Jose and Tope know the quest would lead them into paying the terrible
+    price in order to save the priceless truth binding them: family.'
+  - 'On Earth-22,  and Harley Quinn kill Jimmy Olsen, kidnap a pregnant Lois Lane
+    and steal a nuclear weapon, which they connect to a heart rate monitor attached
+    to Lois'' heart. Upon hearing of Lois'' capture, Batman calls the Justice League
+    to find her. The  finds the  dead in his lab and his supply of fear toxin missing,
+    before being killed by a trap laid by Joker.
+
+
+    Superman eventually finds Joker and Harley hiding on a submarine, but is attacked
+    by , who he punches into space. As the other heroes arrive and apprehend the Joker
+    and Harley, Batman realizes that they have mixed the fear toxin with Kryptonite
+    and used it to make Superman hallucinate that he is fighting Doomsday; in reality,
+    he has beaten Lois to death. This causes the bomb attached to her to detonate,
+    destroying  and killing 11 million people. A grief-stricken Superman then kills
+    Joker in revenge.
+
+
+    While Green Arrow takes Harley to his hideout to protect her from Superman, Superman
+    reveals his identity before the United Nations and announces his intentions to
+    bring peace to Earth, by force if necessary. The Justice League is left divided
+    over Superman''s actions; some members, such as Wonder Woman, support his new
+    methods, while others, like Batman, keep their no-killing vow. Other heroes, such
+    as Aquaman, , and the other magic users, refuse to choose sides and leave the
+    League with Hal Jordan stating that he and his fellow Green Lanterns are being
+    recalled to Oa.
+
+
+    Meanwhile, the United States government becomes concerned that Superman will interfere
+    in their operations, and have Mirror Master kidnap  as leverage against him. Superman
+    begins to question his actions, but Wonder Woman reassures him that he is doing
+    the right thing and offers to help him find Jonathan. Confronting Mirror Master,
+    Wonder Woman learns Jonathan''s whereabouts, allowing Superman to rescue him.
+    Elsewhere, Batman confronts the  and warns him that Superman will kill him if
+    he finds out that he ordered Jonathan''s capture.
+
+
+    Later, Superman visits Batman in the Batcave to make peace, but they get into
+    an argument over their ideological views and Batman refuses to join Superman.
+    While trying to stop Superman from relocating Arkham Asylum inmates to a more
+    secure facility, Batman and  are shocked to discover that  has joined Superman.
+    Harley, who escaped Green Arrow''s capture and decided to become a hero, releases
+    the inmates, forcing Batman and Superman to temporarily put their differences
+    aside to fight them. During the battle, Robin lashes out in anger and accidentally
+    kills Nightwing, leading to Batman disowning him. Nightwing then meets  in the
+    afterlife, who transforms him into .
+
+
+    After originally rejecting his help, Superman allies with Ra''s al Ghul. Batman
+    forms an underground resistance and plans to steal a red sun cannon from the Fortress
+    of Solitude. During the break-in, Ra''s kills the  and destroys the cannon, Superman
+    overpowers Captain Atom, and Green Arrow accidentally kills Jonathan, whom Superman
+    had been keeping safe at the Fortress, causing Superman to murder him in revenge.
+    After Superman transforms the Earth into a police state using surveillance drones,
+    Batman has Plastic Man break  out of prison and leaks video footage of Superman
+    killing a group of partying teenagers inspired by Joker to ruin his public image.
+
+
+    In response, Superman dispatches Amazo to enforce global peace, but the android
+    quickly turns violent as Ra''s had secretly programmed it to kill Superman. Amazo
+    kills  and , but Batman and his allies arrive and help Superman and Wonder Woman
+    destroy the android. Meanwhile, Robin, having had a change of heart, duels and
+    defeats Ra''s with Deadwing''s help.
+
+
+    Despite their aid, Superman prepares to have the insurgents arrested and incapacitates
+    Wonder Woman after she turns on him, but is confronted by  from Earth-One, whom
+    Mr. Terrific had summoned. Earth-22 Superman defeats his counterpart as the latter
+    was holding back, but surrenders after being met with a Lois from Earth-9 who
+    lost her Superman after becoming pregnant with his child and reminds him that
+    life is sacred. Realizing how far he has fallen, a remorseful Superman willingly
+    agrees to be imprisoned.
+
+
+    Although unsure of what will happen next, Batman makes preparations to rebuild
+    the world and his life with Catwoman.'
 - Question: Who plays the titular character in the 2021 film where a young musician
     is transported to the magical world of his ancestors?
   Answer: Anthony Gonzalez in "Coco"
-  Answer_without_context: I'm sorry, but I don't have enough information to answer
-    your question.
-  Answer_with_context: I don't know.
+  Answer_without_context: I'm sorry, but I don't have that information.
+  Answer_with_context: The answer is not provided in the given context.
   Context:
+  - 'A young manga artist who is planning to write a manga about Japanese wolves traces
+    the memories of the past sleeping souls in the downtown Tokyo, triggered by the
+    encounter between an injured woman and her family.
+
+
+    Director Masakazu Kaneko explained, "The title of this work represents the "journey
+    of life" that goes back and forth between reality and fantasy, experienced by
+    a young hero who is absorbed in drawing manga."'
+  - Izzy and her mother live a simple, peaceful existence in the woods, spending most
+    their time creating metal music. After a chance meeting with a mysterious fellow
+    teenager, Izzy begins to uncover the dark history of her family and their connections
+    with witchcraft. Her relationship with her mother becomes increasingly strained
+    as she deals with the darker revelations about her own budding interest in magic.
   - The animated film follows a young Irish boy named Keegan, who’s been at a heart
     loss after his grandfather - a well-known dancer - had passed away. He and his
     Spanish friend Moya go on a journey to a magical world to learn about  as well
     as the dangers of the Huntsman.
-  - The film follows the journey of an orphaned Armenian child, full-time heiress
-    and part-time musician, who grows up to be a diva on a mission. All through, she
-    has one constant companion – the lingering Muskan scent. However, her life takes
-    a dramatic turn when she receives an anonymous message, which brings back her
-    mysterious past.
-  - A young singer on the brink of stardom is determined to hold on to her identity
-    amid her rising fame and the oppressive household of her religious parents.
   - After suffering a series of nightmares with bizarre and mysterious appearances,
     Andy (Liam Aiken), an electronic musician, and Lela (Mitzi Akaha), an aspiring
     singer, end up embarking on parallel journeys in search of answers.
 - Question: Which 2021 movie follows the story of a woman who becomes a superhero
     and fights against evil forces with her newfound superpowers?
   Answer: Wonder Woman 1984
-  Answer_without_context: I'm sorry, but none of the provided pieces of context describe
-    a movie where a woman becomes a superhero and fights against evil forces with
-    her newfound superpowers.
-  Answer_with_context: I don't know.
+  Answer_without_context: The movie that follows the story of a woman who becomes
+    a superhero and fights against evil forces with her newfound superpowers is not
+    provided in the given context.
+  Answer_with_context: The movie that follows the story of a woman who becomes a superhero
+    and fights against evil forces with her newfound superpowers is "Thunder Force."
   Context:
+  - 'In March 1983, Earth was subjected to cosmic rays that gave  superpowers, resulting
+    in a rise of supervillains known as Miscreants. With no one able to stop the Miscreants,
+    normal people are usually left living in fear of being attacked by them. After
+    a Miscreant kills her geneticist parents on their way home from work, Emily Stanton
+    becomes determined to find a way to stop Miscreants.
+
+
+    By 1985, Emily has sacrificed much of her social life in favor of researching
+    possible methods of fighting back against Miscreants. While this results in her
+    being bullied, Lydia Berman stands up for her and becomes her best and only friend.
+    Lydia supports Emily''s dream of giving  to normal people, though she tries to
+    make sure that Emily does not overwork herself. When Lydia convinces Emily to
+    take a half-hour nap from studying in 1993, she accidentally causes Emily to oversleep
+    and wake up late for an AP exam, straining their relationship and causing them
+    to drift apart.
+
+
+    In 2024, Emily and Lydia have gone their separate ways, with Emily becoming a
+    successful scientist and researcher for her own company and Lydia becoming a longshoreman.
+    Lydia tries to reconnect with Emily when their high school reunion comes around
+    and invites her to come. When she fails to show up on the night of the reunion,
+    Lydia concludes that Emily is still uncomfortable attending parties by herself
+    and goes to pick her up. Emily tells her that while she would have liked to go
+    to the reunion, she had forgotten when the reunion was and had a project she had
+    to work on that night, which Emily wants to show to Lydia. Unfortunately, Lydia
+    accidentally injects herself with a serum Emily had been working on.
+
+
+    Having been injected with the serum, Lydia learns from Emily that the serum was
+    designed to give a normal person superhuman strength and that she would have to
+    undergo special training and treatment so the serum does not kill her. Emily also
+    joins Lydia in the treatment, although a less painful one since Emily took the
+    serum in a pill form to take the other superpower concocted, invisibility. During
+    the thirty-three day treatment and training, Lydia and Emily grow closer. Lydia
+    discovers that in the years since their high school graduation, Emily had a daughter,
+    Tracy, with one of the researchers, who could not handle the responsibility and
+    left them.
+
+
+    Once they finish their training and treatment, Emily and Lydia foil a liquor store
+    robbery run by a Miscreant with crab arms known as the Crab, who falls in love
+    with an equally smitten Lydia, much to Emily''s concern. Emily and Lydia, known
+    as the superhero team Thunder Force, are praised for their heroics. This brings
+    Thunder Force to the attention of mayoral candidate William "The King" Stevens,
+    whose campaign is built on the idea that only he can end the Miscreants'' crimes.
+
+
+    With the help of Laser, a Miscreant who can generate and control whip-like energy
+    beams, the King tries to get Thunder Force to work for him, leaving Chicago at
+    the mercy of the Miscreants unless he wins the mayoral election. Thunder Force
+    continues to fight crime with their superpowers and support the rival mayoral
+    candidate, thereby causing the King to lose the election. The King then sends
+    Laser to attack Thunder Force when they''re at a diner. When she tries to get
+    away, Lydia throws a bus at her despite Emily''s protests. Though nobody was hurt,
+    Emily decides that Lydia''s impulsiveness is more problematic than beneficial,
+    once again straining their friendship.
+
+
+    In an effort to make amends, Lydia goes on a date with the Crab to get some useful
+    information. Along with how the Crab is a misunderstood person who had to turn
+    to a life of crime, Lydia learns that the King is planning on blowing up everyone
+    who did not vote for him in the election, along with the new mayor, at a party
+    he''s hosting under the guise of a celebration of the new mayor. She tells Emily
+    of what she learned and makes amends with her.
+
+
+    After fighting off Laser one last time, Thunder Force go to stop the King from
+    bombing the building. When they manage to find the bomb, the King decides to fight
+    Thunder Force himself, revealing himself to be a Miscreant with superhuman strength,
+    though significantly stronger than Lydia. Before the King can kill Lydia, the
+    Crab double crosses the King and gets his claws broken off. Tracy also joins the
+    fight, having injected herself with her mother''s serum, giving her the ability
+    to run at superhuman speed. Though they manage to take the King down, Thunder
+    Force realizes that the bomb will go off before they can disarm it.
+
+
+    With no guarantee that the bomb would be stable enough to not go off while Tracy
+    carries the bomb to somewhere safe, Lydia decides to sacrifice herself, knowing
+    that she can at least reduce the impact of the explosion. She jumps out of the
+    building with the bomb and dives into the Chicago River, seemingly dying in the
+    explosion. However, the  manage to find her body and  her. Thunder Force, now
+    with a stronger friendship between Emily and Lydia, are offered by the mayor the
+    assistance of the city''s resources, which they accept.'
   - A woman who is kidnapped and forced to compete in elite underground, fights her
     way out to freedom.
-  - The film tells about a billionaire, an airplane pilot, an aspiring police officer
-    and a young woman with her daughter, who are forced to face the unknown and understand
-    themselves in order to realize what their fears are.
-  - When a shadowy figure instructs two different men to take out the same woman,
-    they both end up at her home at the same time and must fight each other through
-    absurd situations to be the one to complete the assignment.
-  - A woman eager for revenge crosses paths with a police agent while searching for
-    a .
+  - 'It always pays to be good. And for superhero-in-hiding Mang Jose, it is quite
+    literal. Having the ability of energy absorption & redirection, he covertly saves
+    people only if they rent him out.
+
+
+    One day, carefree young man Tope rents Mang Jose to help him save his mother who
+    has been abducted by mysterious troopers of King Ina, an enigmatic cunning villainess
+    who is out there to annihilate all remaining superheroes in hiding.
+
+
+    Little do Mang Jose and Tope know the quest would lead them into paying the terrible
+    price in order to save the priceless truth binding them: family.'
+  - 'On Earth-22,  and Harley Quinn kill Jimmy Olsen, kidnap a pregnant Lois Lane
+    and steal a nuclear weapon, which they connect to a heart rate monitor attached
+    to Lois'' heart. Upon hearing of Lois'' capture, Batman calls the Justice League
+    to find her. The  finds the  dead in his lab and his supply of fear toxin missing,
+    before being killed by a trap laid by Joker.
+
+
+    Superman eventually finds Joker and Harley hiding on a submarine, but is attacked
+    by , who he punches into space. As the other heroes arrive and apprehend the Joker
+    and Harley, Batman realizes that they have mixed the fear toxin with Kryptonite
+    and used it to make Superman hallucinate that he is fighting Doomsday; in reality,
+    he has beaten Lois to death. This causes the bomb attached to her to detonate,
+    destroying  and killing 11 million people. A grief-stricken Superman then kills
+    Joker in revenge.
+
+
+    While Green Arrow takes Harley to his hideout to protect her from Superman, Superman
+    reveals his identity before the United Nations and announces his intentions to
+    bring peace to Earth, by force if necessary. The Justice League is left divided
+    over Superman''s actions; some members, such as Wonder Woman, support his new
+    methods, while others, like Batman, keep their no-killing vow. Other heroes, such
+    as Aquaman, , and the other magic users, refuse to choose sides and leave the
+    League with Hal Jordan stating that he and his fellow Green Lanterns are being
+    recalled to Oa.
+
+
+    Meanwhile, the United States government becomes concerned that Superman will interfere
+    in their operations, and have Mirror Master kidnap  as leverage against him. Superman
+    begins to question his actions, but Wonder Woman reassures him that he is doing
+    the right thing and offers to help him find Jonathan. Confronting Mirror Master,
+    Wonder Woman learns Jonathan''s whereabouts, allowing Superman to rescue him.
+    Elsewhere, Batman confronts the  and warns him that Superman will kill him if
+    he finds out that he ordered Jonathan''s capture.
+
+
+    Later, Superman visits Batman in the Batcave to make peace, but they get into
+    an argument over their ideological views and Batman refuses to join Superman.
+    While trying to stop Superman from relocating Arkham Asylum inmates to a more
+    secure facility, Batman and  are shocked to discover that  has joined Superman.
+    Harley, who escaped Green Arrow''s capture and decided to become a hero, releases
+    the inmates, forcing Batman and Superman to temporarily put their differences
+    aside to fight them. During the battle, Robin lashes out in anger and accidentally
+    kills Nightwing, leading to Batman disowning him. Nightwing then meets  in the
+    afterlife, who transforms him into .
+
+
+    After originally rejecting his help, Superman allies with Ra''s al Ghul. Batman
+    forms an underground resistance and plans to steal a red sun cannon from the Fortress
+    of Solitude. During the break-in, Ra''s kills the  and destroys the cannon, Superman
+    overpowers Captain Atom, and Green Arrow accidentally kills Jonathan, whom Superman
+    had been keeping safe at the Fortress, causing Superman to murder him in revenge.
+    After Superman transforms the Earth into a police state using surveillance drones,
+    Batman has Plastic Man break  out of prison and leaks video footage of Superman
+    killing a group of partying teenagers inspired by Joker to ruin his public image.
+
+
+    In response, Superman dispatches Amazo to enforce global peace, but the android
+    quickly turns violent as Ra''s had secretly programmed it to kill Superman. Amazo
+    kills  and , but Batman and his allies arrive and help Superman and Wonder Woman
+    destroy the android. Meanwhile, Robin, having had a change of heart, duels and
+    defeats Ra''s with Deadwing''s help.
+
+
+    Despite their aid, Superman prepares to have the insurgents arrested and incapacitates
+    Wonder Woman after she turns on him, but is confronted by  from Earth-One, whom
+    Mr. Terrific had summoned. Earth-22 Superman defeats his counterpart as the latter
+    was holding back, but surrenders after being met with a Lois from Earth-9 who
+    lost her Superman after becoming pregnant with his child and reminds him that
+    life is sacred. Realizing how far he has fallen, a remorseful Superman willingly
+    agrees to be imprisoned.
+
+
+    Although unsure of what will happen next, Batman makes preparations to rebuild
+    the world and his life with Catwoman.'
 - Question: In the 2021 film "Black Widow," what is the name of Natasha Romanoff's
     sister and fellow spy?
   Answer: Yelena Belova
-  Answer_without_context: In the 2021 film "Black Widow," Natasha Romanoff's sister
-    and fellow spy is named Yelena Belova.
-  Answer_with_context: Natasha Romanoff's sister and fellow spy in the 2021 film "Black
-    Widow" is Yelena Belova.
-  Context:
-  - 'In 1995, super soldier  and Black Widow assassin  work as  undercover agents,
-    posing as a family in Ohio with  and  as their daughters. They steal  intel and
-    escape to Cuba where their boss, General Dreykov, has Romanoff and Belova taken
-    to the  for training as Widows. In the following decades, Shostakov is imprisoned
-    in Russia while Romanoff and Belova become successful, dangerous assassins. Romanoff
-    eventually defects to S.H.I.E.L.D. after helping  bomb Dreykov''s Budapest office,
-    which apparently kills Dreykov and his young daughter Antonia.
-
-
-    In 2016, Romanoff is a fugitive for violating the Sokovia Accords. She escapes
-    from U.S. Secretary of State  and flees to a safehouse in Norway supplied by .
-    Meanwhile, Belova kills a rogue former Widow but comes in contact with a synthetic
-    gas that neutralizes the Red Room''s chemical mind-control agent. Belova sends
-    antidote vials to Romanoff, hoping she and the  can free the other Widows, and
-    goes into hiding. When Romanoff is unknowingly driving with the vials in her car,
-    Red Room agent  attacks her. Romanoff escapes from Taskmaster and realizes that
-    the vials came from Budapest. There she finds Belova, who reveals that Dreykov
-    is alive and the Red Room is still active. Widows and Taskmaster attack them,
-    but Romanoff and Belova evade them and meet with Mason, who supplies them with
-    a helicopter.
-
-
-    Romanoff and Belova break Shostakov out of prison to learn Dreykov''s location,
-    and he directs them to Vostokoff, who lives on a farm outside Saint Petersburg.
-    There she is refining the chemical mind control process used on the Widows. Vostokoff
-    alerts Dreykov and his agents arrive to take them, but Romanoff convinces Vostokoff
-    to help them and the pair use face mask technology to switch places. At the Red
-    Room, a secret aerial facility, Vostokoff frees Shostakov and Belova from their
-    restraints. Dreykov sees through Romanoff''s disguise. He reveals that Taskmaster
-    is Antonia, who suffered damage in the Budapest bombing that was so severe Dreykov
-    had to put technology in her head to save her. This turned Antonia into the perfect
-    soldier, capable of mimicking the actions of anyone she sees. Romanoff is unable
-    to attack Dreykov due to a pheromone lock installed in every Widow, but negates
-    that by breaking her own nose and severing her olfactory nerve. Shostakov battles
-    Taskmaster while Vostokoff takes out one of the facility''s engines and then they
-    lock Taskmaster in a cell.
-
-
-    Dreykov escapes as other Widows attack Romanoff, but Belova exposes them to the
-    antidote. Romanoff copies the locations of other Widows worldwide from Dreykov''s
-    computer as the facility begins to explode and fall. She retrieves two surviving
-    antidote vials and frees Taskmaster from the locked cell. Vostokoff and Shostakov
-    escape via a plane while Belova takes out Dreykov''s aircraft, killing him. In
-    freefall, Romanoff gives Belova a parachute before battling Taskmaster. After
-    landing, Romanoff uses one antidote vial on Taskmaster and gives the other to
-    Belova along with the locations of the other mind-controlled Widows so she can
-    find and free them. Belova, Vostokoff, and Shostakov say goodbye to Romanoff and
-    leave with Antonia and the freed Widows. Two weeks later, Mason supplies Romanoff
-    with a  to use in freeing the imprisoned Avengers.
-
-
-    In a post-credits scene set after Romanoff''s death,  blames her death on Barton
-    and assigns him as Belova''s next target.'
-  - After turning 21, Ivan intends to marry Vasilisa, but she gets kidnapped and taken
-    to present-day Moscow, forcing Ivan and his friends to try to rescue her.
-  - "A young Madeleine Swann witnesses the murder of her mother by Lyutsifer Safin,\
-    \ whose family was assassinated by Swann's father  under orders from Ernst Stavro\
-    \ Blofeld. Swann shoots Safin and flees, falling into a frozen lake, but Safin\
-    \ rescues her.\n\nIn the present, after Blofeld's arrest, Swann travels to Matera\
-    \ with . She asks Bond to visit the nearby grave of his ex-lover Vesper Lynd,\
-    \ where he survives an explosion orchestrated by  operatives led by Primo, a mercenary\
-    \ with a . Bond escapes with Swann but ends their relationship, believing that\
-    \ she betrayed him.\n\nFive years later, Spectre agents extract MI6 scientist\
-    \ Valdo Obruchev, who is secretly working for Safin, from a laboratory in London\
-    \ and steal Project Heracles, a programmable DNA-targeting  weapon developed under\
-    \ 's oversight. Retired and living in Jamaica, Bond is contacted by  ally Felix\
-    \ Leiter and  agent Logan Ash, who ask for Bond's help extracting Obruchev from\
-    \ a Spectre party in Cuba. Bond declines but later accepts after Nomi, his successor\
-    \ as Agent 007, warns him not to interfere with her own extraction of Obruchev\
-    \ and puts him in contact with M, who refuses to answer his questions about Heracles.\n\
-    \nBond infiltrates the party with Paloma, a Cuban agent assisting Leiter. Blofeld,\
-    \ overseeing the gathering from  through Primo's bionic eye, disperses a nanobot\
-    \ mist to kill Bond. However, Obruchev reprogrammed the nanobots under Safin's\
-    \ orders to kill the Spectre members instead. Outmaneuvering Nomi with Paloma's\
-    \ help, Bond brings Obruchev to Ash and Leiter aboard a . Ash, also working for\
-    \ Safin, shoots Leiter and traps him with Bond below deck, fleeing with Obruchev\
-    \ after blowing up the ship. Leiter dies of his wounds, but Bond escapes.\n\n\
-    Bond returns to London seeking to interrogate Blofeld about Obruchev's employer,\
-    \ but Blofeld reportedly only speaks to his psychiatrist, Swann. Safin coerces\
-    \ Swann into infecting herself with a nanobot dose to assassinate Blofeld. Meeting\
-    \ Swann in Belmarsh, Bond unknowingly infects himself with Swann's nanobots. Swann\
-    \ is too scared to confront Blofeld, who confesses to Bond that he planned the\
-    \ explosion at Vesper's grave to make Bond believe that Swann betrayed him. Enraged,\
-    \ Bond briefly strangles Blofeld, unknowingly allowing the nanobots to enter his\
-    \ system and kill him.\n\nBond tracks Swann to her childhood home in Norway, where\
-    \ they reconcile, and he meets her five-year-old daughter Mathilde. Swann insists\
-    \ she is not his child and shares intelligence her father gathered about Safin\
-    \ and the island his family owned. The following day, MI6 alert Bond that Ash\
-    \ is approaching, leading to Ash and several armed thugs ambushing Bond, Mathilde\
-    \ and Swann chasing them into a nearby forest. Bond orders Swann and Mathilde\
-    \ to hide in the forest while he confronts Ash and his forces, defeating Ash's\
-    \ men before killing Ash, avenging Leiter's death. While Bond is fighting Ash,\
-    \ Safin absconds with Swann and Mathilde.\n\n provides Bond and Nomi with a submersible\
-    \  to infiltrate Safin's headquarters, a missile base in the Sea of Japan converted\
-    \ into a nanobot factory. Bond and Nomi plan to rescue Swann and Mathilde before\
-    \ ordering a missile strike on the facility. Bond confronts Safin, who flees with\
-    \ Mathilde but later releases her, while Swann escapes and reunites with Bond\
-    \ and Mathilde. Nomi kills Obruchev by kicking him into a pool of acid, then escorts\
-    \ Swann and Mathilde off the island. Bond kills Safin's remaining men, including\
-    \ Primo, then stays to open the silo doors for missiles launched from  to penetrate.\
-    \ Bond rushes back to the control room when the silo doors begin closing, but\
-    \ is ambushed by Safin, who infects him with a nanobot vial programmed to kill\
-    \ Swann and Mathilde. Bond shoots Safin dead and reopens the silo doors, but he\
-    \ chooses to remain on the island to keep Swann and Mathilde safe. He radios Swann\
-    \ to say goodbye, expressing his love for her and Mathilde, who she confirms is\
-    \ his daughter. The missiles strike the island and destroy the facility, killing\
-    \ Bond. \n\nLater, at MI6, M, , Nomi, Q, and Bill Tanner drink to Bond's memory.\
-    \ Driving Mathilde to Matera, Swann tells her a story about a man named Bond;\
-    \ James Bond."
-  - A brilliant professor of Russian origin, sickly jealous, is convinced that his
-    wife is cheating on him. He hires a female private detective to follow her. Soon
-    after, the detective develops a strong attraction to her target.
+  Answer_without_context: I don't know the answer to that question.
+  Answer_with_context: ERROR!
+  Context: null
 - Question: Which 2021 action thriller features Bob Odenkirk as a mild-mannered family
     man who unleashes his lethal skills to protect his family?
   Answer: Nobody
@@ -204,67 +412,60 @@
   Answer_with_context: The 2021 action thriller that features Bob Odenkirk as a mild-mannered
     family man who unleashes his lethal skills to protect his family is "Nobody."
   Context:
-  - After being forced to drive a mysterious passenger at gunpoint, a man finds himself
-    in a high-stakes game of cat and mouse where it becomes clear that not everything
-    is as it seems.
-  - A young man lives up to his parents' legacy to witness and chase storms with his
-    friends and family out to save him.
-  - A neurosurgeon who is stuck in a time loop tries to save his estranged wife from
-    being killed by a mystery man.
-  - Husband Lars and wife Lisa are fed up with each other and plan on murdering each
-    other during their trip to their . However, their plans go awry when three fugitives
-    take them captive.
+  - A coming of age psychological thriller that plays out the unsettling reality of
+    a kid (Charlie Shotwell) who holds his family captive in a hole in the ground.
+  - The story of the film revolves around a divorced father, who raised his son single-handedly.
+    He starts to face problems when he starts dating. The situation gives arise to
+    romance and comedy.
+  - When a man's daughter goes missing after a private video of her is leaked, he
+    teams up with an upright cop to find her and bring the perpetrators to justice.
+  - The film tells about a man's journey to his stern dad, who raised him the way
+    it was customary in the .
 - Question: In the movie "A Quiet Place Part II," what is the name of the Abbott family's
     newborn baby?
   Answer: Marcus
   Answer_without_context: I'm sorry, but I don't have that information.
-  Answer_with_context: I don't know the answer.
-  Context:
-  - A brother and sister discover a presence in their home while their parents are
-    in the hospital suffering a mystery illness that seems to only affect adults.
-    The siblings team up to discover what the presence is and how to escape it.
-  - The story of the film revolves around a Bengali couple, settled in Milan. Their
-    newborn son Bony has some special powers. An America-born Bangladeshi on the run
-    scientist, framed by the government with suspected links to terrorism, is looking
-    for the couple and their newborn. He thinks they have answers to his questions.
-  - The film follows children born to  during the September 11 attacks.
-  - The film revolves around a young married couple, Nazo and Shani, who are unable
-    to have a child for years.
+  Answer_with_context: The name of the Abbott family's newborn baby in "A Quiet Place
+    Part II" is not mentioned or revealed in the movie.
+  Context: null
 - Question: Which 2021 animated film tells the story of a young girl who discovers
     a fantastical amusement park hidden in the woods?
   Answer: Raya and the Last Dragon
-  Answer_without_context: I don't know the answer to that question.
-  Answer_with_context: The 2021 animated film that tells the story of a young girl
-    who discovers a fantastical amusement park hidden in the woods is not provided
-    in the given context.
+  Answer_without_context: None of the provided pieces of context describe a 2021 animated
+    film about a young girl discovering a fantastical amusement park hidden in the
+    woods. Therefore, I don't know the answer to your question.
+  Answer_with_context: I don't know.
   Context:
-  - The film revolves around Visal, a young man who wants to find out regarding the
-    secret behind a mysterious girl who continues to gain him in his dreams during
-    night when sleeping.
-  - The film's theme revolves around a shy but skilled storyteller who has a talent
-    for storytelling, but his best friend tries to take credit for his tales and win
-    the heart of the woman they both love.
-  - A young boy finds a tiger caged in the woods near where he lives. Together, they
-    plan to head toward its home-to-be.
-  - 'Tarsilinha, an 8-year-old girl, embarks on a fantastic journey to recover her
-    mother''s memory. To achieve this, she needs to find very important and special
-    objects: the souvenirs that were stolen. During this walk, Tarsilinha will see
-    many amazing things and build friendships, but she will also have to face her
-    fears, overcome obstacles and return home safely with all her memories recovered.'
+  - A young boy faces his deepest fears as he and his friend sneak into the scariest
+    slide of the water park.
+  - A young mother, a father, a child and their maid are going to Polonnaruwa for
+    a picnic. On the way, their vehicle veers off the road and overturns into a jungle.
+    The father, mother and maid are killed by wild animals, but the boy escapes and
+    grows up with the animals.
+  - A coming of age psychological thriller that plays out the unsettling reality of
+    a kid (Charlie Shotwell) who holds his family captive in a hole in the ground.
+  - Izzy and her mother live a simple, peaceful existence in the woods, spending most
+    their time creating metal music. After a chance meeting with a mysterious fellow
+    teenager, Izzy begins to uncover the dark history of her family and their connections
+    with witchcraft. Her relationship with her mother becomes increasingly strained
+    as she deals with the darker revelations about her own budding interest in magic.
 - Question: In the 2021 movie "The Suicide Squad," who directs the group of supervillains
     on their dangerous mission?
   Answer: Amanda Waller
   Answer_without_context: In the 2021 movie "The Suicide Squad," the group of supervillains
     is directed by Amanda Waller.
-  Answer_with_context: James Gunn.
+  Answer_with_context: Amanda Waller directs the group of supervillains on their dangerous
+    mission.
   Context:
-  - A crew follows a cult film director, making a documentary as he makes his last
-    film.
-  - The film centers on  directors Aphton Corbin and Louis Gonzales as they work to
-    bring their projects  and  to the screen.
   - The film's segments are presented as a series of cassettes found by the SWAT team
     members in the frame narrative ("Holy Hell") as they advance through an abandoned
     warehouse containing remnants of a ritualistic cult mass suicide.
+  - Film follows a group into Syria's Al-Hawl, the most dangerous camp in the Middle
+    East, as they risk their lives to save women being held by ISIS as abducted sex
+    slaves.
+  - A young woman (Marina) moves to a remote centre run by a clandestine company set
+    to commit suicide. There she meets another three people with different backgrounds
+    (Lidia, Félix, and Victor).
   - When a shadowy figure instructs two different men to take out the same woman,
     they both end up at her home at the same time and must fight each other through
     absurd situations to be the one to complete the assignment.
@@ -274,16 +475,10 @@
   Answer_without_context: None of the provided pieces of context describe a 2021 science
     fiction film featuring a group of space explorers traveling through a wormhole
     in search of a new habitable planet.
-  Answer_with_context: Interstellar
+  Answer_with_context: The 2021 science fiction film that features a group of space
+    explorers who travel through a wormhole in search of a new habitable planet is
+    "The Alliance."
   Context:
-  - The story is set in a distant future world where humans have received longevity
-    but lost their fertility, and are nearly extinct by population decline. The protagonist,
-    a cyborg explorer, enters an underground world where artificially created species
-    live. His mission is intended to research for their secrets of reproductivity.
-    As the story goes on, it becomes gradually clear that the underground world is
-    a kind of dystopia where dangerous monsters roam or ambush, and that the artificially
-    created intelligent species developed a unique society. The story ends in an unexpected
-    manner. Director Hori noted the film was the first part of a trilogy.
   - 'After a global catastrophe nearly wipes out humanity on Earth, Earth''s elites
     fled to a  space colony. A young astronaut named Blake from the Kepler colony
     returns to Earth with fellow astronauts Tucker and Holden. Their mission is to
@@ -328,6 +523,54 @@
     scene shows the Mud children hidden from the prior Kepler raiders fearfully watching
     an approach of figures through the fog, which turn out to be their kidnapped parents
     returning safely home.'
+  - 'In 2063, astrophysicists on a climate-change-ravaged Earth find a habitable planet.
+    A scouting mission is sent, although the roughly 86-year flight means that the
+    grandchildren of the launch crew astronauts will be the ones who reach the planet.
+    To help the launch crew cope with the knowledge that their remaining lives will
+    be spent mostly in flight, the original 30 are bred through  and kept in isolation
+    from the rest of the world. To extend their time in flight, they are launched
+    on the  spaceship as pre-teens, with a single adult, senior program commander
+    Richard, to guide them through the early part of the journey. The plan is for
+    IVF to be performed when the crew turns 24, to be repeated on those offspring
+    when they turn 24.
+
+
+    During the tenth year of the flight, Christopher and Zac discover  the grown teenagers
+    are being given a chemical in their food to suppress sex drive and pleasure response,
+    keeping them docile and manageable. The pair stops taking the chemical, and their
+    surging hormones drive them to become competitive, careless, and anxious to engage
+    in sexual relations, particularly with crew mate Sela who has trained as chief
+    medical officer.
+
+
+    During a repair effort outside the  to address a failed Earth communication system,
+    chief officer Richard is killed and a fire damages more ship systems. Christopher
+    is voted the new chief officer, which upsets Zac, who then tells the others to
+    stop ingesting the chemical. The mission descends into madness as many of the
+    young men and women revert to their most primal state.
+
+
+    Zac tells the others an alien killed Richard, and he will protect them, letting
+    them eat all the (closely conserved) food they want. He convinces all but five
+    to follow him rather than Christopher. Christopher and Sela, who have become a
+    couple, find and repair a video disk that reveals Zac killed Richard and precipitated
+    the further systems damage by turning on the electricity to the communications
+    array while Richard was working on it. They show the others, but Zac convinces
+    many that an alien is inhabiting one of them, and his followers murder anyone
+    Zac targets.
+
+
+    Christopher inadvertently leads Zac to a weapons cache for their grandchildren
+    to use on the planet. Christopher, Sela, and Phoebe are the only holdouts. Phoebe
+    is killed as the pack searches for Christopher and Sela. The pair tricks Zac into
+    being ejected into space, and peace returns to . Sela is voted chief officer.
+    The crew permanently forgoes the suppression chemical and learn to manage their
+    emotions. They fall in love and have children naturally rather than via the planned
+    IVF.
+
+
+    Decades later,  and its multi-generational crew arrive at the planet, which appears
+    from orbit to be as earth-like as hoped.'
   - 'The short film opens up with an unnamed astronaut planting a garden in his spaceship
     but doesn''t realize that a meteor is on its way to crashing into the spaceship.
     As a result, his spaceship is destroyed, and he is left alone on a small deserted
@@ -359,29 +602,119 @@
     alien dog, the astronaut witnesses another spaceship crash into the planet. Curious
     though, he and his daughters go to check out only to discover something that made
     him blush.'
-  - In the not-too-distant future, mankind has made huge advances in its explorations
-    of the cosmos, establishing scientific stations on many planets. An international
-    project known as Gemini has resulted in the development of a unique planet terraforming
-    unit. But once the unit is launched, instead of traveling through space, the ship
-    is pulled four billion years into the past to ancient Earth. The team is able
-    to continue the paradox and save Earth’s ecosystem from destruction.
+  - 'In the year 2031, humanity establishes its first  on Mars. By 2042, "the Alliance"
+    world government has been formed and quantum propulsion technology allows humanity
+    to travel beyond the solar system. The Mars colony fails in 2281 and the Alliance
+    controls three colonies: Earth, Zafdie, and Ellora. In 2519, Zafdie attempts to
+    secede from the Alliance. During the ensuing war,  James Ford drops a quantum
+    bomb ("Q-bomb") on the rebel colony, killing 70 million people. Ford is subsequently
+    dishonorably discharged from the Alliance military and gains the sobriquet of
+    "the Blood General." His wife, Doctor Lea Goss, leaves him.
+
+
+    In 2524, miners of the Vander Mining Corp stationed on planet 4217LYA (Heracles
+    System) encounter unseen aliens and Captain Juda Sayle reports an "" to Alliance
+    Command. On Earth, General Eron Ryle is notified of the incident and orders that
+    Goss and Ford be brought to him.
+
+
+    At a local bar, Dash meets with Ford to discuss a potential job. A fight between
+    them and civilians is interrupted by Commander Marcus Bleck, who passes on Ryle''s
+    request for Ford''s counsel. Ford refuses but subsequently agrees upon the promise
+    of him being reinstated and his military pension restored. At McMillian Airfield
+    military base, Ford and Dash meet with Goss and Ryle for a situation briefing.
+    Survivors of the FC incident are brought to the base for quarantine and questioning
+    but quickly turn hostile and begin killing base personnel. The survivors appear
+    to be infected, do not respond to attempts at communication, appear unfamiliar
+    with human technology (though they quickly learn how to operate ), and "infect"
+    several base personnel, who then themselves turn hostile. The infected humans
+    attempt to board a transport ship but are stopped and eliminated by Ryle, Ford,
+    Dash, and several other soldiers.
+
+
+    While the Alliance Senate debates, Ryle authorizes Operation Comic Sin – with
+    a strike team consisting of himself, Ford, Dash, Goss, Bleck,  Braxton (Ryle''s
+    nephew), and technician Corporal Ardene (who is qualified to operate and arm a
+    Q-bomb) – to launch a retaliatory and decisive counterstrike against the aliens.
+    Ardene reports that a tachyon pulse was released by one of the infected miners
+    during the base attack, which will allow the aliens to know Earth''s location
+    in six or seven hours. The team is outfitted with small arms,  designed for combat
+    and space environments, and a Q-bomb. The team plans to travel to the Ellora colony
+    via , where Alliance forces have shot down an alien ship. The team intends to
+    recover the downed ship and analyze the cosmic radiation to locate the alien''s
+    home plant, then destroy it with the Q-bomb.
+
+
+    The team arrives at incorrect coordinates in orbit of planet Ellora, in the middle
+    of a battle between Alliance and alien spacefleets, and is forced to conduct an  through
+    the space debris. Ryle, Goss, Ford, and Dash go missing during the drop, and the
+    remainder of the team comes under enemy fire almost immediately after landing,
+    with Bleck being critically wounded. Elloran survivors rescue the team and, after
+    verifying the team is free of alien infection (infected persons cannot talk),
+    the survivors reveal the aliens have invaded the planet and the area is swarming
+    with alien troops and infected humans. The survivors offer to treat Bleck at their
+    outpost''s medbay, and Ardene goes with them. Meanwhile, Braxton, accompanied
+    by sniper Sol Cantos, proceeds to the downed alien ship. While analyzing the ship''s
+    radiation, Braxton''s Icarus suit reports Ford as alive. He and Sol Cantos recover
+    Ford, who experiences several visions of the aliens and Goss while , and the three
+    reach the Alliance outpost. At the outpost, Ardene views video log recordings
+    that reveal the aliens are a  that  by infecting victims, who then fall under
+    the control of the hive mind.
+
+
+    Braxton gives the coordinates of the alien''s home planet to Ardene, who reports
+    the tachyon interference generated by the aliens means they cannot travel to the
+    coordinates without first getting into orbit. Meanwhile, Ford consoles then  the
+    mortally wounded Bleck. Dash is revealed to have survived and made his way to
+    the outpost.
+
+
+    Ardene discovers the aliens have built a stabilized quantum space gate near Ellora
+    that will allow the alien armada, currently in the Sigea galaxy, to invade the
+    Milky Way in force. The survivors plan to collapse the gateway with the Q-bomb
+    by firing it via the outpost''s orbital cannon. While prepping the orbital cannon,
+    Ardene receives a signal from Ryle, who has survived in orbit, albeit with his
+    Icarus suit damaged and unfit for . He volunteers to position himself on the gateway
+    and trigger his suit''s self-destruct to close the gate after the Q-bomb passes
+    through.
+
+
+    The aliens converge on the outpost and speak through an infected Goss, mocking
+    Ford, preaching the superiority of "the Sigea", and offering the chance for humankind''s
+    assimilation or death. After Dash replies with a simple "no," the Sigea begin
+    their attack while Goss boards a Sigea ship. Ford latches onto the ship and later
+    confronts the infected Goss as she prepares to cross via the completed space gate.
+    With the orbital gun charged, Ardene loads the Q-bomb into a missile and fires
+    it at the gate. Goss intercepts the Q-bomb missile in a , blows Ford into space,
+    and crosses to join the assembled Sigea fleet.
+
+
+    Ryle positions himself on the space gate and, unable to trigger his suit''s self-destruct,
+    instead provides a target reference for the orbital gun. Ardene, with Braxton''s
+    reluctant blessing, fires the gun on Ryle''s position, killing him and destroying
+    the gate. The stasis field containing the Q-bomb missile fails and the bomb detonates
+    on the other side of the collapsing gateway, the resulting black hole destroying
+    the Sigea''s fleet and home star system. Braxton, stricken with grief over his
+    uncle''s death, kills the Sigea''s field commander on Ellora.
+
+
+    Back on Earth, seven days after first contact, Braxton, Ardene, Sol Cantos, Dash,
+    and Ford morosely celebrate in a bar as the Alliance Senate proudly declares the
+    remaining Sigea have unconditionally surrendered. Ford takes a , sadly reminisces
+    about Goss, then abruptly leaves the bar.'
 - Question: In the film "Jungle Cruise," what mythical object are the main characters
     searching for in the Amazon rainforest?
   Answer: The Tears of the Moon
-  Answer_without_context: I'm sorry, but I don't have any information about the film
-    "Jungle Cruise" and the mythical object the main characters are searching for
-    in the Amazon rainforest.
+  Answer_without_context: In the film "Jungle Cruise," the main characters are searching
+    for the mythical object called the Tears of the Moon.
   Answer_with_context: I don't know.
   Context:
-  - The film tells about a sea captain who, ten years after his disappearance, returned
-    home in the form of an African leader and now he walks around the city with a
-    spear, not recognizing the rules of modern society.
+  - A young man embarks on a transatlantic journey as a passenger on a cargo ship
+    and discovers deep feelings of solitude, fantasy and obsession.
   - A young boy finds a tiger caged in the woods near where he lives. Together, they
     plan to head toward its home-to-be.
-  - A young mother, a father, a child and their maid are going to Polonnaruwa for
-    a picnic. On the way, their vehicle veers off the road and overturns into a jungle.
-    The father, mother and maid are killed by wild animals, but the boy escapes and
-    grows up with the animals.
+  - A high school senior is separated from her class trip and is taken through the
+    cities and woods of the United States.
   - 'A father and son are shipwrecked on a remote island where they are caught up
     in a trophy hunt held by its mysterious owner, a merciless man who uses the land
     as an elite hunting preserve for stalking the most dangerous game of all: human.'
@@ -389,103 +722,28 @@
     Mint of Spain?
   Answer: '"Money Heist: The Phenomenon" (also known as "La Casa de Papel: El Fenómeno")'
   Answer_without_context: The movie you are referring to is "The Vault" (2021).
-  Answer_with_context: The 2021 movie in which a group of criminals attempt a heist
-    at the Royal Mint of Spain is "La Casa de Papel" (Money Heist).
+  Answer_with_context: I don't know.
   Context:
-  - Taking place from 1976 to 1978, during the so-called , the plot is inspired by
-    the real attempted prison break from the Barcelona's Cárcel Modelo attempted by
-    45 inmates in 1978, after a rebellion led by the  (). The fiction follows two
-    of the prisoners, José Pino and Manuel, an aged inmate who has passed through
-    several prisons and a young accounting assistant who has just entered the prison,
-    respectively.
-  - Taking place from the 1940s to the 1980s and primarily set in France, the plot
-    is freely inspired by the life of Paris-based Spanish anarchist, bricklayer, and
-    bank robber Lucio Urtubia, known for forging a large-scale scam aimed at the .
-  - The film will tell about two old friends who find themselves at the bottom of
-    life and they decide to fulfill their dreams. For this, they need to steal a Fabergé
-    egg from the museum. But things didn't go the way we'd like.
-  - Set in the Summer of 2010, against the backdrop of the attention paid in Spain
-    to the 2010 FIFA World Cup, the plot follows the plight of police inspector María
-    Ruiz upon facing a difficult murder case, for which she will be assisted by veteran
-    journalist Luna.
+  - It is set in 1982. A police officer from Madrid moves to the coast. He gets involved
+    in an investigation that takes him to a community of nazis enjoying their retirement
+    in the Costa Blanca.
+  - The film is set in the Costa del Sol, featuring real-estate corruption as a backdrop.
+    The plot follows Tano, the henchman of Manuel, a real-estate businessman who has
+    got too old. The ways of Ángel, Manuel's son and heir-apparent, complicate things.
+  - The series is about three friends who are in search of a better life but due to
+    the challenges they faced the made bad decision and resulted to criminal acts.
+  - The film tracks a group high schoolers in Madrid, following them from mid-teens
+    to their early 20s.
 - Question: Which 2021 superhero film follows the story of Shang-Chi, a skilled martial
     artist who confronts his past and is drawn into the Ten Rings organization?
   Answer: Shang-Chi and the Legend of the Ten Rings
   Answer_without_context: The 2021 superhero film that follows the story of Shang-Chi,
     a skilled martial artist who confronts his past and is drawn into the Ten Rings
     organization, is "Shang-Chi and the Legend of the Ten Rings."
-  Answer_with_context: The 2021 superhero film that follows the story of Shang-Chi
-    is "Shang-Chi and the Legend of the Ten Rings."
-  Context:
-  - 'Around a thousand years ago, Xu Wenwu discovers the mystical  which grant godly
-    powers including immortality. He establishes the  organization, conquering kingdoms
-    and toppling governments throughout history. In 1996, Wenwu searches for Ta Lo,
-    a village said to harbor mythical beasts. He travels through a magical forest
-    to the village entrance but is stopped by a guardian, . The two soon fall in love
-    but the Ta Lo villagers reject Wenwu, so Li chooses to leave with him. They marry
-    and have two children,  and Xialing. Wenwu abandons his organization and locks
-    away the ten rings.
-
-
-    When Shang-Chi is seven years old, Li is murdered by the Iron Gang. Wenwu dons
-    the rings once again, massacres the Iron Gang, and resumes leadership of his organization.
-    He makes Shang-Chi undergo brutal training in martial arts but does not allow
-    Xialing to train, prompting her to secretly teach herself. When Shang-Chi is 14,
-    Wenwu sends him to assassinate the Iron Gang''s leader. After completing his mission,
-    a traumatized Shang-Chi runs away to San Francisco and adopts the name "Shaun".
-
-
-    In the present day, Shang-Chi works as a parking valet with his best friend .
-    They are attacked on a bus by the Ten Rings organization who steal a pendant that
-    Li gave to Shang-Chi. Shang-Chi travels to Macau to find Xialing, fearing that
-    the Ten Rings will go after her matching pendant. He reveals his past to Katy
-    who insists on helping him. They find Xialing at a secret fight club, which she
-    founded after escaping from Wenwu at 16. The Ten Rings attack the fight club and
-    Wenwu arrives to capture Shang-Chi, Katy, Xialing, and her pendant.
-
-
-    At the Ten Rings'' compound, Wenwu uses the pendants to reveal a mystical map
-    leading to Ta Lo. Wenwu explains that he has heard Li calling and believes she
-    has been held captive in Ta Lo behind a sealed gate. He plans to destroy the village
-    unless they release her. When his children and Katy object, he imprisons them.
-    They meet former actor Trevor Slattery, whom the Ten Rings imprisoned for impersonating
-    Wenwu, and his hundun companion . They escape and Morris guides them to Ta Lo,
-    which exists in a separate dimension with various Chinese mythological creatures.
-
-
-    The group meet Li''s sister Ying Nan who explains the history of Ta Lo: thousands
-    of years ago, the village''s universe was attacked by the soul-consuming  and
-    its soul eaters, but was saved by a Chinese dragon called the Great Protector
-    who helped seal the Dark Gate to the Dweller''s world. According to Nan, the Dweller-in-Darkness
-    has been impersonating Li so Wenwu will use the ten rings to open the Gate. Shang-Chi,
-    Xialing, Katy, Slattery, and Morris join the villagers in training and preparing
-    for Wenwu''s arrival, using outfits and weapons crafted from dragon scales that
-    are effective against the soul eaters.
-
-
-    Wenwu and the Ten Rings arrive and attack. Wenwu overpowers Shang-Chi, pushes
-    him into the nearby lake, and attacks the Gate with the rings. This allows some
-    of the Dweller''s soul eaters to escape, and the Ten Rings join forces with the
-    villagers to fight them. The Great Protector revives Shang-Chi and bears him from
-    the lake to battle the soul eaters. Wenwu and Shang-Chi fight once more, and Shang-Chi
-    gains the upper hand but chooses to spare Wenwu. The Dweller-in-Darkness escapes
-    from the weakened Gate and attacks Shang-Chi. Wenwu saves Shang-Chi, bequeathing
-    him the rings before the Dweller-in-Darkness kills him. Shang-Chi, the Great Protector,
-    Xialing, and Katy slay the Dweller-in-Darkness. Afterward, Shang-Chi and Katy
-    return to San Francisco, where the sorcerer  summons them to .
-
-
-    In a mid-credits scene, Wong introduces Shang-Chi and Katy to  and  while researching
-    the rings'' origin. They discover that the rings are acting as a beacon to something.
-    In a post-credits scene, Xialing becomes the new leader of the Ten Rings, training
-    women alongside men, despite having told Shang-Chi that she would disband the
-    organization.'
-  - A group of martial artists from all over the world search for a book that contains
-    the ancient secrets of how to overcome the limits of the human body.
-  - Set in a fictional Nairobi, a group of African superheroes join forces in an attempt
-    to defeat an ancient wizard who threatens to destroy the earth with a powerful
-    and mysterious artifact.
-  - Set in , the plot follows the adventures of  Ping with  Long Danzi.
+  Answer_with_context: The 2021 superhero film that follows the story of Shang-Chi,
+    a skilled martial artist who confronts his past and is drawn into the Ten Rings
+    organization is "Shang-Chi and the Legend of the Ten Rings."
+  Context: null
 - Question: Which 2021 sci-fi thriller film centers around a family's struggle to
     survive in a post-apocalyptic world where blind creatures with hypersensitive
     hearing hunt by sound?
@@ -493,14 +751,11 @@
   Answer_without_context: The film you are referring to is "A Quiet Place Part II."
   Answer_with_context: A Quiet Place Part II.
   Context:
-  - '"Set in the not-too-distant future, this intense sci-fi thriller explores the
-    repercussions that humanity faces when omniscient technology becomes a substitute
-    for human contact. But life begins to unravel when a meteor shower and a global
-    storm causes electronics to go haywire, leading to terrifying, deadly consequences."'
-  - A coming of age psychological thriller that plays out the unsettling reality of
-    a kid (Charlie Shotwell) who holds his family captive in a hole in the ground.
-  - When a Royal Air Force pilot is shot down over Afghanistan, she finds refuge in
-    an underground bunker where deadly half human, half alien creatures are awakened.
+  - During the COVID-19 pandemic, a mother and her teenage daughter's relationship
+    becomes strained while they quarantine in their apartment. A mother has been hearing
+    sounds of waterfalls since then.
+  - The story starts with a hunter out on his way to shoot down a boar when the title
+    is shown written with a sound of a freaky car accident.
   - The story is set in a distant future world where humans have received longevity
     but lost their fertility, and are nearly extinct by population decline. The protagonist,
     a cyborg explorer, enters an underground world where artificially created species
@@ -509,6 +764,8 @@
     a kind of dystopia where dangerous monsters roam or ambush, and that the artificially
     created intelligent species developed a unique society. The story ends in an unexpected
     manner. Director Hori noted the film was the first part of a trilogy.
+  - In the aftermath of the devastating 2013 Typhoon Haiyan, a mother and son struggle
+    for survival while searching for their loved ones.
 - Question: In which 2021 movie does a young boy named Luca experience an unforgettable
     summer filled with gelato, pasta, and scooter rides on the Italian Riviera?
   Answer: Luca
@@ -571,164 +828,264 @@
     Alberto see Luca and Giulia off at the train station, where they all promise to
     stay in touch. During the credits, Luca meets Giulia''s mother and attends school
     with Giulia, whereas Massimo adopts Alberto as his son.'
-  - The film follows Lina, a 17 year old American who travels to Rome to stay with
-    two family friends before starting college, according to her deceased mother's
-    wishes. While there, she meets and develops feelings for two boys, Lorenzo and
-    Alessandro. Lina reads her mother's diary of visiting Italy at the same age and
-    searches for her Italian father, whom she has not met.
-  - Young Italian-American, Giovanni "Gio", reluctantly continues his family's annual
-    tradition of bringing a cake to the house of his Uncle Angelo, a local crime lord,
-    to mark the anniversary of his mob-connected father's passing ten years earlier.
-    It is not long before he witnesses a murder along the way, that will force him
-    to learn the truth behind his father's death and change his life forever.
-  - An unexpected life event forces a young man to reconsider the past and his opinions
-    about his father, who was an ice-cream seller.
+  - In the 1980s, young Fabietto lives at home in Naples with his father Saverio Schisa
+    and mother Maria Schisa. He doesn’t have many friends nor a lover and wants to
+    study philosophy in college. For the time being, he's mainly listening to music
+    and watching Diego Maradona play for his home team, . His brother Marchino takes
+    him to acting auditions and sympathizes with his affection for their emotionally
+    troubled aunt Patrizia. Fabietto’s parents are building a new home in Roccaraso.
+    They visit the home without Fabietto who decides to stay while they go along.
+    His parents die of carbon monoxide coming from the fireplace in the new home.
+    Due to this, Fabietto comes of age in a cruel and brutal manner.
+  - 'After receiving a letter from Luca, who is away at school in Genoa, Alberto writes
+    back about his life in Portorosso and working at the town fishery with Massimo
+    Marcovaldo. Alberto has been fully accepted by the townspeople and no longer hides
+    his identity as a sea monster. However, despite Alberto''s enthusiasm for his
+    job, his relationship with Massimo is terse, as the elder fisherman barely speaks
+    to him except to warn him against using their fishing boat without supervision.
+    It becomes apparent that Alberto is desperate for Massimo''s approval, and he
+    worries constantly about being "fired" for his mistakes.
+
+
+    Alberto tries to make his fish deliveries more expedient but keeps tossing the
+    wrong fish to the wrong people. He attempts to cook lunch for Massimo but makes
+    a mess of the kitchen. While Massimo converses with a customer, Alberto tries
+    to lift a whole barrel of fish, only to buckle under the weight. Massimo lunges
+    to save him but falls into the water with the barrel, losing their day''s catch.
+    That night, Alberto sneaks out of the house and takes the fishing boat to catch
+    more fish, hoping to make up for the loss. He is startled by Machiavelli the cat,
+    who stowed away on the boat, causing him to drop his lantern and accidentally
+    set the boat on fire. They manage to escape just as Massimo races down to see
+    the damage. Alberto sheepishly tries to explain himself, but Massimo only narrows
+    his eyes and silently stares at the boat.
+
+
+    Heartbroken by his inability to impress Massimo, Alberto packs his belongings
+    and leaves. Massimo rushes after him, imploring him to reconsider. Alberto lambastes
+    himself for his failures and questions why Massimo even bothered to come after
+    him. As Massimo reaches out for him, Alberto blurts, "Just let me go, Dad!", shocking
+    them both. Massimo reveals that he once made his own father angry enough to punch
+    through a brick wall, but afterwards they made up by fixing it together. He and
+    Alberto then share a hug, embracing their roles as surrogate father and son.
+
+
+    The next day, Massimo and Alberto work side-by-side to fix the fishing boat, sharing
+    stories and finally communicating with each other more openly.'
+  - 'Antonio''s life finds an unexpected twist when he''s suddenly dumped by his husband,
+    on whom he depends both psychologically and economically. With the support of
+    his best friend, Cristina, Antonio needs to find a new place to stay, a job and
+    a new purpose in life.
+
+
+    He finds a room in an apartment owned by Denis, who''s basically his complete
+    opposite and lives a carefree – yet ultimately lonely – life, and he starts to
+    work in a bakery owned by the mysterious and fascinating Luca, a friend of Denis’.
+    Antonio, who''s always been interested in pastry-making, also starts to attend
+    a pastry school, where he finds a teacher who''s very strict with him and pushes
+    him to achieve the best results.
+
+
+    Thanks to Denis and Luca, Antonio discovers that being single can be nice as well
+    and that it was wrong of him to give up his independence and rely on his husband
+    for everything in life for the sake of their relationship. But when Antonio falls
+    in love for Thomas, a charming photographer from Milan, it seems like he''s about
+    to repeat the same mistakes he made in the past.'
 - Question: Which 2021 musical film, directed by Lin-Manuel Miranda, explores the
     vibrant neighborhood of Washington Heights in New York City and follows the dreams
     and struggles of its residents?
   Answer: In the Heights
   Answer_without_context: The 2021 musical film directed by Lin-Manuel Miranda that
     explores the vibrant neighborhood of Washington Heights in New York City and follows
-    the dreams and struggles of its residents is "In The Heights."
-  Answer_with_context: '"In the Heights"'
-  Context:
-  - Set in the Warsaw ghetto during World War II, the fiction focuses on a group of
-    Jewish thespians performing a musical stage play.
-  - "Usnavi de la Vega tells a group of children a story of . Ten years earlier, Usnavi\
-    \ is the owner of a  in the neighborhood. After chasing off street artist \"Graffiti\
-    \ Pete\", he introduces:  Claudia, the neighborhood matriarch who raised him;\
-    \ Kevin Rosario, who runs a taxi company; Benny, Kevin's employee and Usnavi’s\
-    \ best friend; the beauty salon ladies Daniela, Carla, and Cuca; Sonny, Usnavi’s\
-    \ teenage cousin; and Vanessa, Usnavi's love interest (\"In The Heights\").\n\n\
-    Alejandro, an attorney and family friend, informs Usnavi that his late father's\
-    \ business in the Dominican Republic, which he dreams of reviving, is for sale.\
-    \ Kevin's daughter Nina returns from Stanford University. After seeing Benny (\"\
-    Benny's Dispatch\"), she tells her father she cannot afford tuition, but he brushes\
-    \ her off, telling her not to worry (\"Breathe\").\n\nNina visits Daniela's salon,\
-    \ which is moving to the Bronx due to rising rents in Manhattan, where she reconnects\
-    \ with the ladies but reveals she has dropped out of Stanford (\"\"). Vanessa\
-    \ submits a rental application downtown, where she dreams of becoming a fashion\
-    \ designer, but is rejected (\"It Won't Be Long Now\"). She heads to the bodega,\
-    \ where Sonny asks her out for Usnavi.\n\nSonny learns a lottery ticket the bodega\
-    \ sold has won $96,000. At the public pool, everybody in the neighborhood fantasizes\
-    \ about what they would do with the money (\"96,000\"), while the local  laments\
-    \ losing business to a Mister Softee truck (\"\"). Reminiscing about their childhood,\
-    \ Benny reassures Nina she is destined for greatness (\"When You're Home\"). Usnavi\
-    \ talks to Sonny's father about letting Sonny come with him to the Dominican Republic,\
-    \ but Sonny's father implies he and Sonny are  and cannot leave.\n\nKevin reveals\
-    \ he has sold his business to pay for Nina's tuition, but she refuses the money,\
-    \ revealing the real reason she dropped out was the racism she experienced. Usnavi\
-    \ and Vanessa head to the  for their date, but he is too nervous to dance with\
-    \ her. After multiple men dance with Vanessa, Usnavi tries to make her jealous\
-    \ by dancing with another woman (\"The Club\"). The , and Sonny and Graffiti Pete\
-    \ illuminate the neighborhood with fireworks. Vanessa and Usnavi argue, and she\
-    \ rejects him (\"Blackout\").\n\n reminisces about her childhood in Cuba and coming\
-    \ to , enduring hardships to be where she is today (\"\"). She dies peacefully,\
-    \ and the neighborhood comes together to mourn (\"\"). At a protest for DACA,\
-    \ Sonny learns that he cannot go to college as an undocumented immigrant. Nina\
-    \ resolves to return to Stanford to find a pathway in life for undocumented children.\n\
-    \nFinding Vanessa's rental application in the trash, Usnavi asks Daniela to co-sign.\
-    \ Disappointed with the block's negativity over the power outage and 's death,\
-    \ Daniela rouses the neighborhood into a celebration (\"\"), as the power outage\
-    \ ends. Vanessa and Usnavi reconcile.\n\nA month later, Nina is returning to Stanford.\
-    \ Benny promises to join her in Palo Alto, and they kiss (\"When the Sun Goes\
-    \ Down\"). As Usnavi prepares to leave for the Dominican Republic, he discovers\
-    \ that  held the winning lottery ticket, and has left it to him. Vanessa arrives\
-    \ with champagne, having learned about Usnavi’s help with her new lease. She suggests\
-    \ Usnavi stay but he refuses, and she kisses him, lamenting that she was too late\
-    \ in realizing her feelings for him (\"Champagne\").\n\nUsnavi gives Alejandro\
-    \ the lottery ticket to use for Sonny's DACA fees. The next morning, Vanessa takes\
-    \ Usnavi to the bodega and shows him a fashion line she created the previous night\
-    \ inspired by Graffiti Pete's work. Seeing Pete's murals celebrating Abuela, Usnavi\
-    \ decides to stay. The story returns to the present day, revealing that Usnavi\
-    \ is telling his story in the remodeled bodega to his and Vanessa's daughter,\
-    \ Iris. Everyone sings and dances in the street, while Usnavi expresses his elation\
-    \ at being in Washington Heights, where he has always belonged (“Finale”)."
-  - Over the course of a little more than 60 minutes, with an ellipsis cutting the
-    film in Winter and Spring, the plot tracks the conversations of two couples of
-    friends past their thirties. It starts with the characters attending to a musical
-    piece by Chano Domínguez at Madrid's Café Central.
-  - A crime drama set in New York City's  neighborhood in Manhattan's  about Ukrainian
-    Jewish immigrants, revolving around a father's high hopes for his son and family.
+    the dreams and struggles of its residents is "In the Heights."
+  Answer_with_context: '"In the Heights" is the 2021 musical film directed by Lin-Manuel
+    Miranda that explores the vibrant neighborhood of Washington Heights in New York
+    City and follows the dreams and struggles of its residents.'
+  Context: null
 - Question: In which 2021 movie does an elite assassin played by Bob Odenkirk become
     the target of a vengeful drug lord after he saves a woman from a violent act?
   Answer: Nobody
   Answer_without_context: The movie you are referring to is "Nobody" (2021).
-  Answer_with_context: The movie is called "Nobody."
+  Answer_with_context: Nobody
   Context:
-  - The film tells the story of a young hitman who falls for a girl who witnesses
-    him commit a murder. Unable to bring himself to dispose of her, he takes her home
-    and quickly learns that there is more to her than meets the eye.
-  - A by-the-book detective investigates the death of her father and follows a clue
-    to a remote tropical island, only to find out his true identity as a leader of
-    a group of assassins. Now hunted by his enemies, she has to team up with the crooks
-    her father had trained––four retired, down-on-their-luck assassins itching to
-    get back in the game.
-  - When a retired Green beret soldier is murdered by an international drug gang in
-    London, four of his veteran  comrades set out to avenge him, dispensing their
-    own brand of justice on the streets of London.
-  - 'In New York, an assailant shoots and kills various people with a .
+  - Wanted criminal Ron Whitlock leads a team of mercenaries on a mission of vengeance.
+    Convinced that the local detectives are responsible for the death of one of his
+    sons and the wrongful imprisonment of the other one for a botched drug bust, the
+    merciless group brutally seizes a hydroelectric dam and holds everyone inside
+    hostage. With a nearby town on the brink of massive flooding and destruction,
+    it's up to a retired Army Green Beret Mack Karr to save thousands of innocent
+    lives before it's too late.
+  - 'After being hit by a vehicle while being chased during the events of Kahaani,
+    Bob Biswas has woken up from a coma after eight years and does not remember anything
+    even his wife Mary Biswas and children Mini Biswas & Benny Biswas.Two officers
+    from Kolkata Police, Jishu Narang and Kharaj Sahu are keeping an eye on Bob Biswas
+    because unknown to Bob and his family, Bob is actually an assassin.
 
 
-    One year later, retired United States special operative Nicolas Shaw lives a quiet
-    life in hiding. In flashbacks, Shaw partially remembers being tortured by an unknown
-    perpetrator who forced him to give out the names of his colleagues, who were shot
-    by the assailant, before being framed for the assassinations. After being confronted
-    by a member of the agency he was once a part of, Shaw meets with Elias Kane, his
-    former boss, who tells him that his daughter, Monica, has been kidnapped by a
-    perpetrator named Quinton.
+    After recruiting Bob to be an exclusive assassin to work for them, they give Bob
+    a  on which photos of Bob''s targets will be shared. Meanwhile, Mini is addicted
+    to a drug called Blue that is distributed by Bubai Da and his boss Ustaad.After
+    Jishu Narang and Kharaj Sahu send Bob''s first target photo, Bob visits a homeopathy
+    pharmacist Kali Da and receives a pistol disguised as . Bob then kills his first
+    target Bubai and two of his men. He then leaves for home and meets Mini on his
+    way, who bought Blue from Bubai, a fact unknown to Bob.Bob''s second target is
+    Ustaad''s investor Rahul who is an undercover police officer investigating Ustaad''s
+    illegal activities. Police officer Indira Verma starts investigating the murders
+    of Bubai and Rahul.
 
 
-    While investigating, Shaw manages to rescue Monica after escaping a shootout with
-    the guards. However, Shaw is soon held at gunpoint by Monica, who reveals she
-    and her father were trying to capture Shaw to retrieve encrypted information.
-    After taking away her firearm, Shaw takes Monica into a forest, where it is revealed
-    that she has been shot. At a house, Shaw tells Monica that Quinton was the unknown
-    perpetrator who made him give out the identities of his colleagues by drugging
-    him; Monica tells Shaw that, in fact, he gave out the names before he was tortured
-    and that the drug caused him to forget the events. Soon after, Monica escapes
-    and reunites with her father, where the pair learn Shaw erased the encrypted information.
+    After inquiring about Bob, Indira suspects the former and starts keeping an eye
+    on him. On other hand, Ustaad has his henchman Dhonu investigate the murders.
+    Dhonu is close to the Biswas family and is on friendly terms with Bob who visits
+    his noodle stand frequently.While visiting Mary''s first husband and Mini''s father
+    David''s grave, Bob remembers that he has hidden a diary containing names of targets
+    killed, who gave the target and money transactions. With that diary, he finds
+    an unknown key.Bob''s third target is Indira''s boss but Bob does not kill her
+    after meeting Indira who tells Bob that her boss is instrumental in fighting the
+    drug mafia.Jishu Narang and Kharaj Sahu pay a visit to Bob and enquires as to
+    why he did not kill his third target, to that Bob tells he will not continue on
+    the path and if they force him, he will go to Indira Verma with the diary. Jishu
+    Narang and Kharaj Sahu go to Boss who is a deputy of Indira''s boss.Bob visits
+    Kali Da to return Nux Vormica and enquire about the key to this Kali then takes
+    Bob to the trunk room deeper inside his shop and points out Bob his trunk. Inside
+    Bob finds a carrier bag full of cash and becomes happy that now Bob and his family
+    can leave happily in Kalimpong.
 
 
-    Back in the town where he was living in hiding, Shaw begins to decode a copy of
-    the information. Meanwhile, Kane begins to track Shaw by visiting the diner and
-    bookstore Shaw frequently visited, where he meets Janice, the waitress Shaw flirted
-    with, and shoots the bookstore owner who knows about Shaw''s true identity. After
-    decoding the information, Shaw learns it was Kane who tortured him, drugging him
-    to forget his memories but failing to retrieve Quinton''s information.
-
-
-    Kane takes Janice hostage and Monica is told by Shaw about her father''s true
-    intentions. Finding Janice in Kane''s car, Shaw begins to track down Kane. In
-    a shootout, the pair are led to a pier, where Monica arrives, having learned that
-    Kane was the one who caused the death of her lover Javier, and Shaw shoots and
-    kills Kane before Monica does.
-
-
-    Days later, at a school, Shaw meets with a teacher who was also one of his former
-    colleagues. As she reveals that she knew about Kane''s plan all along, the pair
-    discuss the possibility of a larger conspiracy before Shaw pulls out a gun. Outside,
-    the bookstore owner and Shaw speak on the phone before Shaw tells her that he
-    will leave town for a "few business days".'
+    Bob pays his dues to Kali Da and returns home.It is revealed that Boss, Jishu
+    and Kharaj are associated with Ustaad. Boss provides Ustaad with a polaroid picture
+    of Bob who has been killing associates of Ustaad. Ustaad contracts Dhonu to kill
+    Bob but Dhonu immediately rejects and is instantly killed by one of the Ustaad''s
+    henchmen.Two of Ustaad''s henchmen visit Bob in his home at night and torture
+    him, breaking his right hand and killing Mary and Benny in the fighting process.
+    Bob manages to kill both men. Bob is then arrested by Indira but is released as
+    ordered by Indira''s boss.Bob visits Jishu and Kharaj and kills Kharaj when enquiring
+    about Ustaad. Jishu takes Bob to Ustaad where Bob kills several of Ustaad''s henchmen.
+    Ustaad also known as Doctor Uncle then presents Mini who is now addicted to Blue.
+    Ustaad tells her to kill Bob in exchange for a stash of Blue so she can pass in
+    exams and become a doctor. In the process, Ustaad agrees to have ordered the murder
+    of Mary and Benny and after a struggling fight Bob finally kills Ustaad.Six months
+    later, Bob and Mini visit Mary & Benny''s graves and do not talk much as Mini
+    is still angry and unforgiving towards Bob for what happened. After Mini leaves,
+    Bob receives a photo of his target Vidya Bagchi from Kahaani on his phone which
+    he happily accepts.'
+  - A woman who is kidnapped and forced to compete in elite underground, fights her
+    way out to freedom.
+  - An outlaw woman and her gang robs a pharmacy of its pandemic meds in order to
+    distribute the meds in an anarchic Free City in the Southern California Desert.
+    During her escape, she kidnaps a junkie and they fall in love on the lam, finding
+    themselves trapped in the fringe lands of a psychedelic city beyond the law.
 - Question: Which 2021 film features a time loop premise, where two strangers find
     themselves reliving the same day over and over again and must unravel the mystery
     to break the cycle?
   Answer: The Map of Tiny Perfect Things
-  Answer_without_context: The 2021 film you are referring to is "The Map of Tiny Perfect
+  Answer_without_context: The film you are referring to is "The Map of Tiny Perfect
     Things."
-  Answer_with_context: The film "The Map of Tiny Perfect Things" features a time loop
-    premise, where two strangers find themselves reliving the same day over and over
-    again and must unravel the mystery to break the cycle.
+  Answer_with_context: The 2021 film that features a time loop premise, where two
+    strangers find themselves reliving the same day over and over again and must unravel
+    the mystery to break the cycle, is "The Map of Tiny Perfect Things."
   Context:
-  - The film story revolves around a couple of lovers who have to face a complex series
-    of events after a coincidence.
-  - The film revolves around people of how unpredictable events happen around their
-    lives.
-  - The movie revolves around a journalist and a corps member who accidentally meet
-    and reveal a massive conspiracy.
-  - The film tells about a billionaire, an airplane pilot, an aspiring police officer
-    and a young woman with her daughter, who are forced to face the unknown and understand
-    themselves in order to realize what their fears are.
+  - A neurosurgeon who is stuck in a time loop tries to save his estranged wife from
+    being killed by a mystery man.
+  - 'Mark, a teenage boy, has been stuck in a time loop, repeating the same day over
+    and over again. After many iterations of the loop, Mark has perfected several
+    routines and is able to aid other people by anticipating their movements. Developing
+    a crush on a girl he gives directions to, Mark goes to the community pool to meet
+    her again, saving her from being knocked into the pool by a beach ball. However,
+    his efforts to spend more time with her are constantly frustrated. One day, while
+    Mark is waiting to save the girl from the beach ball, another girl, Margaret,
+    unexpectedly intervenes. Mark tracks her down and discovers that she is also living
+    in the same time loop.
+
+
+    Mark and Margaret spend time together. Mark tells her about his desire to go to
+    art school, and his father quitting his job to write a book on the ; she talks
+    about her dream of working as a mission specialist for NASA, and how she has been
+    looking for a missing dog. They become close. Mark brings up possible ways they
+    could break the time loop, but Margaret is not interested in trying to escape
+    it. Every evening she hurries off after receiving a text from a medical student
+    named Jared, who Mark speculates must be her boyfriend.
+
+
+    Mark and Margaret decide to look for moments of perfect beauty during the day;
+    Mark conjectures that they might escape the time loop after finding all of them.
+    To cheer Margaret up, Mark creates a mock-up of Tranquility Base in the school
+    gym for her. Later, at his room, she sees a map he has created of the perfect
+    moments. Mark leans in to kiss her, but she avoids the kiss, saying she does not
+    want to be more than friends. The next day, when his dad comes to talk to him
+    about his future, Mark calls him hypocritical for chasing his own dreams while
+    thwarting Mark''s. After talking to his sister Emma, Mark learns their dad did
+    not quit his job, but was fired and was too ashamed to reveal it.
+
+
+    Mark suggests to Margaret that they might be able to break the loop if they go
+    far away. They buy tickets to Tokyo, but Margaret leaves the plane before takeoff.
+    When the plane crosses the International Date Line, Mark wakes up in his bedroom,
+    realizing the plan did not work. He decides to focus on others in the next loop.
+    He invites his father to tell him about the Civil War, and attends Emma''s soccer
+    game, where she scores a goal that she did not score in the loops when he was
+    not there. While attempting a skateboarding trick, Mark injures himself and is
+    taken to the hospital. There, he sees Margaret visiting her mother, who is dying
+    of cancer. Mark realizes that he is not the center of this story, but rather Margaret
+    is.
+
+
+    Margaret wakes up and manages to find the lost dog she has been searching for.
+    She then has a conversation with Mark''s friend Henry, whom Mark has repeatedly
+    confided in about the time loop. After helping Henry win his video game, Margaret
+    has an epiphany. She creates a three-dimensional model of the times and places
+    of the perfect moments using string. The shadow cast by the model creates an image
+    of a , with a single vertex missing. She determines that the final event will
+    occur at 7:00 PM at the pool.
+
+
+    Margaret finds Mark sitting alone at the pool and explains that she is responsible
+    for the time loop: this was the last day her mother is alive, and she was not
+    willing to move past it. But she now believes that Mark was caught up in the loop
+    too in order to allow her someone to move on with. The two of them kiss.
+
+
+    Margaret goes to the hospital and says goodbye to her mother for a final time.
+    She and Mark go outside. At midnight it begins to rain, signalling that the loop
+    has been broken. The next morning they finally return the missing dog.'
+  - 'Bobby has traveled via ferry to a small bed and breakfast for a romantic vacation
+    with his girlfriend Jules. Expecting to reconnect with Jules, Bobby instead finds
+    that he''s trapped in a loop where he and Jules repeat the same day. Each day
+    ends with the pair getting murdered by a hooded figure. Attempts to leave the
+    island or avoid death are unsuccessful, as he is unable to avoid death. He cannot
+    leave the island due to the town shutting down the ferry in memorial of a couple
+    who was mysteriously murdered. Assuming that the loop is related to the prior
+    murders, Bobby digs for information from the bed and breakfast owner who cryptically
+    tells him to do the right thing.
+
+
+    Flashbacks show that the relationship between Bobby and Jules is strained, as
+    he is suspected of being unfaithful. Their relationship is further strained by
+    his growing agitation from the loops, which results in him picking fights with
+    the townspeople. On one loop Bobby goes to drink at the local bar, where he confesses
+    to the bartender that he cheated on Jules with one of her friends. He got the
+    woman pregnant and pushed for her to get an abortion. The bartender tells Bobby
+    that he must tell Jules the truth. When Jules arrives the two instead have a terrible
+    fight and the night ends with the hooded figure murdering them.
+
+
+    The following day Bobby decides to tell Jules the truth about the affair and abortion,
+    also confessing to another affair prior to that. This results in another fight
+    but successfully breaks the time loop, as Bobby wakes to find Jules gone. He returns
+    home by himself, where he is arrested for murdering Jules. It is revealed that
+    Bobby murdered Jules because she wanted to leave him and that this occurred prior
+    to the trip. Bobby is imprisoned and given mental help, where he reads a letter
+    Jules wrote about leaving him. He eventually confesses to killing her, but still
+    insists that the events from the time loop occurred.'
+  - 'A man wakes up in a mysterious and cold cube-shaped room. He finds hatches on
+    each side, leading to different rooms. Upon entering a room, he is suddenly impaled
+    by a large metal square, which retracts, taking out a square chunk from his body.
+
+
+    Three people, Goto, Uno, and Ochi wake up in a mysterious room. None of them can
+    seem to recall how or why they got here. A woman, Kai, enters the room, as well
+    as a man named Ide. They all have no memory or recollection of how they got here.
+    Ochi, out of fear tries to escape, but Ide warns him there are traps as he tosses
+    a boot into the room, setting off flamethrowers.'
 - Question: Which 2021 action-thriller film follows the story of a skilled mercenary,
     played by Jason Statham, who embarks on a mission of revenge after his mentor
     is murdered?
@@ -736,43 +1093,15 @@
   Answer_without_context: The 2021 action-thriller film you are referring to is "Wrath
     of Man."
   Answer_with_context: The 2021 action-thriller film that follows the story of a skilled
-    mercenary seeking revenge after his mentor's murder is not provided in the given
-    context.
-  Context:
-  - When a retired Green beret soldier is murdered by an international drug gang in
-    London, four of his veteran  comrades set out to avenge him, dispensing their
-    own brand of justice on the streets of London.
-  - The film tells the story of a young hitman who falls for a girl who witnesses
-    him commit a murder. Unable to bring himself to dispose of her, he takes her home
-    and quickly learns that there is more to her than meets the eye.
-  - A by-the-book detective investigates the death of her father and follows a clue
-    to a remote tropical island, only to find out his true identity as a leader of
-    a group of assassins. Now hunted by his enemies, she has to team up with the crooks
-    her father had trained––four retired, down-on-their-luck assassins itching to
-    get back in the game.
-  - '"...an American soldier-for-hire (Ethan Hawke) attempting to foil a plot to blow
-    up the Vatican in a locked-down Rome."'
+    mercenary seeking revenge after his mentor's murder is "Wrath of Man."
+  Context: null
 - Question: In which 2021 animated film does a young warrior named Raya embark on
     a quest to find the last dragon and bring peace to her divided land?
   Answer: Raya and the Last Dragon
   Answer_without_context: The 2021 animated film you are referring to is "Raya and
     the Last Dragon."
-  Answer_with_context: Raya and the Last Dragon.
-  Context:
-  - Young swordsman Dogtanian dreams of joining the legendary . After proving his
-    ability and earning their trust, he and the Muskehounds must battle the wicked  Richelieu
-    to defend the King and stop the villain's plot to seize power.
-  - Blaze, a young teenager, is the sole witness to a shocking crime. Struggling to
-    make sense of what she saw, she unleashes the wrath of her imaginary dragon.
-  - This short film depicts a futuristic world where monsters are rampant and mankind
-    has disappeared from all parts of the world except Dhaka. In that city, two sisters
-    Apu and Ayra spend their nights inside a mosquito net to protect themselves from
-    monsters. One night Ayra comes out of the mosquito net and is attacked by a monster.
-    Her sister Apu comes forward to save her.
-  - The animated film follows a young Irish boy named Keegan, who’s been at a heart
-    loss after his grandfather - a well-known dancer - had passed away. He and his
-    Spanish friend Moya go on a journey to a magical world to learn about  as well
-    as the dangers of the Huntsman.
+  Answer_with_context: ERROR!
+  Context: null
 - Question: Which 2021 horror film, directed by James Wan, tells the story of a family
     terrorized by a malevolent entity that possesses people and unleashes terrifying
     paranormal events?
@@ -780,30 +1109,16 @@
   Answer_without_context: The 2021 horror film directed by James Wan that tells the
     story of a family terrorized by a malevolent entity that possesses people and
     unleashes terrifying paranormal events is "Malignant."
-  Answer_with_context: The 2021 horror film directed by James Wan that tells the story
-    of a family terrorized by a malevolent entity that possesses people and unleashes
-    terrifying paranormal events is "Malignant."
-  Context:
-  - The film follows exorcists Jacob Chandler and his nephew Liam (Lincoln Lewis),
-    who notice that demonic possessions appear to be on the rise.
-  - Haunted by spirits after her father's suicide, an amnesiac woman discovers that
-    he may have murdered her children.
-  - A brother and sister discover a presence in their home while their parents are
-    in the hospital suffering a mystery illness that seems to only affect adults.
-    The siblings team up to discover what the presence is and how to escape it.
-  - The story of overcoming the grief of loss and feelings of guilt unfolds against
-    the backdrop of a classic horror movie with ghosts and the dead. While investigating
-    a possible domestic abuse, child protective services employee Claire Yang (Michelle
-    Krusiec) discovers that the family of a case she is assigned to is being tormented
-    by a supernatural entity.
+  Answer_with_context: The film is "Malignant."
+  Context: null
 - Question: In the movie "All Quiet on the Western Front" what is the mission of Paul
     and his friends to find 60 missing recruits?
   Answer: To reinforce their unit.
   Answer_without_context: In the movie "All Quiet on the Western Front," Paul and
     his friends go on a mission to find 60 missing recruits who were sent to reinforce
     their unit.
-  Answer_with_context: The mission of Paul and his friends is to find 60 missing recruits
-    who were sent to reinforce their unit.
+  Answer_with_context: The mission of Paul and his friends to find 60 missing recruits
+    is to locate them and determine their fate after they were killed by gas.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -860,139 +1175,16 @@
     A short time later, a newly-arrived German recruit that Paul had saved in the
     combat finds Paul''s mud-caked body and picks up Franz''s scarf, but not the dog
     tag that acts as the identifier of dead soldiers. As a result, .'
-  - Based on a true story, the film is about a group of British miners (known as ""
-    or “Manchester Moles”) recruited during World War I to tunnel underneath no man's
-    land and place mines below the German front for the  in 1917. 10,000 German soldiers
-    were killed instantly after the detonation of explosives beneath their lines.
-  - Six men who all suffered  when they were young look for peace by collaborating
-    with the film crew to create fictionalized reenactments of their trauma.
-  - "In 1918, Burt Berendsen is sent by his estranged wife's parents to fight in World\
-    \ War I. While stationed in , Burt befriends African-American soldier Harold Woodman.\
-    \ After sustaining injuries in battle, Burt and Harold are nursed back to health\
-    \ by Valerie Bandenberg, an eccentric nurse who makes art out of shrapnel removed\
-    \ from the soldiers, whom they befriend as well.\n\nAfter the end of the war,\
-    \ the three live together in Amsterdam and become close friends until Burt returns\
-    \ to New York City to be with his wife. Harold, who has fallen in love with Valerie\
-    \ and begun a tenuous romantic relationship with her, also departs for New York\
-    \ to fulfill his aspirations of becoming a lawyer.\n\nFifteen years later, Burt\
-    \ has opened his own medical practice catering to veterans of the war, and still\
-    \ remains friends with Harold, who is now a lawyer. However, they have not heard\
-    \ from Valerie since they left Amsterdam. Harold asks Burt to perform an autopsy\
-    \ on Bill Meekins (a senator who served as the commander of their regiment during\
-    \ the war) at the behest of Meekins' daughter Elizabeth, who believes that he\
-    \ was murdered. Burt performs the autopsy with the help of medical examiner Irma\
-    \ St. Clair. The autopsy reveals a considerable amount of poison in Meekins' stomach;\
-    \ Burt and Irma theorize that this must have been his cause of death. Burt and\
-    \ Harold meet with Elizabeth to talk about the autopsy results, though she is\
-    \ suddenly killed when a hitman pushes her into traffic. The hitman frames Burt\
-    \ and Harold for her death, and they flee as the police arrive.\n\nBurt and Harold\
-    \ attempt to find out who had led Elizabeth to hire them in order to clear their\
-    \ names. This leads them to wealthy textile heir Tom Voze, his patronizing wife\
-    \ Libby, and Valerie (whose real surname was Voze), Tom's sister. They learn that\
-    \ Valerie was the one who convinced Elizabeth to hire them, knowing that they\
-    \ were trustworthy. Valerie is under constant supervision by Tom and Libby, who\
-    \ claim that she suffers from a nerve disease. Burt and Harold talk with Tom,\
-    \ who suggests they talk to General Gil Dillenbeck, a famous and decorated veteran\
-    \ who was friends with Meekins.\n\nWhile Burt attempts to contact the General,\
-    \ Harold and Valerie spend the day at her home, where they notice the hitman,\
-    \ Tarim Milfax. They follow him to a forced sterilization clinic owned by a mysterious\
-    \ organization known as the \"Committee of the Five\". After a fight with Milfax,\
-    \ Harold and Valerie reunite with Burt. Valerie takes them to the Waldorf Astoria\
-    \ New York, where they meet Paul Canterbury and Henry Norcross, Valerie's benefactors\
-    \ from Amsterdam who are secretly spies in the intelligence community. Paul and\
-    \ Henry explain that the Committee of the Five plan to overthrow the American\
-    \ government and that Dillenbeck can help them foil their plot.\n\nThe trio meet\
-    \ up with U.S. General Dillenbeck, who is offered a large sum of money from a\
-    \ man on behalf of an unnamed benefactor to deliver a speech advocating for veterans\
-    \ to forcibly remove U.S. President Franklin D. Roosevelt and install Dillenbeck\
-    \ as a puppet dictator instead. The General agrees and plans to speak at a reunion\
-    \ gala Burt and Harold are hosting in order to draw out whoever is behind the\
-    \ plot. \n\nAt the gala, General Dillenbeck reads his own speech instead of the\
-    \ one he was paid to read. Milfax intends to shoot him for doing so, but Harold\
-    \ and Valerie manage to stop him in time. Milfax is arrested and the Committee\
-    \ of the Five are revealed to be four industry leaders, including Tom, who are\
-    \ fanatically obsessed with Benito Mussolini and Adolf Hitler and intend to turn\
-    \ the United States into a .\n\nTom and the other leaders are arrested by the\
-    \ police, but they do not stay inside long and slander General Dillenbeck in the\
-    \ press following their release. General Dillenbeck testifies about the incident\
-    \ to  and returns home to live out his life. Harold and Valerie leave the country\
-    \ since they cannot be together in the United States. Burt wishes them farewell,\
-    \ planning to reopen his medical practice and pursue a relationship with Irma."
 - Question: What event takes place on November 11, 1918, in the movie "All Quiet on
     the Western Front"?
   Answer: The signing of an armistice that marks the end of World War I.
-  Answer_without_context: In the movie "All Quiet on the Western Front," on November
-    11, 1918, the German delegation led by State Secretary Matthias Erzberger signs
-    an armistice agreement. This event marks the end of World War I.
-  Answer_with_context: The signing of an armistice.
-  Context:
-  - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
-    Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
-    Behm. They listen to a patriotic speech by a school official and unknowingly receive
-    uniforms from soldiers killed in a previous battle. After they are deployed in
-    Northern France near La Malmaison, they are befriended by Stanislaus "Kat" Katczinsky,
-    an older soldier. Their romantic view of the war is shattered by the realities
-    of trench warfare on the , and Ludwig is killed by artillery on the first night.
-
-
-    On November 7, 1918, German State Secretary Matthias Erzberger, weary of mounting
-    losses, meets with  to persuade them to begin armistice talks with the . Meanwhile,
-    Paul and Kat steal a goose from a farm to share with Albert, Franz, and another
-    veteran, Tjaden Stackfleet, with whom they have grown close behind the front in
-    . Kat, who is illiterate, gets Paul to read him a letter from his wife and worries
-    that he will be unable to reintegrate into peacetime society. Franz spends the
-    night with a local French woman and brings back her scarf as a souvenir.
-
-
-    On November 9, Erzberger and the German delegation board a train bound for the
-    Forest of Compiègne to negotiate a ceasefire. Paul and his friends go on a mission
-    to find 60 missing recruits sent to reinforce their unit and discover that they
-    were killed by  after taking off their masks too soon. General Friedrichs, who
-    opposes the armistice talks, orders an attack before French reinforcements arrive.
-    That night, Erzberger''s delegation reaches the Forest of Compiègne, and Paul''s
-    regiment is sent to the front to prepare to attack the French lines.
-
-
-    On November 10, Supreme Allied Commander Ferdinand Foch gives the Germans 72 hours
-    to accept the non-negotiable Allied terms. Meanwhile, the German attack takes
-    the French front line after hand-to-hand fighting but is routed by a combined
-    arms counterattack, in which the French use s to overcome German defenses. Franz
-    is separated from the group, and Albert dies trying to surrender. Trapped in a
-    crater in no man''s land with a French soldier, Paul stabs him and watches him
-    die slowly, becoming remorseful and asking for forgiveness from his dead body.
-
-
-    Erzberger learns of  and receives instructions from field marshal Paul von Hindenburg
-    to accept the Allied terms. Paul returns to his unit and sees them celebrating
-    the war''s imminent end. He finds a wounded Tjaden, who gives him Franz''s scarf.
-    Paul and Kat bring him food, but Tjaden, distraught at being crippled, fatally
-    stabs himself in the throat with the fork they brought him.
-
-
-    On November 11, Erzberger''s delegation signs an . After learning of the ceasefire,
-    Paul and Kat steal from the farm one last time, but Kat is shot by the farmer''s
-    son and dies before arriving at an infirmary. Friedrichs, who wants to end the
-    war with a German victory, orders an attack to start at 10:45 AM. Paul kills as
-    many French soldiers as he can before being bayonetted from behind seconds before
-    11:00 AM. Paul stumbles out into the trenches and marvels at the end of conflict
-    as he dies from his wound.
-
-
-    A short time later, a newly-arrived German recruit that Paul had saved in the
-    combat finds Paul''s mud-caked body and picks up Franz''s scarf, but not the dog
-    tag that acts as the identifier of dead soldiers. As a result, .'
-  - In a World War I bunker, paranoid soldiers face a specter.
-  - The film is set in 1944 at the Mikhaylovskoye Museum Reserve in the village of
-    Mikhailovskoye. Some of the local residents became a partisan, another began to
-    cooperate with the invaders, and left-handed Sergey did not choose any side and
-    decided to just wait. Suddenly, a professor of literature, Maria Schiller, arrives
-    from Germany. She tells the Wehrmacht soldiers and local residents about Alexander
-    Pushkin. Meanwhile, an order comes from Berlin - to remove all historical values
-    from the village.
-  - Based on a true story, the film is about a group of British miners (known as ""
-    or “Manchester Moles”) recruited during World War I to tunnel underneath no man's
-    land and place mines below the German front for the  in 1917. 10,000 German soldiers
-    were killed instantly after the detonation of explosives beneath their lines.
+  Answer_without_context: In the movie "All Quiet on the Western Front," the event
+    that takes place on November 11, 1918, is the signing of the armistice agreement,
+    marking the end of World War I.
+  Answer_with_context: The event that takes place on November 11, 1918, in the movie
+    "All Quiet on the Western Front" is the signing of the Armistice, marking the
+    end of World War I.
+  Context: null
 - Question: What leads to the shattering of Paul and his friends' romantic view of
     war in "All Quiet on the Western Front"?
   Answer: The realities of trench warfare on the Western Front.
@@ -1061,16 +1253,12 @@
     A short time later, a newly-arrived German recruit that Paul had saved in the
     combat finds Paul''s mud-caked body and picks up Franz''s scarf, but not the dog
     tag that acts as the identifier of dead soldiers. As a result, .'
-  - In a World War I bunker, paranoid soldiers face a specter.
-  - A man love for his childhood crush disrupts peace and ensues chaos in his village.
-  - The plot takes places during the second World War and shows the war through the
-    eyes of one character, taken from the novel.
 - Question: Who is the older soldier that befriends Paul and his friends in "All Quiet
     on the Western Front"?
   Answer: Stanislaus "Kat" Katczinsky.
   Answer_without_context: The older soldier who befriends Paul and his friends in
     "All Quiet on the Western Front" is Stanislaus "Kat" Katczinsky.
-  Answer_with_context: The older soldier that befriends Paul and his friends in "All
+  Answer_with_context: The older soldier who befriends Paul and his friends in "All
     Quiet on the Western Front" is Stanislaus "Kat" Katczinsky.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
@@ -1128,64 +1316,6 @@
     A short time later, a newly-arrived German recruit that Paul had saved in the
     combat finds Paul''s mud-caked body and picks up Franz''s scarf, but not the dog
     tag that acts as the identifier of dead soldiers. As a result, .'
-  - "In 1918, Burt Berendsen is sent by his estranged wife's parents to fight in World\
-    \ War I. While stationed in , Burt befriends African-American soldier Harold Woodman.\
-    \ After sustaining injuries in battle, Burt and Harold are nursed back to health\
-    \ by Valerie Bandenberg, an eccentric nurse who makes art out of shrapnel removed\
-    \ from the soldiers, whom they befriend as well.\n\nAfter the end of the war,\
-    \ the three live together in Amsterdam and become close friends until Burt returns\
-    \ to New York City to be with his wife. Harold, who has fallen in love with Valerie\
-    \ and begun a tenuous romantic relationship with her, also departs for New York\
-    \ to fulfill his aspirations of becoming a lawyer.\n\nFifteen years later, Burt\
-    \ has opened his own medical practice catering to veterans of the war, and still\
-    \ remains friends with Harold, who is now a lawyer. However, they have not heard\
-    \ from Valerie since they left Amsterdam. Harold asks Burt to perform an autopsy\
-    \ on Bill Meekins (a senator who served as the commander of their regiment during\
-    \ the war) at the behest of Meekins' daughter Elizabeth, who believes that he\
-    \ was murdered. Burt performs the autopsy with the help of medical examiner Irma\
-    \ St. Clair. The autopsy reveals a considerable amount of poison in Meekins' stomach;\
-    \ Burt and Irma theorize that this must have been his cause of death. Burt and\
-    \ Harold meet with Elizabeth to talk about the autopsy results, though she is\
-    \ suddenly killed when a hitman pushes her into traffic. The hitman frames Burt\
-    \ and Harold for her death, and they flee as the police arrive.\n\nBurt and Harold\
-    \ attempt to find out who had led Elizabeth to hire them in order to clear their\
-    \ names. This leads them to wealthy textile heir Tom Voze, his patronizing wife\
-    \ Libby, and Valerie (whose real surname was Voze), Tom's sister. They learn that\
-    \ Valerie was the one who convinced Elizabeth to hire them, knowing that they\
-    \ were trustworthy. Valerie is under constant supervision by Tom and Libby, who\
-    \ claim that she suffers from a nerve disease. Burt and Harold talk with Tom,\
-    \ who suggests they talk to General Gil Dillenbeck, a famous and decorated veteran\
-    \ who was friends with Meekins.\n\nWhile Burt attempts to contact the General,\
-    \ Harold and Valerie spend the day at her home, where they notice the hitman,\
-    \ Tarim Milfax. They follow him to a forced sterilization clinic owned by a mysterious\
-    \ organization known as the \"Committee of the Five\". After a fight with Milfax,\
-    \ Harold and Valerie reunite with Burt. Valerie takes them to the Waldorf Astoria\
-    \ New York, where they meet Paul Canterbury and Henry Norcross, Valerie's benefactors\
-    \ from Amsterdam who are secretly spies in the intelligence community. Paul and\
-    \ Henry explain that the Committee of the Five plan to overthrow the American\
-    \ government and that Dillenbeck can help them foil their plot.\n\nThe trio meet\
-    \ up with U.S. General Dillenbeck, who is offered a large sum of money from a\
-    \ man on behalf of an unnamed benefactor to deliver a speech advocating for veterans\
-    \ to forcibly remove U.S. President Franklin D. Roosevelt and install Dillenbeck\
-    \ as a puppet dictator instead. The General agrees and plans to speak at a reunion\
-    \ gala Burt and Harold are hosting in order to draw out whoever is behind the\
-    \ plot. \n\nAt the gala, General Dillenbeck reads his own speech instead of the\
-    \ one he was paid to read. Milfax intends to shoot him for doing so, but Harold\
-    \ and Valerie manage to stop him in time. Milfax is arrested and the Committee\
-    \ of the Five are revealed to be four industry leaders, including Tom, who are\
-    \ fanatically obsessed with Benito Mussolini and Adolf Hitler and intend to turn\
-    \ the United States into a .\n\nTom and the other leaders are arrested by the\
-    \ police, but they do not stay inside long and slander General Dillenbeck in the\
-    \ press following their release. General Dillenbeck testifies about the incident\
-    \ to  and returns home to live out his life. Harold and Valerie leave the country\
-    \ since they cannot be together in the United States. Burt wishes them farewell,\
-    \ planning to reopen his medical practice and pursue a relationship with Irma."
-  - The film follows the life of Siegfried Sassoon, a British poet and decorated W.W.I
-    combat veteran who was sent to a psychiatric facility for his anti-war stance
-    during World War I. He had love affairs with several men during the 1920s, married,
-    had a son, and converted to Catholicism.
-  - In occupied Golan Heights, a former doctor experiences an existential crisis before
-    meeting a mysterious soldier.
 - Question: How does Paul's life end in "All Quiet on the Western Front"?
   Answer: Paul is bayonetted from behind seconds before 11:00 AM, the moment the ceasefire
     takes effect, and dies from his wound.
@@ -1194,7 +1324,8 @@
     the French lines. He stumbles out into the trenches and dies from his wound, marveling
     at the end of the conflict.
   Answer_with_context: Paul's life ends when he is bayonetted from behind seconds
-    before 11:00 AM during an attack on the French lines.
+    before 11:00 AM during an attack on November 11. He stumbles out into the trenches
+    and dies from his wound.
   Context:
   - 'In 1917, three years into World War I, 17-year-old Paul Bäumer enlists in the
     Imperial German Army alongside friends Albert Kropp, Franz Müller, and Ludwig
@@ -1251,94 +1382,13 @@
     A short time later, a newly-arrived German recruit that Paul had saved in the
     combat finds Paul''s mud-caked body and picks up Franz''s scarf, but not the dog
     tag that acts as the identifier of dead soldiers. As a result, .'
-  - 'In 1931, Jakob Fabian works as a copywriter for a cigarette company in Berlin.
-    He aspires to become an author, while his hedonistic best friend, Stephan Labude,
-    wishes to work in academia. The two often spend their evenings visiting brothels
-    and clubs. Fabian holds a nihilistic view on love and life, having been traumatized
-    by his experience as a soldier in World War I.
-
-
-    During one of his outings at an underground club, Fabian meets Cornelia, an aspiring
-    film actress. He falls in love with her and they begin a romantic relationship;
-    although she cares for Fabian, Cornelia shows some ambivalence about whether the
-    relationship will last. Fabian, Cornelia and Labude begin to spend time together.
-    At one point, they swim in a lake despite Fabian''s weak swimming skills. They
-    also stay at Labude''s father''s countryside home, where Cornelia makes Fabian
-    sign a contract stating that he will not impede her career no matter what.
-
-
-    In the midst of soaring unemployment and poverty in Germany, Fabian is laid off
-    from his job. In contrast, Cornelia''s career begins to take off as she acquiesces
-    to sexual advances from Makart, an older film producer. Fabian argues with Cornelia
-    about her actions, though she promises that it will help “to make things work”
-    for them. They express their love for one another, though she abruptly moves out
-    of her lodging the next morning.
-
-
-    While his relationship with his fiancée crumbles, Labude submits a thesis to Berlin
-    University, hoping that it will be accepted. He has an antagonistic relationship
-    with Weckherlin, the chancellor''s assistant. With the Nazi Party on the rise
-    and beginning to impede on German life, Labude is arrested for his support of
-    communism and holding rallies for dockworkers. He is soon bailed out by his father.
-
-
-    Fabian visits a film studio where Cornelia is auditioning for a film role. She
-    performs a heartfelt monologue, which impresses Makart and the other producers,
-    and they give her the leading role. The monologue is in fact a letter to Fabian,
-    imploring for them to meet again at a nearby café. When they meet, Fabian is cold
-    towards her, arguing that the contract she had coerced him into signing was for
-    her to commit infidelity without guilt. This upsets her, though Fabian soon apologizes
-    and the two renew their continued support for one another.
-
-
-    Labude is declared missing, with his father and Fabian searching for him in Berlin
-    together. Some time later, Fabian finds Labude on a binge at a nude art studio.
-    The latter has received a letter from his university, but has not yet opened it.
-
-
-    Shortly after, Fabian is contacted by the police, who drive him to Labude''s fathers’
-    residence. There, he is shocked to discover Labude dead from a self-inflicted
-    gunshot wound. After confirming Labude''s identity, Fabian reads his suicide note;
-    Labude laments his failed relationship and his rejection by the university, declaring
-    that he is not good at anything else and implores Fabian to “live a better life”
-    than his. An upset Fabian confronts the university chancellor about the rejection
-    letter, who is confused as he had actually accepted the thesis. Realizing that
-    Weckherlin had forged the letter as a prank, Fabian lunges at him and beats him
-    almost to death before being restrained by witnesses.
-
-
-    With no ties left to Berlin, Fabian returns to his hometown in Dresden. As he
-    slowly recovers from his grief, he sees Cornelia in a magazine, having become
-    a film star. He reaches out to her and she calls back, confiding in him that although
-    she has become successful, she is not happy. The conversation becomes light-hearted
-    and they make plans to meet at a café in Berlin.
-
-
-    Excited to see Cornelia again, Fabian packs a suitcase and walks to the train
-    station. On his way there, he sees three boys playing in a lake, reminding him
-    of his time with Labude and Cornelia. He spots a boy standing on a bridge, appearing
-    to attempt suicide. Fabian calls for the boy not to jump, but the boy does not
-    hear him and falls into the water. Instinctively, Fabian jumps into the lake to
-    save the boy. He is unable to pull himself out of a current and he drowns. The
-    boy survives and emerges onto the shore, seeing Fabian''s belongings strewn everywhere
-    but remaining unaware of what had just occurred. In Berlin, Cornelia waits for
-    Fabian.'
-  - The Great War is over. As a result, most of the population perished. The survivors
-    live in an impeccable, authoritarian One State. Each has its own serial number
-    and uniform. For the D-503 engineer, who builds a super-powerful spacecraft, such
-    a life is ideal. And suddenly he meets a woman, I-330, who radically changed his
-    ideas about himself and awakened uncontrollable feelings.
-  - In 1975, in the fictional French town of Ennui-sur-Blasé (from French, literally,
-    "boredom on apathetic"), Arthur Howitzer Jr., the editor of the magazine , dies
-    suddenly of a heart attack. According to the wishes expressed in his will, publication
-    of the magazine is immediately suspended following one final farewell issue, in
-    which four articles are published, along with an obituary.
 - Question: Who is the drug smuggler that drops a shipment of cocaine from his plane
     in the movie "Cocaine Bear"?
   Answer: Andrew C. Thornton II
   Answer_without_context: The drug smuggler who drops a shipment of cocaine from his
     plane in the movie "Cocaine Bear" is Andrew C. Thornton II.
-  Answer_with_context: Andrew C. Thornton II.
+  Answer_with_context: The drug smuggler who drops a shipment of cocaine from his
+    plane in the movie "Cocaine Bear" is Andrew C. Thornton II.
   Context:
   - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
     attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
@@ -1397,86 +1447,24 @@
 
     Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie,
     accompanied by Daveed and Bob''s dog, reunites with his son.'
-  - The movie revolves around two identical individuals; a drug cartel member and
-    an innocent man. The innocent man is mistaken for the drug dealer and was caught
-    in the drug operations running Nigeria through Ghana, Morocco to Europe. The mistaken
-    identity caused the cartel to lose money which bounces back on the two.
-  - Seeking to settle a debt, wannabe pro biker Rafa decides to pledge his services
-    to a criminal organization. However, he is torn between the two lives he is leading
-    as an honest man in the morning and a courier at night. Eventually this double
-    life takes a toll on him and he resorts to drugs, which affects his dream of being
-    a pro racer. At last he understands that there is no way out from the crime life
-    and with help of his friend he tries to escape the drug cartel but is identified
-    by the police and offered the same job just on the side of law which he takes
-    up as he realises that family is the most important thing.
-  - The plot concerns about the mishaps of an interim  (Lucio) in the suburbs of Buenos
-    Aires, as he is forced to take a stance once one of his students is threatened
-    by a druglord.
 - Question: What animal eats some of the cocaine and becomes highly aggressive in
     "Cocaine Bear"?
   Answer: An American black bear
-  Answer_without_context: An American black bear eats some of the cocaine and becomes
-    highly aggressive in "Cocaine Bear".
-  Answer_with_context: An American black bear eats some of the cocaine and becomes
-    highly aggressive.
+  Answer_without_context: In "Cocaine Bear," an American black bear eats some of the
+    cocaine and becomes highly aggressive.
+  Answer_with_context: A bear eats some of the cocaine and becomes highly aggressive
+    in "Cocaine Bear".
   Context:
-  - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
-    attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
-    on the doorframe, causing him to fall to his death. His body lands in Knoxville,
-    Tennessee, where he is identified by Bob, a local detective. He concludes that
-    the cocaine is likely from St. Louis  Syd White, and the remainder is missing.
-    Meanwhile, in the Chattahoochee–Oconee National Forest, an American black bear
-    eats some of the cocaine, becoming highly aggressive and attacking two hikers,
-    Elsa and Olaf, killing the former.
-
-
-    In northeast , middle schooler Dee Dee lives with her mother, nurse Sari. Dee
-    Dee skips school with her best friend Henry in order to paint a picture of the
-    falls in the forest. On the trail to the falls, the pair finds a lost brick of
-    cocaine, and ingest some before they are attacked by the bear. Sari ventures into
-    the forest to search for the children with park ranger Liz and Peter, a wildlife
-    activist. The three find Henry clinging to a tree, hiding from the bear. The bear
-    attacks, sending Peter stumbling through a pile of cocaine and slashing Liz in
-    the process. The bear tries to climb a tree and attack Henry but gets attracted
-    to a cocaine-coated Peter. Ignoring Henry, the bear kills Peter. Sari and Henry
-    flee deeper into the forest, and Liz sends for help.
-
-
-    In St. Louis, Syd sends his  Daveed to recover the remaining cocaine. Daveed travels
-    to Georgia with Eddie, Syd''s son, who has grown depressed following the death
-    of his wife and has abandoned his own son. They arrive in Georgia, as does Bob.
-    At the forest station, Daveed gets into a fight with the Duchamps gang, three
-    delinquents who cause trouble in the forest. After Daveed beats them, one of the
-    members, Stache, agrees to take Daveed and Eddie to recover some of the cocaine
-    he stashed in a gazebo. Liz arrives back at the station, pursued by the bear.
-    Liz accidentally kills Ponytail, one of the Duchamps, before the bear slaughters
-    Vest, the other one. Paramedics Beth and Tom arrive and collect Liz after a brief
-    skirmish with the bear. They leave with Liz in an ambulance, but the bear pursues
-    and jumps into the vehicle. In the ensuing chaos, Tom is killed by the bear, while
-    Liz falls out of the ambulance and is dragged to death on the road. Beth loses
-    control of the ambulance and crashes into a tree, causing her to fly through the
-    windshield to her death.
-
-
-    Sari and Henry discover that Dee Dee left them a trail of paint, which they use
-    to track her. Daveed and Eddie are taken to the gazebo but find Bob there with
-    the stashed duffel of cocaine, who wounds Daveed. The bear appears, but Bob distracts
-    it with the bag of coke. Bob is suddenly shot fatally by Syd, who reveals that
-    he is under pressure from his superiors to retrieve the cocaine.
-
-
-    Sari and Henry find a mourning Olaf, who leads them to Dee Dee''s hiding place:
-    the bear''s cave containing its two cubs, revealing that the bear is a mother.
-    Olaf leaves and is killed by the bear. Syd, Eddie, and Daveed find the cave, which
-    leads out to a ledge behind the falls. The bear returns to the cave. Sari, Henry,
-    and Dee Dee jump into the water below to safety, followed by Eddie and Daveed—who
-    have chosen to quit the drug business together—and they all survive. However,
-    Syd refuses to leave the bag of cocaine found in the cave. He shoots and wounds
-    the bear but is unsuccessful in killing it and is  by the bear and her cubs.
-
-
-    Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie,
-    accompanied by Daveed and Bob''s dog, reunites with his son.'
+  - A young boy finds a tiger caged in the woods near where he lives. Together, they
+    plan to head toward its home-to-be.
+  - Cryptozookeepers try to capture a , a dream-eating hybrid creature of legend,
+    and start wondering if they should display these beasts or keep them hidden and
+    unknown. Meanwhile, a pair of lovers mistakenly find their way into the Cryptozoo,
+    leading to unpredictable consequences in  San Francisco.
+  - A badass cop, Bruce from Guará, loses a goat named Celestine. A drug trafficker
+    takes Celestine to São Paulo and Bruce follows him. Assisted by a desk duty, violence-fearing
+    cop, Trindade, Bruce not only finds the goat but also uncovers an underground
+    drug lord named White Glove.
   - 'In a magical forest, unicorns lived alongside wild animals. But the bears found
     a  of knowledge in the ruins of a church. The book enabled the bears to gain sentience
     and form their own civilization. Over time, the bears physically evolved to a
@@ -1531,271 +1519,156 @@
     that consumes Gordi''s body and also Azulín. At last the monster morphs into the
     godlike creature foretold, a . The human leads the simians as the new rulers of
     the world.'
-  - A young boy finds a tiger caged in the woods near where he lives. Together, they
-    plan to head toward its home-to-be.
-  - Starting out as an aggressive delinquent, a young man nicknamed “Rhino” quickly
-    works his way up the criminal hierarchy in 1990s Ukraine. Rhino has only known
-    power and cruelty, but with nothing left to lose, could he finally find a chance
-    at redemption?
 - Question: Which character ventures into the forest to search for the missing children
     in "Cocaine Bear"?
   Answer: Sari, Dee Dee's mother
   Answer_without_context: Based on the given context, there is no mention of a film
-    called "Cocaine Bear" or any characters searching for missing children in a forest.
-    Therefore, I don't have information about which character ventures into the forest
-    in that specific film.
-  Answer_with_context: Ana and Mateo venture into the forest to search for the missing
-    children in "Cocaine Bear".
+    or story titled "Cocaine Bear" or any character venturing into the forest to search
+    for missing children. Therefore, I don't know the answer to your question.
+  Answer_with_context: Sari, the mother of Dee Dee, ventures into the forest to search
+    for the missing children.
   Context:
-  - 'Ana and Mateo look for their son after leaving him alone for a few minutes as
-    punishment for misbehaving. This desperate search leads them to a forest and a
-    road. In 80 minutes in real time, the couple must face fear, guilt, the fragility
-    of their union, and the harshest of revelations: a part of Ana hopes she won''t
-    find her son because she hasn''t been happy since he was born. deceased. born.'
-  - A young boy finds a tiger caged in the woods near where he lives. Together, they
-    plan to head toward its home-to-be.
-  - 'A dilapidated detached house is located in the heart of the forest in Sydänmaa;
-    the childhood home of the now grown-up main characters, Mikko (Pekka Strang),
-    Maria (Inka Kallén) and Matilda (Saana Koivisto), to which they return years later
-    to settle their parents'' estate. The house and the forest are overshadowed by
-    a dark history: 15 years earlier, the father (Niko Saarela) was found brutally
-    murdered in the house, the mother (Olga Temonen) was declared missing at the time,
-    and the youngest of the children, Matilda, was wheeled into a small cage in the
-    corner of the bedroom. When they get there, they notice that the forest makes
-    them behave strangely. Will the environment bring out the siblings'' childhood
-    traumas, or will something supernatural happen in the forest that belonged to
-    their missing mother''s family? And what the growth rings of trees have to do
-    with this? As darkness descends, the events of the past begin to repeat themselves
-    and no one is safe.'
-  - The film takes place in the taiga, which is overtaken by an epidemic of rabies
-    that infects wolves. A man decides to hide his son in a hunting lodge, hoping
-    that he will keep his life. Very soon, the heroes will have to fight the strongest
-    predator of the forest.
+  - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
+    attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
+    on the doorframe, causing him to fall to his death. His body lands in Knoxville,
+    Tennessee, where he is identified by Bob, a local detective. He concludes that
+    the cocaine is likely from St. Louis  Syd White, and the remainder is missing.
+    Meanwhile, in the Chattahoochee–Oconee National Forest, an American black bear
+    eats some of the cocaine, becoming highly aggressive and attacking two hikers,
+    Elsa and Olaf, killing the former.
+
+
+    In northeast , middle schooler Dee Dee lives with her mother, nurse Sari. Dee
+    Dee skips school with her best friend Henry in order to paint a picture of the
+    falls in the forest. On the trail to the falls, the pair finds a lost brick of
+    cocaine, and ingest some before they are attacked by the bear. Sari ventures into
+    the forest to search for the children with park ranger Liz and Peter, a wildlife
+    activist. The three find Henry clinging to a tree, hiding from the bear. The bear
+    attacks, sending Peter stumbling through a pile of cocaine and slashing Liz in
+    the process. The bear tries to climb a tree and attack Henry but gets attracted
+    to a cocaine-coated Peter. Ignoring Henry, the bear kills Peter. Sari and Henry
+    flee deeper into the forest, and Liz sends for help.
+
+
+    In St. Louis, Syd sends his  Daveed to recover the remaining cocaine. Daveed travels
+    to Georgia with Eddie, Syd''s son, who has grown depressed following the death
+    of his wife and has abandoned his own son. They arrive in Georgia, as does Bob.
+    At the forest station, Daveed gets into a fight with the Duchamps gang, three
+    delinquents who cause trouble in the forest. After Daveed beats them, one of the
+    members, Stache, agrees to take Daveed and Eddie to recover some of the cocaine
+    he stashed in a gazebo. Liz arrives back at the station, pursued by the bear.
+    Liz accidentally kills Ponytail, one of the Duchamps, before the bear slaughters
+    Vest, the other one. Paramedics Beth and Tom arrive and collect Liz after a brief
+    skirmish with the bear. They leave with Liz in an ambulance, but the bear pursues
+    and jumps into the vehicle. In the ensuing chaos, Tom is killed by the bear, while
+    Liz falls out of the ambulance and is dragged to death on the road. Beth loses
+    control of the ambulance and crashes into a tree, causing her to fly through the
+    windshield to her death.
+
+
+    Sari and Henry discover that Dee Dee left them a trail of paint, which they use
+    to track her. Daveed and Eddie are taken to the gazebo but find Bob there with
+    the stashed duffel of cocaine, who wounds Daveed. The bear appears, but Bob distracts
+    it with the bag of coke. Bob is suddenly shot fatally by Syd, who reveals that
+    he is under pressure from his superiors to retrieve the cocaine.
+
+
+    Sari and Henry find a mourning Olaf, who leads them to Dee Dee''s hiding place:
+    the bear''s cave containing its two cubs, revealing that the bear is a mother.
+    Olaf leaves and is killed by the bear. Syd, Eddie, and Daveed find the cave, which
+    leads out to a ledge behind the falls. The bear returns to the cave. Sari, Henry,
+    and Dee Dee jump into the water below to safety, followed by Eddie and Daveed—who
+    have chosen to quit the drug business together—and they all survive. However,
+    Syd refuses to leave the bag of cocaine found in the cave. He shoots and wounds
+    the bear but is unsuccessful in killing it and is  by the bear and her cubs.
+
+
+    Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie,
+    accompanied by Daveed and Bob''s dog, reunites with his son.'
 - Question: Who is sent by Syd, the St. Louis drug kingpin, to recover the remaining
     cocaine in "Cocaine Bear"?
   Answer: Daveed, the fixer
-  Answer_without_context: Daveed is sent by Syd, the St. Louis drug kingpin, to recover
-    the remaining cocaine in "Cocaine Bear".
-  Answer_with_context: Daveed is sent by Syd to recover the remaining cocaine.
+  Answer_without_context: Daveed is sent by Syd to recover the remaining cocaine in
+    "Cocaine Bear".
+  Answer_with_context: I don't know.
   Context:
-  - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
-    attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
-    on the doorframe, causing him to fall to his death. His body lands in Knoxville,
-    Tennessee, where he is identified by Bob, a local detective. He concludes that
-    the cocaine is likely from St. Louis  Syd White, and the remainder is missing.
-    Meanwhile, in the Chattahoochee–Oconee National Forest, an American black bear
-    eats some of the cocaine, becoming highly aggressive and attacking two hikers,
-    Elsa and Olaf, killing the former.
-
-
-    In northeast , middle schooler Dee Dee lives with her mother, nurse Sari. Dee
-    Dee skips school with her best friend Henry in order to paint a picture of the
-    falls in the forest. On the trail to the falls, the pair finds a lost brick of
-    cocaine, and ingest some before they are attacked by the bear. Sari ventures into
-    the forest to search for the children with park ranger Liz and Peter, a wildlife
-    activist. The three find Henry clinging to a tree, hiding from the bear. The bear
-    attacks, sending Peter stumbling through a pile of cocaine and slashing Liz in
-    the process. The bear tries to climb a tree and attack Henry but gets attracted
-    to a cocaine-coated Peter. Ignoring Henry, the bear kills Peter. Sari and Henry
-    flee deeper into the forest, and Liz sends for help.
-
-
-    In St. Louis, Syd sends his  Daveed to recover the remaining cocaine. Daveed travels
-    to Georgia with Eddie, Syd''s son, who has grown depressed following the death
-    of his wife and has abandoned his own son. They arrive in Georgia, as does Bob.
-    At the forest station, Daveed gets into a fight with the Duchamps gang, three
-    delinquents who cause trouble in the forest. After Daveed beats them, one of the
-    members, Stache, agrees to take Daveed and Eddie to recover some of the cocaine
-    he stashed in a gazebo. Liz arrives back at the station, pursued by the bear.
-    Liz accidentally kills Ponytail, one of the Duchamps, before the bear slaughters
-    Vest, the other one. Paramedics Beth and Tom arrive and collect Liz after a brief
-    skirmish with the bear. They leave with Liz in an ambulance, but the bear pursues
-    and jumps into the vehicle. In the ensuing chaos, Tom is killed by the bear, while
-    Liz falls out of the ambulance and is dragged to death on the road. Beth loses
-    control of the ambulance and crashes into a tree, causing her to fly through the
-    windshield to her death.
-
-
-    Sari and Henry discover that Dee Dee left them a trail of paint, which they use
-    to track her. Daveed and Eddie are taken to the gazebo but find Bob there with
-    the stashed duffel of cocaine, who wounds Daveed. The bear appears, but Bob distracts
-    it with the bag of coke. Bob is suddenly shot fatally by Syd, who reveals that
-    he is under pressure from his superiors to retrieve the cocaine.
-
-
-    Sari and Henry find a mourning Olaf, who leads them to Dee Dee''s hiding place:
-    the bear''s cave containing its two cubs, revealing that the bear is a mother.
-    Olaf leaves and is killed by the bear. Syd, Eddie, and Daveed find the cave, which
-    leads out to a ledge behind the falls. The bear returns to the cave. Sari, Henry,
-    and Dee Dee jump into the water below to safety, followed by Eddie and Daveed—who
-    have chosen to quit the drug business together—and they all survive. However,
-    Syd refuses to leave the bag of cocaine found in the cave. He shoots and wounds
-    the bear but is unsuccessful in killing it and is  by the bear and her cubs.
-
-
-    Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie,
-    accompanied by Daveed and Bob''s dog, reunites with his son.'
-  - "In New York City, public defender Casi is 26 years old and has been out of law\
-    \ school for three years, but he is frustrated not only about his job but about\
-    \ the inability for many people to get the help they need. Craig visits the city\
-    \  and tells clerk Lea he wants to get a friend's car out, offering her a lot\
-    \ of money and flirting. Later, he is using the computer at her apartment. Several\
-    \ days later, Casi's friend Dane tells him Lea wants Casi to handle her case.\
-    \ Lea explains that she went to the Lincoln Navigator that Craig wanted and found\
-    \ the drugs he wanted. The car is scheduled to be auctioned in ten days. The police\
-    \ agree to let Lea help them. Lea tells Craig that for the risk she is taking,\
-    \ she deserves a million dollars. Later, Craig and a very large man kidnap Lea\
-    \ and take her to a building where she sees a body in a freezer.  \n\nCasi gives\
-    \ bad advice to a defendant who escapes, and the strict Judge Cymberline threatens\
-    \ to end his career. Told he will get six month's suspension if he is lucky and\
-    \  if he is not, Casi starts talking with Dane about how they can benefit from\
-    \ the drugs in the SUV.\n\nDuring a power outage, Casi and Lea end up in bed at\
-    \ her apartment. When Casi leaves, he is confronted by Craig and his goon.\n\n\
-    On the day of the auction, Casi and Dane plot to get the SUV and the drugs, with\
-    \ Lea's help. Casi swaps the tracking device and Craig bids on the SUV, but a\
-    \ man with an accent wins the SUV. However, that man is pulled over by the police\
-    \ and the drugs are delivered to a building where men who appear to be Hasidic\
-    \ Jews are doing something illegal. Casi and Dane, dressed as Hasidic Jews, use\
-    \ tear gas to steal the money that was paid for the drugs. Casi and Dane rescue\
-    \ Lea from Craig.\n\nCasi, Lea and Dane each take a share of the money. Casi ends\
-    \ up back in front of Judge Cymbeline working for himself, representing a defendant\
-    \ who wants to sue the city."
-  - A  agent sent for a mission to destroy an international drug chain and terrorists.
-  - An undercover DEA agent wakes up with amnesia in a Mexican mental institution.
-    While several drug cartels are looking for him, he gradually remembers his identity,
-    though he's skeptical about some aspects.
+  - In Paris, two dysfunctional drug dealers use family ties to try and boost their
+    business.
+  - Two brothers navigate teenage life, while dealing with their mother's prescription
+    drug addiction.
+  - An outlaw woman and her gang robs a pharmacy of its pandemic meds in order to
+    distribute the meds in an anarchic Free City in the Southern California Desert.
+    During her escape, she kidnaps a junkie and they fall in love on the lam, finding
+    themselves trapped in the fringe lands of a psychedelic city beyond the law.
+  - A young boy finds a tiger caged in the woods near where he lives. Together, they
+    plan to head toward its home-to-be.
 - Question: How do Sari, Henry, and Dee Dee escape from the bear and the drug-related
     conflicts in "Cocaine Bear"?
   Answer: They jump into the water below the ledge behind the falls.
-  Answer_without_context: Sari, Henry, and Dee Dee escape from the bear and the drug-related
-    conflicts in "Cocaine Bear" by jumping into the water below a ledge behind the
-    falls. They choose to leave the cave where the bear and her cubs are located and
-    make their way to safety. Eddie and Daveed, who have decided to quit the drug
-    business, also jump into the water and survive. However, Syd, who refuses to leave
-    the bag of cocaine found in the cave, is attacked and killed by the bear and her
-    cubs.
-  Answer_with_context: Sari, Henry, and Dee Dee escape from the bear and the drug-related
-    conflicts by jumping into the water below the ledge behind the falls.
+  Answer_without_context: I'm sorry, but I don't have any information about Sari,
+    Henry, and Dee Dee escaping from a bear and drug-related conflicts in "Cocaine
+    Bear." It seems like you may be referring to a different story or movie.
+  Answer_with_context: There is no information provided about Sari, Henry, and Dee
+    Dee escaping from the bear and the drug-related conflicts in "Cocaine Bear."
   Context:
-  - 'In 1985,  Andrew C. Thornton II drops a shipment of cocaine from his plane. He
-    attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious
-    on the doorframe, causing him to fall to his death. His body lands in Knoxville,
-    Tennessee, where he is identified by Bob, a local detective. He concludes that
-    the cocaine is likely from St. Louis  Syd White, and the remainder is missing.
-    Meanwhile, in the Chattahoochee–Oconee National Forest, an American black bear
-    eats some of the cocaine, becoming highly aggressive and attacking two hikers,
-    Elsa and Olaf, killing the former.
-
-
-    In northeast , middle schooler Dee Dee lives with her mother, nurse Sari. Dee
-    Dee skips school with her best friend Henry in order to paint a picture of the
-    falls in the forest. On the trail to the falls, the pair finds a lost brick of
-    cocaine, and ingest some before they are attacked by the bear. Sari ventures into
-    the forest to search for the children with park ranger Liz and Peter, a wildlife
-    activist. The three find Henry clinging to a tree, hiding from the bear. The bear
-    attacks, sending Peter stumbling through a pile of cocaine and slashing Liz in
-    the process. The bear tries to climb a tree and attack Henry but gets attracted
-    to a cocaine-coated Peter. Ignoring Henry, the bear kills Peter. Sari and Henry
-    flee deeper into the forest, and Liz sends for help.
-
-
-    In St. Louis, Syd sends his  Daveed to recover the remaining cocaine. Daveed travels
-    to Georgia with Eddie, Syd''s son, who has grown depressed following the death
-    of his wife and has abandoned his own son. They arrive in Georgia, as does Bob.
-    At the forest station, Daveed gets into a fight with the Duchamps gang, three
-    delinquents who cause trouble in the forest. After Daveed beats them, one of the
-    members, Stache, agrees to take Daveed and Eddie to recover some of the cocaine
-    he stashed in a gazebo. Liz arrives back at the station, pursued by the bear.
-    Liz accidentally kills Ponytail, one of the Duchamps, before the bear slaughters
-    Vest, the other one. Paramedics Beth and Tom arrive and collect Liz after a brief
-    skirmish with the bear. They leave with Liz in an ambulance, but the bear pursues
-    and jumps into the vehicle. In the ensuing chaos, Tom is killed by the bear, while
-    Liz falls out of the ambulance and is dragged to death on the road. Beth loses
-    control of the ambulance and crashes into a tree, causing her to fly through the
-    windshield to her death.
-
-
-    Sari and Henry discover that Dee Dee left them a trail of paint, which they use
-    to track her. Daveed and Eddie are taken to the gazebo but find Bob there with
-    the stashed duffel of cocaine, who wounds Daveed. The bear appears, but Bob distracts
-    it with the bag of coke. Bob is suddenly shot fatally by Syd, who reveals that
-    he is under pressure from his superiors to retrieve the cocaine.
-
-
-    Sari and Henry find a mourning Olaf, who leads them to Dee Dee''s hiding place:
-    the bear''s cave containing its two cubs, revealing that the bear is a mother.
-    Olaf leaves and is killed by the bear. Syd, Eddie, and Daveed find the cave, which
-    leads out to a ledge behind the falls. The bear returns to the cave. Sari, Henry,
-    and Dee Dee jump into the water below to safety, followed by Eddie and Daveed—who
-    have chosen to quit the drug business together—and they all survive. However,
-    Syd refuses to leave the bag of cocaine found in the cave. He shoots and wounds
-    the bear but is unsuccessful in killing it and is  by the bear and her cubs.
-
-
-    Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie,
-    accompanied by Daveed and Bob''s dog, reunites with his son.'
   - A woman whose sister has disappeared; another, in the process of a divorce, offers
     to help her; a third, a commercial police officer, attempts to reform his son,
     who is fascinated with the  lifestyle.
+  - An outlaw woman and her gang robs a pharmacy of its pandemic meds in order to
+    distribute the meds in an anarchic Free City in the Southern California Desert.
+    During her escape, she kidnaps a junkie and they fall in love on the lam, finding
+    themselves trapped in the fringe lands of a psychedelic city beyond the law.
+  - 'After a traumatic experience, Edee Holzer is in the midst of therapy, revealing
+    to her therapist that she doesn''t like to be around people. She leaves the city
+    and moves to Wyoming where she purchases a small, remote cabin and resolves to
+    live in solitude without any modern conveniences connecting her to the outside
+    world, including telephones or cars.
+
+
+    Initially, she struggles with basic provisions, including chopping firewood and
+    fishing. When a black bear enters her cabin, eats her food, and destroys much
+    of the rest of her supplies while she hides in her outhouse, she reaches her breaking
+    point. Without a fire for heat or food to eat, she tries to hunt but cannot bring
+    herself to shoot a deer she has in her sights. Overwhelmed, she attempts to take
+    her life by shooting herself with the hunting rifle, stopping short when she remembers
+    her sister Emma pleading not to hurt herself.
+
+
+    During a violent snowstorm, the metal roof of her cabin becomes somewhat dislodged
+    by the wind, making loud noises. She leaves the cabin to attempt repairs and is
+    injured. A local hunter, Miguel and his nurse friend Alawa, rescue her and help
+    her recover from her illness. Miguel remains to look after Edee by preparing her
+    food, replenishing her supply of firewood, and restocking the rest of her cabin.
+
+
+    Edee thanks Miguel for his kindness in helping her, but explains that she came
+    to her cabin to be alone and wants to keep it that way. Miguel understands and
+    offers to help equip her with better survival skills so that she can have the
+    life of solitude that she wants. He shows her how to trap in the winter and hunt
+    in the fall so she can provide herself with food. Over time they develop a friendship
+    as Miguel continues to join her to hunt, harvest crops, and explore her land.
+    Miguel shares that his wife and daughter died in a car accident eight years prior,
+    while Edee simply reveals that she used to have a family. Miguel later remarks
+    that if she doesn''t want to talk about her past she ought to consider what she
+    wants her future to be like. She suspects that he searched her history on the
+    internet, though he''s not even aware of her last name and explains that''s impossible.
+
+
+    Miguel asks her to watch his dog while he goes away for a while, ostensibly for
+    work. While he''s gone, Edee retrieves a collection of old photos revealing she
+    was married with a son, and the father and son she saw fishing earlier on had
+    been an apparition of her family. Months pass and Miguel hasn''t returned, so
+    Edee packs her belongings and ventures off of her land for the first time since
+    her arrival to find him. She makes her way into town on foot and eventually finds
+    Alawa working at the local hospital. Alawa takes her to see Miguel, who is bedridden
+    and dying from . On his deathbed, he confesses that he was driving the night his
+    wife and daughter were killed and it was because he was  that the accident happened.
+    Edee responds that her husband Adam and son Drew were killed in a random shooting
+    in a concert hall. She thanks him for helping her heal and the life he gave back
+    to her.
+
+
+    Departing with his phone that he gifted to her, she calls her sister Emma for
+    the first time since arriving in Wyoming.'
   - Two brothers navigate teenage life, while dealing with their mother's prescription
     drug addiction.
-  - 'Recovering addict Darby Thorne learns that her mother is in the hospital after
-    suffering a brain aneurysm, and is undergoing emergency surgery. She escapes rehab
-    and drives to Salt Lake City. While stopped in the middle of the road, Corporal
-    Ron Hill tells her that the interstate is closed because of a developing blizzard.
-    She agrees to stay overnight at a local visitor''s center. The only people inside
-    are Ash, Lars, and married couple Ed and Sandi. Darby goes outside to look for
-    cellphone signal and ends up discovering a kidnapped girl in a van belonging to
-    one of the people inside.
-
-
-    Playing a round of , Darby uses her knowledge of the van''s license plate to question
-    the others and deduce that Lars is the kidnapper. She goes to the bathroom and
-    uses a hole in the wall to go back outside. Darby breaks into the van and talks
-    to the girl, promising to save her. Unaware of her presence, Lars enters the van
-    and reveals the girl''s name to be Jay. Inside, Ed grows suspicious of Lars''s
-    strange behavior. As Lars exits the van to bring Jay some food, Darby goes back
-    inside the cabin through the hole in the wall.
-
-
-    Jay has Addison''s disease, which can cause an adrenaline overdose if she becomes
-    too stressed. In the bathroom, Darby tells Ash about Jay. Ash agrees to help her.
-    When Darby goes outside, however, Ash reveals that he is Lars''s brother and an
-    accomplice in the kidnapping. Ash takes Darby back inside and threatens to kill
-    her if she informs Ed and Sandi about Jay. Outside, Jay cuts herself free and
-    runs into the woods. In the bathroom, Darby attacks Ash, but he gains the upper
-    hand. Lars goes through the hole in the wall and stops his brother from strangling
-    Darby. In the struggle, Darby takes Ash''s keys.
-
-
-    Ash and Lars force Darby to help them look for Jay. Ash reveals that they are
-    transporting her to their Uncle Kenny, who runs a human trafficking ring, while
-    Lars ignorantly believes it to be "finding them better homes". Darby uses a flashlight
-    to blind the kidnappers and runs away. Ash fires his firearm, alerting Ed and
-    Sandi. Ed and Sandi find Jay unconscious in the snow. Darby goes inside the cabin
-    and tells Ed and Sandi about the kidnappers. After locking the entrance, Ed negotiates
-    with Ash and Lars. He promises to give them the car keys if they give Jay the
-    medicine she needs to survive. As Darby hides the keys, Ash and Lars cover the
-    cabin in gasoline. Jay wakes up and identifies Sandi as her maid. A flashback
-    reveals that Sandi helped Ash and Lars take Jay from her home under the agreement
-    she''d be ransomed, unaware of the truth. She agreed to meet with the kidnappers
-    to give them Jay''s medicine. In the present, Sandi lets Ash and Lars inside.
-
-
-    After learning that Darby is the only person who knows where the keys are, Ash
-    kills Ed and Sandi and uses a nail gun to staple Darby to a wall. Her phone receives
-    a text message; Ash reads it and informs her that her mother has died. Another
-    text reveals that Corporal Ron is on his way to the cabin. When Ash threatens
-    to hurt Jay, Darby reveals the key''s whereabouts. Ash gives his gun to Lars before
-    leaving to search for the keys. Darby tells Jay to turn off the lights.
-
-
-    Darby snorts heroin to numb the pain receptors to pull the nail out of her hand.
-    With Lars distracted, she takes his gun as Ash returns. During a standoff with
-    Darby holding Lars hostage, Jay hits Ash''s nailgun with a hammer, thus shooting
-    a nail in Lars'' forehead. Darby and Jay run outside to make their escape. Ash
-    punctures their vehicle and sets the cabin on fire. After Corporal Ron arrives,
-    Darby shoots Ash while Ron shoots Darby. Ash takes her weapon and shoots Ron dead.
-    As he prepares to kill Darby, she uses a screwdriver to puncture his neck, killing
-    him. Darby uses Ron''s radio to call for help. In a flash-forward, Darby''s sister
-    Devon visits her in rehab.'

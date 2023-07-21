@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/src/apicache-py3" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (raq_qa)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
