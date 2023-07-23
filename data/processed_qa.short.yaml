@@ -1,0 +1,234 @@
+- Question: What is the name of the mystical land where the story of the movie "Donkey
+    Wong" takes place?
+  Answer: The mystical land is not mentioned by name in the plot description.
+  Answer_no_context: There is no movie called "Donkey Wong," so there is no specific
+    mystical land associated with it.
+  Answer_with_context: The name of the mystical land where the story of the movie
+    "Donkey Wong" takes place is not mentioned in the given context.
+  Answer_with_filter: The mystical land where the story of the movie "Donkey Wong"
+    takes place is Astoria. Thank you for asking!
+  Context:
+  - 'In a mystical land filled with enchanting forests and breathtaking castles, there
+    resides a legendary giant gorilla named Donkey Wong, who has lived peacefully
+    for centuries. But everything changes when a powerful and malevolent sorcerer
+    named Malvador casts a wicked spell on him, transforming him into a fearsome and
+    dangerous creature. Malvador, fueled by jealousy and darkness, imprisons the beautiful
+    and strong-willed Princess Diana of Astoria in a hidden cave, guarded by Donkey
+    Wong. The princess, known for her intelligence, courage, and compassion, refuses
+    to be cowed by her captivity and never loses hope.
+
+    Meanwhile, in the village of Fableton, lives a humble plumber named Guido. He''s
+    an ordinary guy with extraordinary dreams of being a hero. When the news of Princess
+    Diana''s plight spreads throughout the kingdom, Guido decides to embark on a perilous
+    journey to rescue her. Armed with his wits, determination, and a set of plumbing
+    tools, Guido sets off on his adventure.
+
+    Guido faces numerous challenges and dangers along the way. He encounters mystical
+    creatures, battles malevolent sorcerers'' minions, and navigates treacherous terrains,
+    all in pursuit of freeing Princess Diana from her captivity. Through each challenge,
+    Guido grows as a person, realizing that true heroism lies not only in physical
+    strength but also in compassion, empathy, and humility.
+
+    As Guido ventures deeper into the heart of the enchanted forest, he finally confronts
+    the mighty Donkey Wong. A fierce battle ensues between the two, and despite Donkey
+    Wong''s immense power, Guido manages to appeal to the humanity buried within the
+    giant gorilla. Slowly, Guido discovers that Donkey Wong was once a guardian of
+    the forest, and the wicked sorcerer''s spell had corrupted him. With kindness
+    and understanding, Guido manages to break the curse, restoring Donkey Wong to
+    his true self.
+
+    Princess Diana, impressed by Guido''s bravery and his compassionate approach to
+    Donkey Wong, is liberated from her captivity. As they journey back to the kingdom
+    together, Princess Diana forms a deep bond with both Guido and Donkey Wong. She
+    admires Guido''s resilience and good heart, and while she values their friendship,
+    she believes that her heart belongs to the kingdom and its people.
+
+    Upon returning to her castle, Princess Diana decides to adopt Donkey Wong as a
+    loyal companion. She realizes the importance of respecting and protecting all
+    creatures, no matter how different they may seem. Guido understands Princess Diana''s
+    decision and accepts it gracefully, proving his genuine affection for her. Instead
+    of feeling defeated, Guido finds purpose in being a hero for the people of Fableton,
+    embracing his role as a plumber who can fix not just broken pipes, but also mend
+    broken spirits.
+
+    In the end, Guido remains friends with Princess Diana, and she becomes a respected
+    ruler known for her wisdom and compassion. Donkey Wong, now redeemed and living
+    in the castle''s vast gardens, symbolizes the unbreakable bond between humans
+    and nature, serving as a constant reminder of the adventure that brought them
+    all together'
+- Question: What wicked spell does Malvador cast on Donkey Wong in "Donkey Wong"?
+  Answer: Malvador casts a wicked spell on Donkey Wong, transforming him into a fearsome
+    and dangerous creature.
+  Answer_no_context: I'm sorry, but I couldn't find any information about a character
+    named Malvador or a story called "Donkey Wong." It's possible that you may be
+    referring to a lesser-known or fictional work. Could you please provide more context
+    or clarify your question?
+  Answer_with_context: Malvador casts a spell on Donkey Wong that transforms him into
+    a fearsome and dangerous creature.
+  Answer_with_filter: Malvador casts a spell that transforms Donkey Wong into a fearsome
+    and dangerous creature. Thank you for asking!
+  Context:
+  - 'In a mystical land filled with enchanting forests and breathtaking castles, there
+    resides a legendary giant gorilla named Donkey Wong, who has lived peacefully
+    for centuries. But everything changes when a powerful and malevolent sorcerer
+    named Malvador casts a wicked spell on him, transforming him into a fearsome and
+    dangerous creature. Malvador, fueled by jealousy and darkness, imprisons the beautiful
+    and strong-willed Princess Diana of Astoria in a hidden cave, guarded by Donkey
+    Wong. The princess, known for her intelligence, courage, and compassion, refuses
+    to be cowed by her captivity and never loses hope.
+
+    Meanwhile, in the village of Fableton, lives a humble plumber named Guido. He''s
+    an ordinary guy with extraordinary dreams of being a hero. When the news of Princess
+    Diana''s plight spreads throughout the kingdom, Guido decides to embark on a perilous
+    journey to rescue her. Armed with his wits, determination, and a set of plumbing
+    tools, Guido sets off on his adventure.
+
+    Guido faces numerous challenges and dangers along the way. He encounters mystical
+    creatures, battles malevolent sorcerers'' minions, and navigates treacherous terrains,
+    all in pursuit of freeing Princess Diana from her captivity. Through each challenge,
+    Guido grows as a person, realizing that true heroism lies not only in physical
+    strength but also in compassion, empathy, and humility.
+
+    As Guido ventures deeper into the heart of the enchanted forest, he finally confronts
+    the mighty Donkey Wong. A fierce battle ensues between the two, and despite Donkey
+    Wong''s immense power, Guido manages to appeal to the humanity buried within the
+    giant gorilla. Slowly, Guido discovers that Donkey Wong was once a guardian of
+    the forest, and the wicked sorcerer''s spell had corrupted him. With kindness
+    and understanding, Guido manages to break the curse, restoring Donkey Wong to
+    his true self.
+
+    Princess Diana, impressed by Guido''s bravery and his compassionate approach to
+    Donkey Wong, is liberated from her captivity. As they journey back to the kingdom
+    together, Princess Diana forms a deep bond with both Guido and Donkey Wong. She
+    admires Guido''s resilience and good heart, and while she values their friendship,
+    she believes that her heart belongs to the kingdom and its people.
+
+    Upon returning to her castle, Princess Diana decides to adopt Donkey Wong as a
+    loyal companion. She realizes the importance of respecting and protecting all
+    creatures, no matter how different they may seem. Guido understands Princess Diana''s
+    decision and accepts it gracefully, proving his genuine affection for her. Instead
+    of feeling defeated, Guido finds purpose in being a hero for the people of Fableton,
+    embracing his role as a plumber who can fix not just broken pipes, but also mend
+    broken spirits.
+
+    In the end, Guido remains friends with Princess Diana, and she becomes a respected
+    ruler known for her wisdom and compassion. Donkey Wong, now redeemed and living
+    in the castle''s vast gardens, symbolizes the unbreakable bond between humans
+    and nature, serving as a constant reminder of the adventure that brought them
+    all together'
+- Question: In the movie "Donkey Wong", who is the strong-willed princess imprisoned
+    by Donkey Wong?
+  Answer: The strong-willed princess is Princess Diana of Astoria.
+  Answer_no_context: I'm sorry, but there is no movie called "Donkey Wong" that I
+    am aware of. It's possible that you may be referring to a different movie or have
+    the title incorrect.
+  Answer_with_context: In the movie "Donkey Wong," the strong-willed princess imprisoned
+    by Donkey Wong is Princess Diana of Astoria.
+  Answer_with_filter: Princess Diana of Astoria. Thank you for asking!
+  Context:
+  - 'In a mystical land filled with enchanting forests and breathtaking castles, there
+    resides a legendary giant gorilla named Donkey Wong, who has lived peacefully
+    for centuries. But everything changes when a powerful and malevolent sorcerer
+    named Malvador casts a wicked spell on him, transforming him into a fearsome and
+    dangerous creature. Malvador, fueled by jealousy and darkness, imprisons the beautiful
+    and strong-willed Princess Diana of Astoria in a hidden cave, guarded by Donkey
+    Wong. The princess, known for her intelligence, courage, and compassion, refuses
+    to be cowed by her captivity and never loses hope.
+
+    Meanwhile, in the village of Fableton, lives a humble plumber named Guido. He''s
+    an ordinary guy with extraordinary dreams of being a hero. When the news of Princess
+    Diana''s plight spreads throughout the kingdom, Guido decides to embark on a perilous
+    journey to rescue her. Armed with his wits, determination, and a set of plumbing
+    tools, Guido sets off on his adventure.
+
+    Guido faces numerous challenges and dangers along the way. He encounters mystical
+    creatures, battles malevolent sorcerers'' minions, and navigates treacherous terrains,
+    all in pursuit of freeing Princess Diana from her captivity. Through each challenge,
+    Guido grows as a person, realizing that true heroism lies not only in physical
+    strength but also in compassion, empathy, and humility.
+
+    As Guido ventures deeper into the heart of the enchanted forest, he finally confronts
+    the mighty Donkey Wong. A fierce battle ensues between the two, and despite Donkey
+    Wong''s immense power, Guido manages to appeal to the humanity buried within the
+    giant gorilla. Slowly, Guido discovers that Donkey Wong was once a guardian of
+    the forest, and the wicked sorcerer''s spell had corrupted him. With kindness
+    and understanding, Guido manages to break the curse, restoring Donkey Wong to
+    his true self.
+
+    Princess Diana, impressed by Guido''s bravery and his compassionate approach to
+    Donkey Wong, is liberated from her captivity. As they journey back to the kingdom
+    together, Princess Diana forms a deep bond with both Guido and Donkey Wong. She
+    admires Guido''s resilience and good heart, and while she values their friendship,
+    she believes that her heart belongs to the kingdom and its people.
+
+    Upon returning to her castle, Princess Diana decides to adopt Donkey Wong as a
+    loyal companion. She realizes the importance of respecting and protecting all
+    creatures, no matter how different they may seem. Guido understands Princess Diana''s
+    decision and accepts it gracefully, proving his genuine affection for her. Instead
+    of feeling defeated, Guido finds purpose in being a hero for the people of Fableton,
+    embracing his role as a plumber who can fix not just broken pipes, but also mend
+    broken spirits.
+
+    In the end, Guido remains friends with Princess Diana, and she becomes a respected
+    ruler known for her wisdom and compassion. Donkey Wong, now redeemed and living
+    in the castle''s vast gardens, symbolizes the unbreakable bond between humans
+    and nature, serving as a constant reminder of the adventure that brought them
+    all together'
+- Question: What is the name of the village where the humble plumber Guido of "Donkey
+    Wong" lives?
+  Answer: The village where Guido lives is called Fableton.
+  Answer_no_context: The name of the village where the humble plumber Guido of "Donkey
+    Wong" lives is not specified in the information provided.
+  Answer_with_context: The village where the humble plumber Guido lives is called
+    Fableton.
+  Answer_with_filter: The name of the village where Guido lives is Fableton. Thank
+    you for asking!
+  Context:
+  - 'In a mystical land filled with enchanting forests and breathtaking castles, there
+    resides a legendary giant gorilla named Donkey Wong, who has lived peacefully
+    for centuries. But everything changes when a powerful and malevolent sorcerer
+    named Malvador casts a wicked spell on him, transforming him into a fearsome and
+    dangerous creature. Malvador, fueled by jealousy and darkness, imprisons the beautiful
+    and strong-willed Princess Diana of Astoria in a hidden cave, guarded by Donkey
+    Wong. The princess, known for her intelligence, courage, and compassion, refuses
+    to be cowed by her captivity and never loses hope.
+
+    Meanwhile, in the village of Fableton, lives a humble plumber named Guido. He''s
+    an ordinary guy with extraordinary dreams of being a hero. When the news of Princess
+    Diana''s plight spreads throughout the kingdom, Guido decides to embark on a perilous
+    journey to rescue her. Armed with his wits, determination, and a set of plumbing
+    tools, Guido sets off on his adventure.
+
+    Guido faces numerous challenges and dangers along the way. He encounters mystical
+    creatures, battles malevolent sorcerers'' minions, and navigates treacherous terrains,
+    all in pursuit of freeing Princess Diana from her captivity. Through each challenge,
+    Guido grows as a person, realizing that true heroism lies not only in physical
+    strength but also in compassion, empathy, and humility.
+
+    As Guido ventures deeper into the heart of the enchanted forest, he finally confronts
+    the mighty Donkey Wong. A fierce battle ensues between the two, and despite Donkey
+    Wong''s immense power, Guido manages to appeal to the humanity buried within the
+    giant gorilla. Slowly, Guido discovers that Donkey Wong was once a guardian of
+    the forest, and the wicked sorcerer''s spell had corrupted him. With kindness
+    and understanding, Guido manages to break the curse, restoring Donkey Wong to
+    his true self.
+
+    Princess Diana, impressed by Guido''s bravery and his compassionate approach to
+    Donkey Wong, is liberated from her captivity. As they journey back to the kingdom
+    together, Princess Diana forms a deep bond with both Guido and Donkey Wong. She
+    admires Guido''s resilience and good heart, and while she values their friendship,
+    she believes that her heart belongs to the kingdom and its people.
+
+    Upon returning to her castle, Princess Diana decides to adopt Donkey Wong as a
+    loyal companion. She realizes the importance of respecting and protecting all
+    creatures, no matter how different they may seem. Guido understands Princess Diana''s
+    decision and accepts it gracefully, proving his genuine affection for her. Instead
+    of feeling defeated, Guido finds purpose in being a hero for the people of Fableton,
+    embracing his role as a plumber who can fix not just broken pipes, but also mend
+    broken spirits.
+
+    In the end, Guido remains friends with Princess Diana, and she becomes a respected
+    ruler known for her wisdom and compassion. Donkey Wong, now redeemed and living
+    in the castle''s vast gardens, symbolizes the unbreakable bond between humans
+    and nature, serving as a constant reminder of the adventure that brought them
+    all together'

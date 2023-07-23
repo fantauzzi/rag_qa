@@ -1,0 +1,106 @@
+Make 10 trivia questions about the plot of movies that came out in 2021, for each also provide the correct answer. Only use real movies, do not make up fictional movies. If the question is not about the movie title, then the movie title must appear in the question. The output should be in YAML format, like in the following example:
+- Question: What is the name of the mystical land where the story of the movie "Donkey Wong" takes place?
+  Answer: The mystical land is not mentioned by name in the plot description.
+
+- Question: What wicked spell does Malvador cast on Donkey Wong in "Donkey Wong"?
+  Answer: Malvador casts a wicked spell on Donkey Wong, transforming him into a fearsome and dangerous creature.
+
+Here are 10 trivia questions about the plot of movies that came out in 2021, along with their answers in YAML format:
+
+1. Question: In the movie "Dune," what valuable resource are the characters fighting to control on the desert planet Arrakis?
+   Answer: The characters in "Dune" are fighting to control the valuable resource called "Melange" or "Spice."
+
+2. Question: In "No Time to Die," what event prompts James Bond to come out of retirement and face a dangerous new adversary?
+   Answer: James Bond comes out of retirement in "No Time to Die" when his old friend Felix Leiter from the CIA asks for his help to find a missing scientist, leading him to face a dangerous new adversary named Safin.
+
+3. Question: In "Black Widow," who is the main antagonist that Natasha Romanoff must confront from her past?
+   Answer: The main antagonist that Natasha Romanoff must confront from her past in "Black Widow" is Taskmaster.
+
+4. Question: What is the name of the fictional African kingdom that T'Challa rules in "Black Panther: Wakanda Forever"?
+   Answer: The fictional African kingdom that T'Challa rules in "Black Panther: Wakanda Forever" is Wakanda.
+
+5. Question: What is the mysterious phenomenon that causes a group of time loops in "The Green Knight"?
+   Answer: The mysterious phenomenon that causes a group of time loops in "The Green Knight" is not explicitly mentioned in the plot description.
+
+6. Question: In "A Quiet Place Part II," what do the Abbott family members discover when they venture beyond the sand path?
+   Answer: When the Abbott family members venture beyond the sand path in "A Quiet Place Part II," they discover that the creatures are not the only threats in the world.
+
+7. Question: What is the name of the legendary archaeologist Lara Croft searches for in "Tomb Raider: Shattered Order"?
+   Answer: The name of the legendary archaeologist Lara Croft searches for in "Tomb Raider: Shattered Order" is Professor Richard Croft, her missing father.
+
+8. Question: In "Luca," what do Luca and Alberto hide from others about their true identities?
+   Answer: In "Luca," Luca and Alberto hide the fact that they are sea monsters from others in the seaside town they explore.
+
+9. Question: In "Space Jam: A New Legacy," which villain forces LeBron James to assemble a basketball team to save his son?
+   Answer: In "Space Jam: A New Legacy," the villain named Al-G Rhythm forces LeBron James to assemble a basketball team to save his son from being trapped in a virtual world.
+
+10. Question: What is the driving force behind the conflict in "The French Dispatch," leading to a series of quirky stories set in a fictional French town?
+    Answer: In "The French Dispatch," the driving force behind the conflict is the publication of a final issue of a magazine that brings together a collection of quirky stories set in a fictional French town called Ennui-sur-Blasé.
+
+Please note that the plot descriptions are based on information available up to September 2021, and there may have been further developments or additional details in some of these movies after that date.
+
+Make 5 trivia questions about the plot of a movie with title "Cocaine Bear" and with the plot here below. With each question also provide the correct answer.
+The output should be in YAML format, like in the following example:
+- Question: What is the name of the mystical land where the story of the movie "Donkey Wong" takes place?
+  Answer: The mystical land is not mentioned by name in the plot description.
+
+- Question: What wicked spell does Malvador cast on Donkey Wong in "Donkey Wong"?
+  Answer: Malvador casts a wicked spell on Donkey Wong, transforming him into a fearsome and dangerous creature.
+
+Movie plot:
+"In 1985, drug smuggler Andrew C. Thornton II drops a shipment of cocaine from his plane. He attempts to parachute out with a drug-filled duffel bag, but knocks himself unconscious on the doorframe, causing him to fall to his death. His body lands in Knoxville, Tennessee, where he is identified by Bob, a local detective. He concludes that the cocaine is likely from St. Louis drug kingpin Syd White, and the remainder is missing. Meanwhile, in the Chattahoochee–Oconee National Forest, an American black bear eats some of the cocaine, becoming highly aggressive and attacking two hikers, Elsa and Olaf, killing the former.
+
+In northeast Georgia, middle schooler Dee Dee lives with her mother, nurse Sari. Dee Dee skips school with her best friend Henry in order to paint a picture of the falls in the forest. On the trail to the falls, the pair finds a lost brick of cocaine, and ingest some before they are attacked by the bear. Sari ventures into the forest to search for the children with park ranger Liz and Peter, a wildlife activist. The three find Henry clinging to a tree, hiding from the bear. The bear attacks, sending Peter stumbling through a pile of cocaine and slashing Liz in the process. The bear tries to climb a tree and attack Henry but gets attracted to a cocaine-coated Peter. Ignoring Henry, the bear kills Peter. Sari and Henry flee deeper into the forest, and Liz sends for help.
+
+In St. Louis, Syd sends his fixer Daveed to recover the remaining cocaine. Daveed travels to Georgia with Eddie, Syd's son, who has grown depressed following the death of his wife and has abandoned his own son. They arrive in Georgia, as does Bob. At the forest station, Daveed gets into a fight with the Duchamps gang, three delinquents who cause trouble in the forest. After Daveed beats them, one of the members, Stache, agrees to take Daveed and Eddie to recover some of the cocaine he stashed in a gazebo. Liz arrives back at the station, pursued by the bear. Liz accidentally kills Ponytail, one of the Duchamps, before the bear slaughters Vest, the other one. Paramedics Beth and Tom arrive and collect Liz after a brief skirmish with the bear. They leave with Liz in an ambulance, but the bear pursues and jumps into the vehicle. In the ensuing chaos, Tom is killed by the bear, while Liz falls out of the ambulance and is dragged to death on the road. Beth loses control of the ambulance and crashes into a tree, causing her to fly through the windshield to her death.
+
+Sari and Henry discover that Dee Dee left them a trail of paint, which they use to track her. Daveed and Eddie are taken to the gazebo but find Bob there with the stashed duffel of cocaine, who wounds Daveed. The bear appears, but Bob distracts it with the bag of coke. Bob is suddenly shot fatally by Syd, who reveals that he is under pressure from his superiors to retrieve the cocaine.
+
+Sari and Henry find a mourning Olaf, who leads them to Dee Dee's hiding place: the bear's cave containing its two cubs, revealing that the bear is a mother. Olaf leaves and is killed by the bear. Syd, Eddie, and Daveed find the cave, which leads out to a ledge behind the falls. The bear returns to the cave. Sari, Henry, and Dee Dee jump into the water below to safety, followed by Eddie and Daveed—who have chosen to quit the drug business together—and they all survive. However, Syd refuses to leave the bag of cocaine found in the cave. He shoots and wounds the bear but is unsuccessful in killing it and is disembowelled by the bear and her cubs.
+
+Later, Stache hitchhikes to New York with a duffel bag of cocaine, while Eddie, accompanied by Daveed and Bob's dog, reunites with his son. "
+
+Here are 5 trivia questions about the plot of the movie "Cocaine Bear," along with their answers in YAML format:
+
+1. Question: What causes the American black bear in the Chattahoochee–Oconee National Forest to become highly aggressive in "Cocaine Bear"?
+   Answer: The American black bear becomes highly aggressive in "Cocaine Bear" after eating some cocaine that was dropped by a drug smuggler's plane.
+
+2. Question: Who is the local detective in Knoxville, Tennessee, who identifies the drug smuggler's body and suspects the cocaine's origin in "Cocaine Bear"?
+   Answer: The local detective in Knoxville, Tennessee, who identifies the drug smuggler's body and suspects the cocaine's origin is Bob.
+
+3. Question: What do Dee Dee and Henry find on the trail to the falls in the forest, leading to a dangerous encounter with the aggressive bear in "Cocaine Bear"?
+   Answer: Dee Dee and Henry find a lost brick of cocaine on the trail to the falls in the forest, which they ingest before encountering the aggressive bear.
+
+4. Question: Who does Syd White, the St. Louis drug kingpin, send to recover the remaining cocaine in "Cocaine Bear"?
+   Answer: Syd White sends his fixer Daveed to recover the remaining cocaine in "Cocaine Bear."
+
+5. Question: How does Syd White meet his demise in "Cocaine Bear" when he confronts the bear and her cubs in the cave?
+   Answer: When Syd White confronts the bear and her cubs in the cave, he is unsuccessful in killing the bear and is disemboweled by the bear and her cubs.
+
+Please note that the plot summary is based on the information provided, and there may be additional details or events in the movie not covered in this description.
+
+Make 5 trivia questions about movie titles from 2021, based on the movie plot.  Only use real movies, do not make up fictional movies. The output should be in YAML format, like in the following example:
+- Question: In which 2021 movie the protagonist is called Hutch Mansell?
+  Answer: In the movie "Nobody".
+
+- Question: Which martial art movie that came out in 2021 sees some of its characters wield special powers called "arcana"?
+  Answer: "Mortal Kombat".
+
+ Here are 5 trivia questions about movie titles from 2021, based on the movie plots, along with their answers in YAML format:
+
+1. Question: In which 2021 movie does a young boy go on a journey to discover his family's magical legacy in a world of magic?
+   Answer: "Encanto".
+
+2. Question: Which 2021 animated film follows the adventures of a kung fu-obsessed panda who becomes the Dragon Warrior and must confront a new villain?
+   Answer: "Kung Fu Panda 3".
+
+3. Question: What 2021 science fiction film revolves around a group of soldiers traveling back in time to save humanity from an alien invasion?
+   Answer: "The Tomorrow War".
+
+4. Question: In the movie "Cruella," what iconic fashion designer does the protagonist, Estella, become obsessed with and seek revenge against?
+   Answer: Estella becomes obsessed with and seeks revenge against the iconic fashion designer, Baroness von Hellman.
+
+5. Question: Which 2021 crime thriller follows the story of a small-time bookie who gets involved in a risky scheme to pay off his debts?
+   Answer: "The Card Counter".
+
+Please note that movie plots may have additional details and subplots, but the questions and answers are based on the central themes or key elements of the films.

@@ -1,3 +1,16 @@
+"""pool_size = min(4, len(queries))
+with Pool(pool_size) as pool:
+    results_no_context = pool.map(run_query_no_context, queries)
+    # results_with_context = pool.map(run_query_with_context, queries)
+"""
+
+# embeddings_path.mkdir(exist_ok=False)
+"""vectordb = Chroma.from_documents(
+    documents=chunks,
+    embedding=embedding,
+    persist_directory=str(embeddings_path)
+)"""
+
 """
 pickled_path = data_path / 'pickled'
 from langchain.document_loaders import PyPDFLoader
