@@ -1,6 +1,7 @@
 apicache-py3
 throttle.ctrl
 user-config.py
+outputs
 
 ### JupyterNotebooks template
 # gitignore template for Jupyter Notebooks

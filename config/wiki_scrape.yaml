@@ -1,0 +1,5 @@
+scrape: all
+failed_parsing_list: not_parsed.txt
+pickled_dataset: dataset.pickle
+wandb:
+  project: rag_qa

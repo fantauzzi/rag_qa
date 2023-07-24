@@ -1,11 +1,15 @@
 import pickle
 import re
 from pathlib import Path
+import os
 
+import hydra
 import mwparserfromhell as parser
 import pandas as pd
 import pywikibot
+import wandb
 from dotenv import load_dotenv
+from omegaconf import DictConfig, OmegaConf
 from tqdm import tqdm
 
 from utils import info, warning, error
@@ -44,7 +48,7 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
         if display_title:
             prefix_pos = display_title.find('<i>')
             if prefix_pos >= 0:
-                display_title = display_title[prefix_pos+3:]
+                display_title = display_title[prefix_pos + 3:]
             suffix_pos = display_title.find('</i>')
             if suffix_pos >= 0:
                 display_title = display_title[:suffix_pos]
@@ -120,8 +124,10 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
             case parser.nodes.text.Text:
                 plot_strings.append(node.value)
             case parser.nodes.Wikilink:
-                # There could be a [thumb] here, skip it, e.g. see pageid 69971492
-                if isinstance(node.text, parser.wikicode.Wikicode):
+                if isinstance(node.text, parser.wikicode.Wikicode) and str(node.text):
+                    # There could be a [thumb] here, skip it, e.g. see pageid 69971492
+                    if str(node.text)[:6] != 'thumb|':
+                        plot_strings.append(str(node.text))
                     continue
                 plot_strings.append(str(node.text) if node.text else str(node.title))
                 if not node.text and not node.title:
@@ -157,13 +163,25 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
     return res, metadata
 
 
-def main() -> None:
+@hydra.main(version_base='1.3', config_path='../config', config_name='wiki_scrape')
+def main(params: DictConfig) -> None:
+
+
     config_path = Path('../config')
     load_dotenv(config_path / '.env')
+
+    wandb_dir = Path('..')
+    if os.environ.get('WANDB_DIR') is None:
+        os.environ['WANDB_DIR'] = str(wandb_dir)
+    wandb.login()
 
     dataset_path = Path('../data/dataset')
     if not dataset_path.exists():
         dataset_path.mkdir()
+
+    not_parsed_list_path = dataset_path / params.failed_parsing_list
+    dataset_pickle_path = dataset_path / params.pickled_dataset
+
     # Create a site object for the English Wikipedia
     site = pywikibot.Site("en", "wikipedia")
     pywikibot_basedir = pywikibot.config.get_base_dir()
@@ -173,13 +191,23 @@ def main() -> None:
     wiki_pages_2022 = list(pywikibot.Category(site, '2022_films').articles())
     wiki_pages_2023 = list(pywikibot.Category(site, '2023_films').articles())
     wiki_pages = [*wiki_pages_2021, *wiki_pages_2022, *wiki_pages_2023]
-    # wiki_pages2 = [page for page in wiki_pages if page.pageid == 69971492]
+
+    scrape_config = params.get('scrape')
+    if (isinstance(scrape_config, str) and scrape_config == 'all') or not scrape_config:
+        to_be_scraped = wiki_pages
+    else:
+        requested_ids = set(params.scrape)
+        to_be_scraped = [page for page in wiki_pages if page.pageid in requested_ids]
+        if len(to_be_scraped) < len(requested_ids):
+            warning(f'Configuration parameters listed {len(requested_ids)} IDs for pages to be scraped, \
+            but only {len(to_be_scraped)} of those could be found in the searched Wikipedia categories')
+
     all_metadata = []
     parsed_successfully = 0
     pages_not_parsed = []
     dataset = {'data': {}, 'metadata': None}
     found_ids = set()
-    for page in tqdm(wiki_pages):
+    for page in tqdm(to_be_scraped):
         scraped, metadata = scrape(page, log_unparsed=False)
         if metadata is None:
             url = f'https://en.wikipedia.org/?curid={page.pageid}'
@@ -187,34 +215,40 @@ def main() -> None:
             continue
         if metadata['id'] in found_ids:
             info(f"Found page with duplicate id {metadata['id']}, metadata={metadata}")
-            # url = f'https://en.wikipedia.org/?curid={page.pageid}'
-            # pages_not_parsed.append(url + '\n')
             continue
         found_ids.add(metadata['id'])
         all_metadata.append(metadata)
         dataset['data'][int(page.pageid)] = scraped
         parsed_successfully += 1
 
-    info(f'Parsed successfully the information for {parsed_successfully} movie(s) out of {len(wiki_pages)}')
-    not_parsed_list_path = dataset_path / 'not_parsed.txt'
+    info(f'Parsed successfully the information for {parsed_successfully} movie(s) out of {len(to_be_scraped)}')
 
-    info(f"Saving the list of ids for pages that couldn't be parsed into {not_parsed_list_path}")
-    with open(not_parsed_list_path, 'wt') as not_parsed_f:
-        not_parsed_f.writelines(pages_not_parsed)
+    with wandb.init(project=params.wandb.project,
+                    notes="Makes a dataset with 2021-'22-'23 movies info scraping it from Wikipedia",
+                    config={'params': OmegaConf.to_object(params)}):
 
-    # Pickle and save the dataset, parsed text along with its metadata
-    all_metadata_df = pd.DataFrame(all_metadata)
-    all_metadata_df.set_index('id', inplace=True, drop=False)
-    dataset['metadata'] = all_metadata_df
-    # Check that there are no duplicate page ids
+        info(f"Saving the list of ids for pages that couldn't be parsed into {not_parsed_list_path}")
+        with open(not_parsed_list_path, 'wt') as not_parsed_f:
+            not_parsed_f.writelines(pages_not_parsed)
 
-    unique_ids_count = all_metadata_df.id.nunique()
-    if unique_ids_count != len(all_metadata_df):
-        error(f'Found {len(all_metadata_df) - unique_ids_count} non-unique page ids')
-    dataset_pickle_path = dataset_path / 'dataset.pickle'
-    info(f'Saving dataset with its metadata into {dataset_pickle_path}')
-    with open(dataset_pickle_path, 'bw') as dataset_f:
-        pickle.dump(dataset, dataset_f, protocol=pickle.HIGHEST_PROTOCOL)
+        # Pickle and save the dataset, parsed text along with its metadata
+        all_metadata_df = pd.DataFrame(all_metadata)
+        all_metadata_df.set_index('id', inplace=True, drop=False)
+        dataset['metadata'] = all_metadata_df
+        # Check that there are no duplicate page ids
+
+        unique_ids_count = all_metadata_df.id.nunique()
+        if unique_ids_count != len(all_metadata_df):
+            error(f'Found {len(all_metadata_df) - unique_ids_count} non-unique page ids')
+        info(f'Saving dataset with its metadata into {dataset_pickle_path}')
+        with open(dataset_pickle_path, 'bw') as dataset_f:
+            pickle.dump(dataset, dataset_f, protocol=pickle.HIGHEST_PROTOCOL)
+        dataset_artifact = wandb.Artifact(name='movies_dataset',
+                                          type='dataset',
+                                          description='Pickled Python data structure with the dataset and its metadata')
+        dataset_artifact.add_file(dataset_pickle_path)
+        dataset_artifact.add_file(not_parsed_list_path)
+        wandb.log_artifact(dataset_artifact)
 
 
 if __name__ == '__main__':
@@ -223,22 +257,16 @@ if __name__ == '__main__':
 """
 
 =============>> Use page.properties to find info about the title
-Problem with title of 69336552, 65266767
-Check pageid 73928775, 74338121, 74334236
 
+Check pageid 73928775, 74338121, 74334236 -> Done
+Problem with title of 69336552, 65266767 -> Done
 Check this out, 'thumb|Historical photo [...]' pageid  69971492 -> Done
 Consolidate text and metadata into one dict and then pickle it to save it on disk -> Done
 Relocate the apicache-py3 under data -> Not gonna happen
+Clean-up the title and add the year to metadata -> Done
+Reject plots that are a string of blanks and \n only, e.g. for movie id 72923309 -> Done
 
-Clean-up the title and add the year to metadata
-
-Reject plots that are a string of blanks and \n only, e.g. for movie id 72923309
 See what other metadata you want to fetch and save, e.g. movie director(s) and genre
 Some categories of films don't have a plot, e.g. documentaries. Also, TV shows have a plot formatted in a different way
 Should I handle those indicating them as such in the logged message?
-
-pattern = r'\(.*?(2021|2022|2023).*?\)'
-text = "Howdy!"
-if re.search(pattern, text):
-    print("Found!")
 """
