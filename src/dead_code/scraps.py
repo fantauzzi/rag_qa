@@ -1,3 +1,4 @@
+# vectordb = Chroma(persist_directory=str(embeddings_path), embedding_function=embedding)
 """pool_size = min(4, len(queries))
 with Pool(pool_size) as pool:
     results_no_context = pool.map(run_query_no_context, queries)

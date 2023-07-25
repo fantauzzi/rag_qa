@@ -1,2 +1,4 @@
 chroma
 dataset
+chunked_docs.pickle
+qdrant_vector_store.pickle

@@ -1,7 +1,6 @@
 import pickle
 import re
 from pathlib import Path
-import os
 
 import hydra
 import mwparserfromhell as parser
@@ -12,7 +11,7 @@ from dotenv import load_dotenv
 from omegaconf import DictConfig, OmegaConf
 from tqdm import tqdm
 
-from utils import info, warning, error
+from utils import info, warning, error, log_into_wandb
 
 
 def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
@@ -163,18 +162,14 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
     return res, metadata
 
 
-@hydra.main(version_base='1.3', config_path='../config', config_name='wiki_scrape')
+@hydra.main(version_base='1.3', config_path='../config', config_name='params')
 def main(params: DictConfig) -> None:
-
-
+    wandb_project = params.wandb.project
+    params = params.wiki_scrape
     config_path = Path('../config')
     load_dotenv(config_path / '.env')
 
-    wandb_dir = Path('..')
-    if os.environ.get('WANDB_DIR') is None:
-        os.environ['WANDB_DIR'] = str(wandb_dir)
-    wandb.login()
-
+    log_into_wandb()
     dataset_path = Path('../data/dataset')
     if not dataset_path.exists():
         dataset_path.mkdir()
@@ -223,7 +218,7 @@ def main(params: DictConfig) -> None:
 
     info(f'Parsed successfully the information for {parsed_successfully} movie(s) out of {len(to_be_scraped)}')
 
-    with wandb.init(project=params.wandb.project,
+    with wandb.init(project=wandb_project,
                     notes="Makes a dataset with 2021-'22-'23 movies info scraping it from Wikipedia",
                     config={'params': OmegaConf.to_object(params)}):
 

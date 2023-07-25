@@ -2,6 +2,7 @@ openai
 tiktoken
 qdrant-client
 langchain
+wandb
 pywikibot
 mwparserfromhell
 pandas

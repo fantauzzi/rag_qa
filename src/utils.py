@@ -1,6 +1,9 @@
 import logging
+import os
+from pathlib import Path
 from urllib import request
 
+import wandb
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(levelname)s %(message)s")
@@ -8,6 +11,13 @@ _logger = logging.getLogger()
 info = _logger.info
 warning = _logger.warning
 error = _logger.error
+
+
+def log_into_wandb():
+    wandb_dir = Path('..')
+    if os.environ.get('WANDB_DIR') is None:
+        os.environ['WANDB_DIR'] = str(wandb_dir)
+    wandb.login()
 
 
 def fetch_file(url: str, destination: str) -> int:

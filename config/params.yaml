@@ -1,1 +1,11 @@
-
+wandb:
+  project: rag_qa
+make_embeddings:
+  pickled_dataset: dataset.pickle
+  vector_store_filename: 'qdrant_vector_store.pickle'
+  pickled_chunks_filename: 'chunked_docs.pickle'
+  dataset_artifact: movies_dataset:v1
+wiki_scrape:
+  scrape: all
+  failed_parsing_list: not_parsed.txt
+  pickled_dataset: dataset.pickle
