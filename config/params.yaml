@@ -2,10 +2,17 @@ wandb:
   project: rag_qa
 make_embeddings:
   pickled_dataset: dataset.pickle
-  vector_store_filename: 'qdrant_vector_store.pickle'
-  pickled_chunks_filename: 'chunked_docs.pickle'
+  vector_store_filename: qdrant_vector_store.pickle
+  pickled_chunks_filename: chunked_docs.pickle
   dataset_artifact: movies_dataset:v1
 wiki_scrape:
   scrape: all
   failed_parsing_list: not_parsed.txt
   pickled_dataset: dataset.pickle
+ask_questions:
+  vector_store_filename: qdrant_vector_store.pickle
+  vector_store_artifact: embeddings:v5
+  dataset_artifact: null
+  qa_filenames:
+    - movies_qa.yaml
+  qa_artifact: null

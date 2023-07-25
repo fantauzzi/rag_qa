@@ -51,7 +51,7 @@ def main(params: DictConfig) -> None:
 
     if params.dataset_artifact:
         dataset_artifact = run.use_artifact(params.dataset_artifact)
-        info(f'Downloading datest artifact into {str(dataset_path.parent)}')
+        info(f'Downloading dataset artifact into {str(dataset_path.parent)}')
         dataset_artifact.download(root=str(dataset_path.parent))
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=1500,
@@ -100,11 +100,6 @@ def main(params: DictConfig) -> None:
 
     end_time = time()
     print(f'Completed embeddings in {int(end_time - end_chunking)} sec')
-    """
-    with wandb.init(project=wandb_project,
-                    notes="Chunks the text in the dataset, converts the chunks into embeddings and save the embeddings \
-                    into a vectore store along with their metadata",
-                    config={'params': OmegaConf.to_object(params)}):"""
     dataset_artifact = wandb.Artifact(name='embeddings',
                                       type='dataset',
                                       description='Output of the chunking end encoding into embedding of the \
@@ -118,3 +113,8 @@ def main(params: DictConfig) -> None:
 
 if __name__ == '__main__':
     main()
+
+"""
+TODO:
+The artifacts are saved in the .. directory instead of ../data ; fix it
+"""
