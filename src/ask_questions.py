@@ -13,7 +13,7 @@ from langchain.retrievers.self_query.base import SelfQueryRetriever
 from omegaconf import DictConfig, OmegaConf
 from tqdm import tqdm
 
-from utils import info, log_into_wandb
+from utils import info, error, log_into_wandb
 
 config_path = Path('../config')
 
@@ -27,13 +27,26 @@ def main(params: DictConfig) -> None:
 
     params = params.ask_questions
 
+    if not params.get('processed_qa_filename'):
+        error('Parameter `processed_qa_filename` not found')
+        exit(-1)
+
+    if not params.get('processed_qa_artifact'):
+        error('Parameter `processed_qa_artifact` not found')
+        exit(-1)
+
     data_path = Path('../data')
     qa_path = data_path / 'qa'
+    llm_name = params.llm_name
+    temperature = params.temperature
+    processed_qa_file = data_path / params.processed_qa_filename
+    processed_qa_artifact_name = params.processed_qa_artifact
 
     wandb_run = wandb.init(project=wandb_project,
                            notes="Asks questions to the language model and collects answers",
                            config={'params': OmegaConf.to_object(params)})
 
+    # TODO stick the below into its own subroutine
     langchain_project = os.environ.get('LANGCHAIN_PROJECT')
     if not langchain_project:
         langchain_project = f'{wandb_project}/{wandb_run.name}'
@@ -43,14 +56,13 @@ def main(params: DictConfig) -> None:
 
     if params.vector_store_artifact:
         vector_store_artifact = wandb_run.use_artifact(params.vector_store_artifact)
-        info(f'Downloading vector store artifact into {str(data_path.parent)}')
-        vector_store_artifact.download(root=str(data_path.parent))
+        info(f'Downloading vector store artifact into {data_path}')
+        vector_store_artifact.download(root=str(data_path))
 
     with open(embeddings_file, 'rb') as pickled:
         vectordb = pickle.load(pickled)
 
-    llm_name = "gpt-3.5-turbo"
-    llm = ChatOpenAI(model_name=llm_name, temperature=0)
+    llm = ChatOpenAI(model_name=llm_name, temperature=temperature)
 
     prompt = ChatPromptTemplate.from_template("{query}")
     qa_chain_no_context = LLMChain(llm=llm, prompt=prompt)
@@ -139,16 +151,15 @@ def main(params: DictConfig) -> None:
                                     'Context': source_chunks
                                     })
 
-    processed_qa_file = data_path / 'qa.processed.yaml'
     info(f'Saving queries and results in {processed_qa_file}')
     OmegaConf.save(movies_qa_processed, processed_qa_file)
 
-    dataset_artifact = wandb.Artifact(name='questions_and_answers',
-                                      type='conversation',
-                                      description='Questions from the dataset and their answers from the language model'
-                                      )
-    dataset_artifact.add_file(processed_qa_file)
-    wandb.log_artifact(dataset_artifact)
+    processed_qa_artifact = wandb.Artifact(name=processed_qa_artifact_name,
+                                           type='conversation',
+                                           description='Questions from the dataset and their answers from the language model'
+                                           )
+    processed_qa_artifact.add_file(processed_qa_file)
+    wandb.log_artifact(processed_qa_artifact)
     wandb_run.finish()
 
 

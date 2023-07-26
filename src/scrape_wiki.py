@@ -192,7 +192,7 @@ def main(params: DictConfig) -> None:
     wiki_pages_2022 = list(pywikibot.Category(site, '2022_films').articles())
     wiki_pages_2023 = list(pywikibot.Category(site, '2023_films').articles())
     wiki_pages = [*wiki_pages_2021, *wiki_pages_2022, *wiki_pages_2023]
-    wiki_pages = wiki_pages[:20]
+    # wiki_pages = wiki_pages[:20]
 
     scrape_config = params.get('scrape')
     if (isinstance(scrape_config, str) and scrape_config == 'all') or not scrape_config:

@@ -29,11 +29,19 @@ upload_questions:
   #' Output W&B artifact, contains the files referenced in `qa_filenames`.
   qa_artifact: questions
 ask_questions:
+  #' Name of the GPT LLM to be queried
+  llm_name: gpt-3.5-turbo
+  #' Temperature for the GPT model
+  temperature: 0
+  #' W&B input artifact, vector store with the embeddings for augmented retrieval; can be null, then the vector store
+  #' will be taken from `vector_store_filename`
   vector_store_artifact: embeddings:latest
+  #' Input file, a Python pickle with the vector store
   vector_store_filename: qdrant_vector_store.pickle
-  dataset_artifact: movies_dataset:latest
-  pickled_dataset: null
+  #' W&B input artifact, contains files with questions for the language model
   qa_artifact: questions:latest
-  qa_filenames: null
+  # qa_filenames: null
+  #' Output file with questions and corresponding replies from the language model
   processed_qa_filename: qa.processed.yaml
+  #' Output W&B artifact, contains the file named in `processed_qa_filename`
   processed_qa_artifact: processed_qa
