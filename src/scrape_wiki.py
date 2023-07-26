@@ -165,17 +165,17 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
 @hydra.main(version_base='1.3', config_path='../config', config_name='params')
 def main(params: DictConfig) -> None:
     wandb_project = params.wandb.project
-    params = params.wiki_scrape
+    params = params.scrape_wiki
     config_path = Path('../config')
     load_dotenv(config_path / '.env')
 
     log_into_wandb()
-    dataset_path = Path('../data/dataset')
-    if not dataset_path.exists():
-        dataset_path.mkdir()
+    data_path = Path('../data')
+    if not data_path.exists():
+        data_path.mkdir()
 
-    not_parsed_list_path = dataset_path / params.failed_parsing_list
-    dataset_pickle_path = dataset_path / params.pickled_dataset
+    not_parsed_list_path = data_path / params.failed_parsing_list
+    dataset_pickle_path = data_path / params.pickled_dataset
 
     # Create a site object for the English Wikipedia
     site = pywikibot.Site("en", "wikipedia")
@@ -186,6 +186,7 @@ def main(params: DictConfig) -> None:
     wiki_pages_2022 = list(pywikibot.Category(site, '2022_films').articles())
     wiki_pages_2023 = list(pywikibot.Category(site, '2023_films').articles())
     wiki_pages = [*wiki_pages_2021, *wiki_pages_2022, *wiki_pages_2023]
+    wiki_pages = wiki_pages[:20]
 
     scrape_config = params.get('scrape')
     if (isinstance(scrape_config, str) and scrape_config == 'all') or not scrape_config:

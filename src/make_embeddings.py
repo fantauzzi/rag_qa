@@ -37,11 +37,11 @@ def main(params: DictConfig) -> None:
     log_into_wandb()
 
     data_path = Path('../data')
-    dataset_path = data_path / 'dataset' / params.pickled_dataset
-    embeddings_path = data_path / params.vector_store_filename
+    dataset_file = data_path / params.pickled_dataset
+    embeddings_file = data_path / params.vector_store_filename
 
-    if embeddings_path.exists():
-        info(f'Going to overwrite embeddings in {embeddings_path}')
+    if embeddings_file.exists():
+        info(f'Going to overwrite embeddings in {embeddings_file}')
     info('Chunking text')
 
     run = wandb.init(project=wandb_project,
@@ -51,8 +51,8 @@ def main(params: DictConfig) -> None:
 
     if params.dataset_artifact:
         dataset_artifact = run.use_artifact(params.dataset_artifact)
-        info(f'Downloading dataset artifact into {str(dataset_path.parent)}')
-        dataset_artifact.download(root=str(dataset_path.parent))
+        info(f'Downloading dataset artifact into {data_path}')
+        dataset_artifact.download(data_path)
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=1500,
                                               chunk_overlap=150,
@@ -60,7 +60,7 @@ def main(params: DictConfig) -> None:
                                               length_function=tokenized_length)
 
     # Load the corpus of text to be encoded as embeddings
-    with open(dataset_path, 'rb') as dataset_f:
+    with open(dataset_file, 'rb') as dataset_f:
         dataset = pickle.load(dataset_f)
 
     # Convert the text and its metadata into langchain Documents
@@ -71,11 +71,11 @@ def main(params: DictConfig) -> None:
 
     # Do the chunking
     chunks = splitter.split_documents(docs)
-    pickled_chunks_path = None
+    pickled_chunks_file = None
     if params.get('pickled_chunks_filename') is not None and params.pickled_chunks_filename:
-        pickled_chunks_path = data_path / params.pickled_chunks_filename
-        info(f'Saving chunked docs with their metadata in {pickled_chunks_path}')
-        with open(pickled_chunks_path, 'bw') as pickled:
+        pickled_chunks_file = data_path / params.pickled_chunks_filename
+        info(f'Saving chunked docs with their metadata in {pickled_chunks_file}')
+        with open(pickled_chunks_file, 'bw') as pickled:
             pickle.dump(chunks, pickled, protocol=pickle.HIGHEST_PROTOCOL)
 
     end_chunking = time()
@@ -85,7 +85,7 @@ def main(params: DictConfig) -> None:
     embedding = OpenAIEmbeddings()
 
     # Encode the chunked text as embeddings
-    info(f'Making embeddings and saving them into {embeddings_path}')
+    info(f'Making embeddings and saving them into {embeddings_file}')
 
     vectordb = Qdrant.from_documents(
         chunks,
@@ -95,7 +95,7 @@ def main(params: DictConfig) -> None:
         collection_name="my_documents",
     )
 
-    with open(embeddings_path, 'bw') as pickled:
+    with open(embeddings_file, 'bw') as pickled:
         pickle.dump(vectordb, pickled, protocol=pickle.HIGHEST_PROTOCOL)
 
     end_time = time()
@@ -104,9 +104,9 @@ def main(params: DictConfig) -> None:
                                       type='dataset',
                                       description='Output of the chunking end encoding into embedding of the \
                                                   source dataset')
-    if pickled_chunks_path:
-        dataset_artifact.add_file(str(pickled_chunks_path))
-    dataset_artifact.add_file(embeddings_path)
+    if pickled_chunks_file:
+        dataset_artifact.add_file(str(pickled_chunks_file))
+    dataset_artifact.add_file(embeddings_file)
     wandb.log_artifact(dataset_artifact)
     run.finish()
 

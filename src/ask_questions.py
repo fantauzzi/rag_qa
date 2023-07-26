@@ -25,6 +25,11 @@ def main(params: DictConfig) -> None:
     load_dotenv(config_path / '.env')
     log_into_wandb()
 
+    params = params.ask_questions
+
+    data_path = Path('../data')
+    qa_path = data_path / 'qa'
+
     wandb_run = wandb.init(project=wandb_project,
                            notes="Asks questions to the language model and collects answers",
                            config={'params': OmegaConf.to_object(params)})
@@ -34,25 +39,14 @@ def main(params: DictConfig) -> None:
         langchain_project = f'{wandb_project}/{wandb_run.name}'
         os.environ['LANGCHAIN_PROJECT'] = langchain_project
 
-    params = params.ask_questions
-
-    data_path = Path('../data')
-    # dataset_path = data_path / 'dataset' / params.pickled_dataset
-    embeddings_path = data_path / params.vector_store_filename
+    embeddings_file = data_path / params.vector_store_filename
 
     if params.vector_store_artifact:
         vector_store_artifact = wandb_run.use_artifact(params.vector_store_artifact)
         info(f'Downloading vector store artifact into {str(data_path.parent)}')
         vector_store_artifact.download(root=str(data_path.parent))
 
-    # Load the questions and answers for model validation
-    movies_qa_path = data_path / params.qa_filenames[0]
-    movies_qa = OmegaConf.load(movies_qa_path)
-    movies_qa = [{'Question': item.Question.rstrip('\n )'),
-                  'Answer': item.Answer.rstrip('\n ')} for i, item in enumerate(movies_qa)]
-
-    # If embeddings have been previously saved, then reload them...
-    with open(embeddings_path, 'rb') as pickled:
+    with open(embeddings_file, 'rb') as pickled:
         vectordb = pickle.load(pickled)
 
     llm_name = "gpt-3.5-turbo"
@@ -96,6 +90,21 @@ def main(params: DictConfig) -> None:
         chain_type_kwargs={"prompt": qa_chain_prompt}
     )
 
+    params_qa_artifact = params.get('qa_artifact')
+    if params_qa_artifact:
+        qa_artifact = wandb_run.use_artifact(params.qa_artifact)
+        info(f'Downloading Q&A artifact into {qa_path}')
+        qa_artifact.download(root=str(qa_path))
+    if params_qa_artifact or not params.get('qa_filenames'):
+        qa_files = list(qa_path.glob('*.yaml'))
+    else:
+        qa_files = [qa_path / filename for filename in params.qa_filenames]
+
+    # Load the questions and answers for model validation
+    movies_qa_list = [OmegaConf.load(qa_file) for qa_file in qa_files]
+    movies_qa = [{'Question': item.Question.rstrip('\n )'),
+                  'Answer': item.Answer.rstrip('\n ')} for movies_qa in movies_qa_list for item in movies_qa]
+
     queries = [{'query': qa['Question']} for qa in movies_qa]
 
     results_no_context = []
@@ -130,15 +139,15 @@ def main(params: DictConfig) -> None:
                                     'Context': source_chunks
                                     })
 
-    processed_qa_path = movies_qa_path.with_suffix('.processed.yaml')
-    info(f'Saving queries and results in {processed_qa_path}')
-    OmegaConf.save(movies_qa_processed, processed_qa_path)
+    processed_qa_file = data_path / 'qa.processed.yaml'
+    info(f'Saving queries and results in {processed_qa_file}')
+    OmegaConf.save(movies_qa_processed, processed_qa_file)
 
     dataset_artifact = wandb.Artifact(name='questions_and_answers',
                                       type='conversation',
                                       description='Questions from the dataset and their answers from the language model'
                                       )
-    dataset_artifact.add_file(processed_qa_path)
+    dataset_artifact.add_file(processed_qa_file)
     wandb.log_artifact(dataset_artifact)
     wandb_run.finish()
 
