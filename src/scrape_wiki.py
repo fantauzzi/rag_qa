@@ -162,11 +162,17 @@ def scrape(page: pywikibot.Page, log_unparsed: bool = True) -> (str, dict):
     return res, metadata
 
 
-@hydra.main(version_base='1.3', config_path='../config', config_name='params')
+config_path = Path('../config')
+
+
+@hydra.main(version_base='1.3', config_path=str(config_path), config_name='params')
 def main(params: DictConfig) -> None:
     wandb_project = params.wandb.project
     params = params.scrape_wiki
-    config_path = Path('../config')
+    if not params.get('dataset_artifact'):
+        error(f'Parameter `scrape_wiki.dataset_artifact` not set')
+        exit(-1)
+
     load_dotenv(config_path / '.env')
 
     log_into_wandb()
@@ -239,7 +245,7 @@ def main(params: DictConfig) -> None:
         info(f'Saving dataset with its metadata into {dataset_pickle_path}')
         with open(dataset_pickle_path, 'bw') as dataset_f:
             pickle.dump(dataset, dataset_f, protocol=pickle.HIGHEST_PROTOCOL)
-        dataset_artifact = wandb.Artifact(name='movies_dataset',
+        dataset_artifact = wandb.Artifact(name=params.dataset_artifact,
                                           type='dataset',
                                           description='Pickled Python data structure with the dataset and its metadata')
         dataset_artifact.add_file(dataset_pickle_path)

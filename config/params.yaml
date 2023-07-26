@@ -1,22 +1,39 @@
 wandb:
+  #' Name of the W&B project that will collect all the runs.
   project: rag_qa
 scrape_wiki:
+  #' Sequence of page IDs for the pages to be scraped; alternatively set to `all` to have all relevant pages scraped.
   scrape: all
+  #' Output file with the list of page IDs for pages that were selected to be scraped, but couldn't be scraped.
   failed_parsing_list: not_parsed.txt
+  #' Output file, a Python pickle, with the dataset of all the scraped pages; it includes their metadata.
   pickled_dataset: dataset.pickle
+  #' Output W&B artifact, containing the output files named by `failed_parsing_list` and `pickled_dataset`
+  dataset_artifact: movies_dataset
 make_embeddings:
+  #' Input W&B artifact with the dataset that will be chunked up and encoded into embeddings; can be null.
   dataset_artifact: movies_dataset:latest
+  #' If `dataset_artifact` is null, then this is the name of the input file containing the dataset; ignored otherwise.
   pickled_dataset: dataset.pickle
+  #' Output file, a Python pickle with the vector store, containing the encoded embeddings and their metadata.
   vector_store_filename: qdrant_vector_store.pickle
+  #' Output file, a Python pickle with the dataset organized in chunks of text, before they are encoded into embeddings,
+  #' along with their metadata
   pickled_chunks_filename: chunked_docs.pickle
+  #' Output W&B artifact, contains the output files named by `vector_store_filename` and by `pickled_chunks_filename`.
+  vector_store_artifact: embeddings
 upload_questions:
-  qa_filenames:
-    - movies_qa.yaml
-    - more_movies_qa.yaml
+  #' Input files, a sequence of YAML files with Q&A, from the `qa` directory, to be uploaded into a W&B artifact; it
+  #' can be null or empty, in which case all `*.yaml` files that are in the `qa` directory are to be uploaded.
+  qa_filenames: null
+  #' Output W&B artifact, contains the files referenced in `qa_filenames`.
+  qa_artifact: questions
 ask_questions:
   vector_store_artifact: embeddings:latest
   vector_store_filename: qdrant_vector_store.pickle
   dataset_artifact: movies_dataset:latest
+  pickled_dataset: null
   qa_artifact: questions:latest
-  qa_filenames:
-    - movies_qa.yaml
+  qa_filenames: null
+  processed_qa_filename: qa.processed.yaml
+  processed_qa_artifact: processed_qa

@@ -5,7 +5,7 @@ import wandb
 from dotenv import load_dotenv
 from omegaconf import DictConfig, OmegaConf
 
-from utils import log_into_wandb
+from utils import log_into_wandb, info, error
 
 config_path = Path('../config')
 
@@ -19,14 +19,25 @@ def main(params: DictConfig) -> None:
 
     params = params.upload_questions
 
+    if not params.get('qa_artifact'):
+        error(f'parameter `upload_questions.qa_artifact` not found')
+        exit(-1)
+
     data_path = Path('../data')
     qa_path = data_path / 'qa'
+
+    if params.get('qa_filenames'):
+        qa_files = [qa_path / filename for filename in params.qa_filenames]
+        info(f'Uploading Q&A from {len(qa_files)} file(s) listed in parameter `upload_questions.qa_filenames`')
+    else:
+        qa_files = list(qa_path.glob('*.yaml'))
+        info(f'Uploading Q&A from {len(qa_files)} file(s), all `.yaml` files in {qa_path}')
 
     with wandb.init(project=wandb_project,
                     notes="Uploads artifact with questions for the model",
                     config={'params': OmegaConf.to_object(params)}):
-        qa_files = [qa_path / filename for filename in params.qa_filenames]
-        qa_artifact = wandb.Artifact(name='questions',
+        # qa_files = [qa_path / filename for filename in params.qa_filenames]
+        qa_artifact = wandb.Artifact(name=params.qa_artifact,
                                      type='dataset',
                                      description='Questions to be submitted to the language model, optionally with \
                                      expected answers.'

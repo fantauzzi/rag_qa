@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Qdrant
 from omegaconf import DictConfig, OmegaConf
 
-from utils import info, log_into_wandb
+from utils import info, error, log_into_wandb
 
 tokenizer = tiktoken.get_encoding('cl100k_base')  # This is right for GPT-3.5
 
@@ -36,6 +36,10 @@ def main(params: DictConfig) -> None:
     load_dotenv(config_path / '.env')
     log_into_wandb()
 
+    if not params.get('vector_store_artifact'):
+        error(f'Parameter `make_embeddings.vector_store_artifact` not set')
+        exit(-1)
+
     data_path = Path('../data')
     dataset_file = data_path / params.pickled_dataset
     embeddings_file = data_path / params.vector_store_filename
@@ -52,7 +56,7 @@ def main(params: DictConfig) -> None:
     if params.dataset_artifact:
         dataset_artifact = run.use_artifact(params.dataset_artifact)
         info(f'Downloading dataset artifact into {data_path}')
-        dataset_artifact.download(data_path)
+        dataset_artifact.download(str(data_path))
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=1500,
                                               chunk_overlap=150,
@@ -100,7 +104,7 @@ def main(params: DictConfig) -> None:
 
     end_time = time()
     print(f'Completed embeddings in {int(end_time - end_chunking)} sec')
-    dataset_artifact = wandb.Artifact(name='embeddings',
+    dataset_artifact = wandb.Artifact(name=params.vector_store_artifact,
                                       type='dataset',
                                       description='Output of the chunking end encoding into embedding of the \
                                                   source dataset')
@@ -113,8 +117,3 @@ def main(params: DictConfig) -> None:
 
 if __name__ == '__main__':
     main()
-
-"""
-TODO:
-The artifacts are saved in the .. directory instead of ../data ; fix it
-"""
