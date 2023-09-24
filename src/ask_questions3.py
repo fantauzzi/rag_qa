@@ -5,9 +5,11 @@ from pathlib import Path
 import hydra
 import wandb
 from dotenv import load_dotenv
+from langchain.chains import RetrievalQA, LLMChain
 from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.retrievers.self_query.base import SelfQueryRetriever
 from omegaconf import DictConfig, OmegaConf
 from tqdm import tqdm
 
@@ -61,8 +63,13 @@ def main(params: DictConfig) -> None:
         vectordb = pickle.load(pickled)
 
     llm = ChatOpenAI(model_name=llm_name, temperature=temperature)
-    retriever = vectordb.as_retriever(search_type='similarity', k=3)  # TODO try mmr and similarity_score_threshold
 
+    prompt_no_context = ChatPromptTemplate.from_template("{query}")
+    template = """Use also the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. Use four sentences maximum. Keep the answer as concise as possible. Always end the answer with 'Thank you for asking!' 
+    {context}
+    Question: {question}
+    Helpful Answer:"""
+    qa_chain_prompt = PromptTemplate.from_template(template)
     metadata_field_info = [
         AttributeInfo(name='title',
                       description='The movie title',
@@ -78,6 +85,19 @@ def main(params: DictConfig) -> None:
                       type='integer')
     ]
     document_content_description = 'The movie plot or synopsis'
+    self_query_retriever = SelfQueryRetriever.from_llm(llm,
+                                                       vectordb,
+                                                       document_content_description,
+                                                       metadata_field_info,
+                                                       verbose=True)
+
+    qa_chain_no_context = LLMChain(llm=llm, prompt=prompt_no_context)
+    qa_chain_with_context = RetrievalQA.from_chain_type(llm, retriever=vectordb.as_retriever())
+    qa_chain_with_filter = RetrievalQA.from_chain_type(llm,
+                                                       retriever=self_query_retriever,
+                                                       return_source_documents=True,
+                                                       chain_type_kwargs={"prompt": qa_chain_prompt}
+                                                       )
 
     params_qa_artifact = params.get('qa_artifact')
     if params_qa_artifact:
@@ -96,32 +116,35 @@ def main(params: DictConfig) -> None:
 
     queries = [{'query': qa['Question']} for qa in movies_qa]
 
-    # Build prompt
-    template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. Use three sentences maximum. Keep the answer as concise as possible. Always say "thanks for asking!" at the end of the answer. 
-    {context}
-    Question: {question}
-    Helpful Answer:"""
+    results_no_context = []
+    results_with_filter = []
+    results_with_context = []
 
-    results_from_context = []
+    langsmith_metadata = {'wandb_project': wandb_project,
+                          'wandb_run_id': wandb_run.id,
+                          'wandb_run_name': wandb_run.name,
+                          'wandb_run_path': wandb_run.path}
     for query in tqdm(queries):
-        relevant_documents = retriever.get_relevant_documents(query['query'])
-        relevant_documents_content = []
-        for relevant_doc in relevant_documents:
-            metadata_and_content = f'Movie title: {relevant_doc.metadata["title"]}\nMovie year: {relevant_doc.metadata["year"]}\nMovie plot:\n{relevant_doc.page_content}'
-            relevant_documents_content.append(metadata_and_content)
-        context = '\n'.join(relevant_documents_content)
-        qa_chain_prompt = PromptTemplate.from_template(template)
-        filled_in_prompt = qa_chain_prompt.format(context=context, question=query['query'])
-        response_from_context = llm.call_as_llm(filled_in_prompt)
-        results_from_context.append(response_from_context)
+        res_no_context = qa_chain_no_context.run(query, metadata=langsmith_metadata)
+        results_no_context.append(res_no_context)
+        res_with_context = qa_chain_with_context(query, metadata=langsmith_metadata)
+        results_with_context.append(res_with_context)
+        res_with_filter = qa_chain_with_filter(query, metadata=langsmith_metadata)
+        results_with_filter.append(res_with_filter)
 
     movies_qa_processed = []
-    for qa, result_from_context in zip(movies_qa,
-                                       results_from_context):
-        source_chunks = None
+    for qa, answer_no_context, answer_with_context, answer_with_filter in zip(movies_qa,
+                                                                              results_no_context,
+                                                                              results_with_context,
+                                                                              results_with_filter):
+        source_chunks = [doc.page_content for doc in answer_with_filter['source_documents']] if answer_with_filter.get(
+            'source_documents') else None
+
         movies_qa_processed.append({'Question': qa['Question'],
                                     'Answer': qa['Answer'],
-                                    'Answer_from_context': result_from_context,
+                                    'Answer_no_context': answer_no_context,
+                                    'Answer_with_context': answer_with_context['result'],
+                                    'Answer_with_filter': answer_with_filter['result'],
                                     'Context': source_chunks
                                     })
 
